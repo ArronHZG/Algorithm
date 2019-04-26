@@ -8,13 +8,23 @@ set(CMAKE_CXX_STANDARD 14)
 #include_directories(./googletest/googletest/include)
 # 将libtest.a添加到链接路径中（同时需要添加googletest运行需要的pthread）
 link_directories(/usr/local/lib)
+find_package(Threads REQUIRED)
 set(LIBRARIES
         gtest
-        gtest_main)
-add_executable(algorithm main.cpp)
-add_executable(test DivideAndConquer/partitionGet.cpp DivideAndConquer/mergeSort.cpp DivideAndConquer/quickSort.cpp)
-target_link_libraries(test ${LIBRARIES})
-# 添加pthread 库
-find_package(Threads REQUIRED)
-target_link_libraries(test Threads::Threads)
+        gtest_main
+        Threads::Threads)# 添加pthread 库
+add_executable(DivideAndConquer
+        DivideAndConquer/partitionGet.cpp
+        DivideAndConquer/mergeSort.cpp
+        DivideAndConquer/quickSort.cpp
+        DivideAndConquer/binSearch.cpp
+        DivideAndConquer/farmer.cpp)
+target_link_libraries(DivideAndConquer ${LIBRARIES})
+
+add_executable(LeetCode
+        LeetCode/0_template.cpp
+        LeetCode/1_two_num.cpp
+        LeetCode/15_three_sum.cpp)
+target_link_libraries(LeetCode ${LIBRARIES})
+
 
