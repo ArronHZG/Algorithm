@@ -6,7 +6,6 @@
 #include <gtest/gtest.h>
 #include <map>
 
-
 using namespace std;
 
 class Solution {
