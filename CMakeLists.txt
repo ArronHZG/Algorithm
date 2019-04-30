@@ -24,7 +24,7 @@ target_link_libraries(DivideAndConquer ${LIBRARIES})
 add_executable(LeetCode
         LeetCode/0_template.cpp
         LeetCode/1_two_num.cpp
-        LeetCode/15_three_sum.cpp LeetCode/2_add_two_sum.cpp)
+        LeetCode/15_three_sum.cpp LeetCode/2_add_two_sum.cpp LeetCode/71_path.cpp)
 target_link_libraries(LeetCode ${LIBRARIES})
 
 
