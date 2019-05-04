@@ -24,7 +24,12 @@ target_link_libraries(DivideAndConquer ${LIBRARIES})
 add_executable(LeetCode
         LeetCode/0_template.cpp
         LeetCode/1_two_num.cpp
-        LeetCode/15_three_sum.cpp LeetCode/2_add_two_sum.cpp LeetCode/71_path.cpp)
+        LeetCode/15_three_sum.cpp
+        LeetCode/2_add_two_sum.cpp
+        LeetCode/71_path.cpp
+        LeetCode/4_Median_of_Two_Sorted_Arrays.cpp
+        LeetCode/3_Longest_Substring_Without_Repeating_Characters.cpp
+        LeetCode/6_ZigZag_Conversion.cpp)
 target_link_libraries(LeetCode ${LIBRARIES})
 
 
