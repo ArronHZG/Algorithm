@@ -1,91 +1,239 @@
-////
-//// Created by arron on 2019/4/24.
-////
-//#include <iostream>
-//#include <array>
-//#include <gtest/gtest.h>
-//
-//const int N = 100;
-//const int M = 4;
-//
-//TEST(farmer, farmer) {
-//    std::array<bool, M> state = {false, false, false, false};
-//    std::array<std::array<bool, M>, 16> all_state = {};
-//
-//    for (auto &i:all_state) i = state;
-//
-//
-//    std::array<bool, M> visited{};
-//    for (auto &i:visited) i = true;
-//
-//    std::array<unsigned int, N> path{};
-//    for (auto &i:path) i = 0;
-//
-//    state[3] = false;//0011
-//    state[6] = false;//0110
-//    state[7] = false;//0111
-//    state[8] = false;//1000
-//    state[9] = false;//1001
-//    state[12] = false;//1100
-//
-//    //目标是1111
-//    //初始值是0000
-//    //如果有农夫，狐狸和鸡，鸡和米在一边没问题
-//    //否则狐狸和鸡不能同在一边，鸡和米不能同在一边
-//    //所以限定状态为：
-//    state[0b0011] = false;
-//    state[0b0110] = false;
-//    state[0b0111] = false;
-//    state[0b1100] = false;
-//    state[0b1001] = false;
-//    state[0b1000] = false;
-//
-//
-//    findPath(state, visited, path, 0u, 0u, 0u, 0u, 0u);
-//
-//    return 0;
-//
-//}
-//
-////void printPath(int count, std::array<unsigned int, N> &path) {
-////    static int cnt = 0;
-////    std::cout << "Solution " << cnt++ << ":" << std::endl;
-////    for (unsigned int i = 0; i < count; i++) {
-////        unsigned int a = path[i] & 8u >> 3u;
-////        unsigned int b = path[i] & 4u >> 2u;
-////        unsigned int c = path[i] & 2u >> 1u;
-////        unsigned int d = path[i] & 1u;
-////        std::cout << a << b << c << d << std::endl;
-////    }
-////}
-////
-////void findPath(std::array<bool, M> &state,
-////              std::array<bool, M> &visited,
-////              std::array<unsigned int, N> &path,
-////              unsigned int count,
-////              unsigned int f,//表示农夫
-////              unsigned int w,//表示狐狸
-////              unsigned int s,//表示鸡
-////              unsigned int v//表示米
-////) {
-////    //如果全过去了，tmp就会变成15，然后输出路径
-////    unsigned int tmp = (f<<3u) + (w<<2u) + (s<<1u) + v;
-////    if (tmp == 15) {
-////        path[count++] = 15;
-////        printPath(count, path);
-////    }
-////    if (state[tmp] && !visited[tmp])//valid state and has not been visited
-////    {
-////        visited[tmp] = true;
-////        path[count++] = tmp;
-////        findPath(state, visited, path, count, (~f) & 1u, w, s, v);
-////        findPath(state, visited, path, count, (~f) & 1u, (~w) & 1u, s, v);
-////        findPath(state, visited, path, count, (~f) & 1u, w, (~s) & 1u, v);
-////        findPath(state, visited, path, count, (~f) & 1u, w, s, (~v) & 1u);
-////        visited[tmp] = false;
-////    }
-////}
-////
-////int main() {    //Set state.
-//
-////}
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <gtest/gtest.h>
+
+using namespace std;
+
+//所有动作
+enum Action {
+    FARMER_GO = 0,
+    FARMER_WOLF_GO,
+    FARMER_SHEEP_GO,
+    FARMER_VEGETABLE_GO,
+    FARMER_RETURN,
+    ARMER_WOLF_RETURN,
+    FARMER_SHEEP_RETURN,
+    FARMER_VEGETABLE_RETURN,
+    NOACTION
+};
+
+//动作的描述
+string actionDescription[] =
+        {
+                "农夫过河",
+                "农夫带狐狸过河",
+                "农夫带鸡过河",
+                "农夫带米过河",
+                "农夫返回",
+                "农夫带狐狸返回",
+                "农夫带鸡返回",
+                "农夫带米返回",
+                "无动作"
+        };
+
+//状态(搜索节点)
+struct State {
+    bool farmer, wolf, sheep, vegetable; //0表示在河这边，1表示在河对岸
+    Action nextAction; //下一步的动作
+
+    //构造函数
+    State() {
+
+    }
+
+    State(bool farmer, bool wolf, bool sheep, bool vegetable) {
+        this->farmer = farmer;
+        this->wolf = wolf;
+        this->sheep = sheep;
+        this->vegetable = vegetable;
+        nextAction = NOACTION;
+    }
+
+    //重载==运算符
+    bool operator==(const State &s) {
+        return (farmer == s.farmer && wolf == s.wolf && sheep == s.sheep && vegetable == s.vegetable);
+    }
+
+    //打印
+    void print() {
+        cout << farmer << " " << wolf << " " << sheep << " " << vegetable << " " << actionDescription[nextAction]
+             << endl;
+    }
+};
+
+typedef bool(*PROCESS)(const State &current, State &next);
+
+//八种动作的处理函数
+bool ProcessFarmerGo(const State &current, State &next) {
+    if (current.farmer) {
+        return false;
+    }
+    next = current;
+    next.farmer = true;
+    next.nextAction = NOACTION;
+    return true;
+}
+
+bool ProcessFarmerWolfGo(const State &current, State &next) {
+    if (current.farmer || current.wolf) {
+        return false;
+    }
+    next = current;
+    next.farmer = next.wolf = true;
+    next.nextAction = NOACTION;
+    return true;
+}
+
+bool ProcessFarmerSheepGo(const State &current, State &next) {
+    if (current.farmer || current.sheep) {
+        return false;
+    }
+    next = current;
+    next.farmer = next.sheep = true;
+    next.nextAction = NOACTION;
+    return true;
+}
+
+bool ProcessFarmerVegetablepGo(const State &current, State &next) {
+    if (current.farmer || current.vegetable) {
+        return false;
+    }
+    next = current;
+    next.farmer = next.vegetable = true;
+    next.nextAction = NOACTION;
+    return true;
+}
+
+bool ProcessFarmerReturn(const State &current, State &next) {
+    if (!current.farmer) {
+        return false;
+    }
+    next = current;
+    next.farmer = false;
+    next.nextAction = NOACTION;
+    return true;
+}
+
+bool ProcessFarmerWolfReturn(const State &current, State &next) {
+    if (!current.farmer || !current.wolf) {
+        return false;
+    }
+    next = current;
+    next.farmer = next.wolf = false;
+    next.nextAction = NOACTION;
+    return true;
+}
+
+bool ProcessFarmerSheepReturn(const State &current, State &next) {
+    if (!current.farmer || !current.sheep) {
+        return false;
+    }
+    next = current;
+    next.farmer = next.sheep = false;
+    next.nextAction = NOACTION;
+    return true;
+}
+
+bool ProcessFarmerVegetablepReturn(const State &current, State &next) {
+    if (!current.farmer || !current.vegetable) {
+        return false;
+    }
+    next = current;
+    next.farmer = next.vegetable = false;
+    next.nextAction = NOACTION;
+    return true;
+}
+
+//处理函数列表
+PROCESS process[] =
+        {
+                ProcessFarmerGo,
+                ProcessFarmerWolfGo,
+                ProcessFarmerSheepGo,
+                ProcessFarmerVegetablepGo,
+                ProcessFarmerReturn,
+                ProcessFarmerWolfReturn,
+                ProcessFarmerSheepReturn,
+                ProcessFarmerVegetablepReturn
+        };
+
+//标记已搜索的状态
+vector<State> visitedStates;
+
+//判断状态是否合法
+bool IsStateLegal(const State &state) {
+    return !((state.wolf == state.sheep && state.wolf != state.farmer) ||
+             (state.vegetable == state.sheep && state.sheep != state.farmer));
+}
+
+//标记状态为已搜索
+void BookState(const State state) {
+    visitedStates.push_back(state);
+}
+
+//取消标记当前状态
+void PopState() {
+    visitedStates.pop_back();
+}
+
+//判断状态是否被访问过
+bool HasVisited(const State &state) {
+    return (find(visitedStates.begin(), visitedStates.end(), state) != visitedStates.end());
+}
+
+//判断是否是目标状态
+bool IsTargetState(const State &state) {
+    return (state.farmer && state.wolf && state.sheep && state.vegetable);
+}
+
+//输出结果
+void PrintResult() {
+    for (int i = 0; i < visitedStates.size(); ++i) {
+        cout << actionDescription[visitedStates[i].nextAction] << endl;
+    }
+    cout << endl;
+}
+
+int cSolution; //解的数目
+
+void dfs(State currentState) {
+    //被访问过
+    if (HasVisited(currentState)) {
+        return;
+    }
+
+    //状态不合法
+    if (!IsStateLegal(currentState)) {
+        return;
+    }
+
+    //达到目标状态
+    if (IsTargetState(currentState)) {
+        cSolution++;
+        cout << "Solution " << cSolution << ":" << endl;
+        PrintResult();
+        return;
+    }
+
+    //枚举所有可能动作
+    for (int i = FARMER_GO; i <= FARMER_VEGETABLE_RETURN; ++i) {
+        State nextState;
+        if (process[i](currentState, nextState)) {
+            //记录当前状态的nextAction
+            currentState.nextAction = (Action) i;
+            //标记当前状态
+            BookState(currentState);
+            //继续搜索
+            dfs(nextState);
+            //取消标记当前状态
+            PopState();
+        }
+    }
+}
+
+TEST(farmer, farmer) {
+//从初始状态开始搜索
+    dfs(State(false, false, false, false));
+}

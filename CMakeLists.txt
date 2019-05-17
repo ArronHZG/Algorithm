@@ -13,12 +13,20 @@ set(LIBRARIES
         gtest
         gtest_main
         Threads::Threads)# 添加pthread 库
+
+
+add_executable(eightNumber
+        eightNumber/eightNumber.cpp
+        )
+target_link_libraries(eightNumber ${LIBRARIES})
+
+
 add_executable(DivideAndConquer
         DivideAndConquer/partitionGet.cpp
         DivideAndConquer/mergeSort.cpp
         DivideAndConquer/quickSort.cpp
         DivideAndConquer/binSearch.cpp
-        DivideAndConquer/farmer.cpp)
+        DivideAndConquer/farmer.cpp eightNumber/eightNumber.cpp)
 target_link_libraries(DivideAndConquer ${LIBRARIES})
 
 add_executable(LeetCode
