@@ -37,7 +37,7 @@ add_executable(LeetCode
         LeetCode/71_path.cpp
         LeetCode/4_Median_of_Two_Sorted_Arrays.cpp
         LeetCode/3_Longest_Substring_Without_Repeating_Characters.cpp
-        LeetCode/6_ZigZag_Conversion.cpp LeetCode/7_reverse_integer.cpp)
+        LeetCode/6_ZigZag_Conversion.cpp LeetCode/7_reverse_integer.cpp LeetCode/list.cpp)
 target_link_libraries(LeetCode ${LIBRARIES})
 
 
