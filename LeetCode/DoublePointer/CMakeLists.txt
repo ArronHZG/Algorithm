@@ -16,6 +16,6 @@ add_executable(${PROJECT_NAME}
         633-sum-of-square-numbers.cpp
         345-reverse-vowels-of-a-string.cpp
         680-valid-palindrome-ii.cpp
-        88-merge-sorted-array.cpp 141-linked-list-cycle.cpp)
+        88-merge-sorted-array.cpp 141-linked-list-cycle.cpp 524-longest-word-in-dictionary-through-deleting.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})
