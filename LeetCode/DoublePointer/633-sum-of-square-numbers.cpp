@@ -31,7 +31,7 @@ using namespace std;
 
 class Solution {
 public:
-    bool judgeSquareSum(int c) {
+    bool merge(int c) {
         if (1 == c) {
             return true;
         }
@@ -54,7 +54,7 @@ TEST(judgeSquareSum, 1) { /* NOLINT */
     std::cout << std::endl;
     int input = 5;
     bool answer = true;
-    bool output = Solution().judgeSquareSum(input);
+    bool output = Solution().merge(input);
     EXPECT_EQ(answer, output);
 }
 
@@ -62,7 +62,7 @@ TEST(judgeSquareSum, 2) { /* NOLINT */
     std::cout << std::endl;
     int input = 9;
     bool answer = true;
-    bool output = Solution().judgeSquareSum(input);
+    bool output = Solution().merge(input);
     EXPECT_EQ(answer, output);
 }
 
@@ -70,7 +70,7 @@ TEST(judgeSquareSum, 3) { /* NOLINT */
     std::cout << std::endl;
     int input = 2;
     bool answer = true;
-    bool output = Solution().judgeSquareSum(input);
+    bool output = Solution().merge(input);
     EXPECT_EQ(answer, output);
 }
 
@@ -78,7 +78,7 @@ TEST(judgeSquareSum, 4) { /* NOLINT */
     std::cout << std::endl;
     int input = 1;
     bool answer = true;
-    bool output = Solution().judgeSquareSum(input);
+    bool output = Solution().merge(input);
     EXPECT_EQ(answer, output);
 }
 
@@ -87,6 +87,6 @@ TEST(judgeSquareSum, 10000) { /* NOLINT */
     std::cout << std::endl;
     int input = 100000;
     bool answer = true;
-    bool output = Solution().judgeSquareSum(input);
+    bool output = Solution().merge(input);
     EXPECT_EQ(answer, output);
 }

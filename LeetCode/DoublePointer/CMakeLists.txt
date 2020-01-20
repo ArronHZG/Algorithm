@@ -15,6 +15,7 @@ add_executable(${PROJECT_NAME}
         167-two-sum-ii-input-array-is-sorted.cpp
         633-sum-of-square-numbers.cpp
         345-reverse-vowels-of-a-string.cpp
-        680-valid-palindrome-ii.cpp)
+        680-valid-palindrome-ii.cpp
+        88-merge-sorted-array.cpp 141-linked-list-cycle.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})
