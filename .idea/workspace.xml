@@ -2,7 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="DoublePointer" targetName="DoublePointer" />
+      <config projectName="Sort" targetName="DoublePointer" />
+      <config projectName="Sort" targetName="Sort" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,7 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e3dd4c-284b-4c00-8466-a45d58091b98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/DoublePointer/524-longest-word-in-dictionary-through-deleting.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Sort/215-kth-largest-element-in-an-array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Sort/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Sort/top-k-frequent-elements.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode/DoublePointer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DoublePointer/CMakeLists.txt" afterDir="false" />
     </list>
@@ -41,25 +44,39 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LeetCode/Sort" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="language.cpp.clangd" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager">
-    <configuration name="findLongestWord.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DoublePointer" TARGET_NAME="DoublePointer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DoublePointer" RUN_TARGET_NAME="DoublePointer" TEST_CLASS="findLongestWord" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LeetCode/Sort" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Google Test.findKthLargest.1">
+    <configuration name="findKthLargest.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sort" TARGET_NAME="Sort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sort" RUN_TARGET_NAME="Sort" TEST_CLASS="findKthLargest" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sort" TARGET_NAME="Sort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sort" RUN_TARGET_NAME="Sort">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Sort" />
+      <item itemvalue="Google Test.findKthLargest.1" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.findLongestWord.1" />
+        <item itemvalue="Google Test.findKthLargest.1" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579345386728</updated>
-      <workItem from="1579345388769" duration="11944000" />
+      <workItem from="1579345388769" duration="12356000" />
+      <workItem from="1579604511828" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="删掉一个,是否为回文">
       <created>1579434054857</created>
@@ -101,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579509891395</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="给定一个字符串和一个字符串字典，找到字典里面最长的字符串">
+      <created>1579513208973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579513208973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,69 +135,70 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删掉一个,是否为回文" />
     <MESSAGE value="是否为环" />
-    <option name="LAST_COMMIT_MESSAGE" value="是否为环" />
+    <MESSAGE value="给定一个字符串和一个字符串字典，找到字典里面最长的字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="给定一个字符串和一个字符串字典，找到字典里面最长的字符串" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579512717194">
+    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579604571655">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1579512717194" />
+    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1579604571655" />
     <state x="355" y="81" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1579509899015">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="355" y="81" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.960@0.0.1536.960" timestamp="1579509899015" />
-    <state x="0" y="0" width="837" height="960" key="CommitChangelistDialog2" timestamp="1579509891254">
+    <state x="0" y="0" width="837" height="960" key="CommitChangelistDialog2" timestamp="1579513208846">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="0" y="0" width="837" height="960" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1579509891254" />
-    <state width="1494" height="86" key="GridCell.Tab.0.bottom" timestamp="1579513138487">
+    <state x="0" y="0" width="837" height="960" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1579513208846" />
+    <state width="1492" height="249" key="GridCell.Tab.0.bottom" timestamp="1579605964931">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="86" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1579513138487" />
+    <state width="1492" height="249" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1579605964931" />
     <state width="1494" height="290" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1579345555050" />
-    <state width="1494" height="86" key="GridCell.Tab.0.center" timestamp="1579513138486">
+    <state width="1492" height="249" key="GridCell.Tab.0.center" timestamp="1579605964929">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="86" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1579513138486" />
+    <state width="1492" height="249" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1579605964929" />
     <state width="1494" height="290" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1579345555049" />
-    <state width="1494" height="86" key="GridCell.Tab.0.left" timestamp="1579513138485">
+    <state width="1492" height="249" key="GridCell.Tab.0.left" timestamp="1579605964929">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="86" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1579513138485" />
+    <state width="1492" height="249" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1579605964929" />
     <state width="1494" height="290" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1579345555048" />
-    <state width="1494" height="86" key="GridCell.Tab.0.right" timestamp="1579513138486">
+    <state width="1492" height="249" key="GridCell.Tab.0.right" timestamp="1579605964930">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="86" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1579513138486" />
+    <state width="1492" height="249" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1579605964930" />
     <state width="1494" height="290" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1579345555049" />
-    <state width="1494" height="303" key="GridCell.Tab.1.bottom" timestamp="1579512773008">
+    <state width="1494" height="303" key="GridCell.Tab.1.bottom" timestamp="1579514086558">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="303" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1579512773008" />
+    <state width="1494" height="303" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1579514086558" />
     <state width="1494" height="290" key="GridCell.Tab.1.bottom/0.23.1536.937@0.23.1536.937" timestamp="1579345555700" />
-    <state width="1494" height="303" key="GridCell.Tab.1.center" timestamp="1579512773007">
+    <state width="1494" height="303" key="GridCell.Tab.1.center" timestamp="1579514086557">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="303" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1579512773007" />
+    <state width="1494" height="303" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1579514086557" />
     <state width="1494" height="290" key="GridCell.Tab.1.center/0.23.1536.937@0.23.1536.937" timestamp="1579345555700" />
-    <state width="1494" height="303" key="GridCell.Tab.1.left" timestamp="1579512773007">
+    <state width="1494" height="303" key="GridCell.Tab.1.left" timestamp="1579514086557">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="303" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1579512773007" />
+    <state width="1494" height="303" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1579514086557" />
     <state width="1494" height="290" key="GridCell.Tab.1.left/0.23.1536.937@0.23.1536.937" timestamp="1579345555699" />
-    <state width="1494" height="303" key="GridCell.Tab.1.right" timestamp="1579512773007">
+    <state width="1494" height="303" key="GridCell.Tab.1.right" timestamp="1579514086557">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="303" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1579512773007" />
+    <state width="1494" height="303" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1579514086557" />
     <state width="1494" height="290" key="GridCell.Tab.1.right/0.23.1536.937@0.23.1536.937" timestamp="1579345555700" />
-    <state x="0" y="88" key="SettingsEditor" timestamp="1579346280859">
+    <state x="0" y="88" key="SettingsEditor" timestamp="1579604600907">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="0" y="88" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1579346280859" />
-    <state x="368" y="216" key="Vcs.Push.Dialog.v2" timestamp="1579509893282">
+    <state x="0" y="88" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1579604600907" />
+    <state x="368" y="216" key="Vcs.Push.Dialog.v2" timestamp="1579513212110">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="216" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1579509893282" />
+    <state x="368" y="216" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1579513212110" />
     <state x="428" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1579345393995">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
@@ -205,11 +231,6 @@
           <url>file://$PROJECT_DIR$/LeetCode/DoublePointer/88-merge-sorted-array.cpp</url>
           <line>87</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/LeetCode/DoublePointer/524-longest-word-in-dictionary-through-deleting.cpp</url>
-          <line>71</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
