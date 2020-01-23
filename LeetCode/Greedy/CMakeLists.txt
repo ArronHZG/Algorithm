@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(Sort)
+project(Greedy)
 set(CMAKE_CXX_STANDARD 14)
 
 link_directories(/usr/local/lib)
@@ -11,10 +11,6 @@ set(LIBRARIES
         gtest_main
         pthread)
 
-add_executable(${PROJECT_NAME}
-        215-kth-largest-element-in-an-array.cpp
-        347-top-k-frequent-elements.cpp
-        451-sort-characters-by-frequency.cpp
-        75-sort-colors.cpp)
+add_executable(${PROJECT_NAME} 455-assign-cookies.cpp 435-non-overlapping-intervals.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})
