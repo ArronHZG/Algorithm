@@ -11,6 +11,6 @@ set(LIBRARIES
         gtest_main
         pthread)
 
-add_executable(${PROJECT_NAME} 455-assign-cookies.cpp 435-non-overlapping-intervals.cpp)
+add_executable(${PROJECT_NAME} 455-assign-cookies.cpp 435-non-overlapping-intervals.cpp 452-minimum-number-of-arrows-to-burst-balloons.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})

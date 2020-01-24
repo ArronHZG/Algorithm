@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Greedy" targetName="Greedy" />
       <config projectName="Greedy" targetName="DoublePointer" />
+      <config projectName="Greedy" targetName="Greedy" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -12,9 +12,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8e3dd4c-284b-4c00-8466-a45d58091b98" name="Default Changelist" comment="">
+    <list default="true" id="e8e3dd4c-284b-4c00-8466-a45d58091b98" name="Default Changelist" comment="贪心射气球">
+      <change afterPath="$PROJECT_DIR$/LeetCode/Greedy/452-minimum-number-of-arrows-to-burst-balloons.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Greedy/435-non-overlapping-intervals.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Greedy/435-non-overlapping-intervals.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Greedy/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Greedy/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,32 +64,32 @@
       <recent name="$PROJECT_DIR$/LeetCode/Sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.eraseOverlapIntervals.2">
-    <configuration name="eraseOverlapIntervals.2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="eraseOverlapIntervals" TEST_METHOD="2" TEST_MODE="SUITE_TEST">
+  <component name="RunManager" selected="Google Test.findMinArrowShots.1">
+    <configuration name="eraseOverlapIntervals.2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="eraseOverlapIntervals" TEST_METHOD="2" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eraseOverlapIntervals.3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="eraseOverlapIntervals" TEST_METHOD="3" TEST_MODE="SUITE_TEST">
+    <configuration name="eraseOverlapIntervals.3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="eraseOverlapIntervals" TEST_METHOD="3" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eraseOverlapIntervals.4" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="eraseOverlapIntervals" TEST_METHOD="4" TEST_MODE="SUITE_TEST">
+    <configuration name="eraseOverlapIntervals.4" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="eraseOverlapIntervals" TEST_METHOD="4" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findContentChildren.3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="findContentChildren" TEST_METHOD="3" TEST_MODE="SUITE_TEST">
+    <configuration name="findMinArrowShots.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="findMinArrowShots" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sortColors.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Sort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Sort" TEST_CLASS="sortColors" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
+    <configuration name="findMinArrowShots.4" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="findMinArrowShots" TEST_METHOD="4" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -101,19 +102,19 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.Greedy" />
-      <item itemvalue="Google Test.sortColors.1" />
-      <item itemvalue="Google Test.findContentChildren.3" />
       <item itemvalue="Google Test.eraseOverlapIntervals.3" />
       <item itemvalue="Google Test.eraseOverlapIntervals.4" />
       <item itemvalue="Google Test.eraseOverlapIntervals.2" />
+      <item itemvalue="Google Test.findMinArrowShots.4" />
+      <item itemvalue="Google Test.findMinArrowShots.1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Google Test.findMinArrowShots.1" />
+        <item itemvalue="Google Test.findMinArrowShots.4" />
         <item itemvalue="Google Test.eraseOverlapIntervals.2" />
         <item itemvalue="Google Test.eraseOverlapIntervals.4" />
         <item itemvalue="Google Test.eraseOverlapIntervals.3" />
-        <item itemvalue="Google Test.findContentChildren.3" />
-        <item itemvalue="Google Test.sortColors.1" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +144,7 @@
       <workItem from="1579604511828" duration="1723000" />
       <workItem from="1579682279412" duration="7161000" />
       <workItem from="1579708762212" duration="3049000" />
-      <workItem from="1579793561537" duration="5397000" />
+      <workItem from="1579793561537" duration="9119000" />
     </task>
     <task id="LOCAL-00001" summary="删掉一个,是否为回文">
       <created>1579434054857</created>
@@ -187,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579793603776</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="动态规划和贪心">
+      <created>1579804924414</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579804924414</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +208,8 @@
     <MESSAGE value="在未排序的数组中找到第 k 个最大的元素" />
     <MESSAGE value="给定一个字符串，请将字符串里的字符按照出现的频率降序排列。" />
     <MESSAGE value="贪心" />
-    <option name="LAST_COMMIT_MESSAGE" value="贪心" />
+    <MESSAGE value="动态规划和贪心" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划和贪心" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="145" key="#Inspections" timestamp="1579802685585">
@@ -215,30 +224,30 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="355" y="81" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.960@0.0.1536.960" timestamp="1579509899015" />
-    <state x="0" y="23" width="837" height="937" key="CommitChangelistDialog2" timestamp="1579793603422">
-      <screen x="0" y="23" width="1536" height="937" />
+    <state x="0" y="0" width="837" height="937" key="CommitChangelistDialog2" timestamp="1579867881421">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="0" y="0" width="837" height="960" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1579606922424" />
+    <state x="0" y="0" width="837" height="960" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1579867881421" />
     <state x="0" y="23" width="837" height="937" key="CommitChangelistDialog2/0.23.1536.937@0.23.1536.937" timestamp="1579793603422" />
-    <state width="1492" height="235" key="GridCell.Tab.0.bottom" timestamp="1579804706145">
+    <state width="1492" height="329" key="GridCell.Tab.0.bottom" timestamp="1579867806877">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="235" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1579804706145" />
+    <state width="1492" height="329" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1579867806877" />
     <state width="1494" height="290" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1579345555050" />
-    <state width="1492" height="235" key="GridCell.Tab.0.center" timestamp="1579804706143">
+    <state width="1492" height="329" key="GridCell.Tab.0.center" timestamp="1579867806875">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="235" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1579804706143" />
+    <state width="1492" height="329" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1579867806875" />
     <state width="1494" height="290" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1579345555049" />
-    <state width="1492" height="235" key="GridCell.Tab.0.left" timestamp="1579804706142">
+    <state width="1492" height="329" key="GridCell.Tab.0.left" timestamp="1579867806875">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="235" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1579804706142" />
+    <state width="1492" height="329" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1579867806875" />
     <state width="1494" height="290" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1579345555048" />
-    <state width="1492" height="235" key="GridCell.Tab.0.right" timestamp="1579804706144">
+    <state width="1492" height="329" key="GridCell.Tab.0.right" timestamp="1579867806876">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="235" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1579804706144" />
+    <state width="1492" height="329" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1579867806876" />
     <state width="1494" height="290" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1579345555049" />
     <state width="1492" height="303" key="GridCell.Tab.1.bottom" timestamp="1579770713048">
       <screen x="0" y="0" width="1536" height="960" />
@@ -268,10 +277,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="202" y="125" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1579690013568" />
-    <state x="368" y="234" key="Vcs.Push.Dialog.v2" timestamp="1579793642597">
-      <screen x="0" y="23" width="1536" height="937" />
+    <state x="368" y="216" key="Vcs.Push.Dialog.v2" timestamp="1579804927846">
+      <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="216" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1579606924693" />
+    <state x="368" y="216" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1579804927846" />
     <state x="368" y="234" key="Vcs.Push.Dialog.v2/0.23.1536.937@0.23.1536.937" timestamp="1579793642597" />
     <state x="428" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1579793562082">
       <screen x="0" y="0" width="1536" height="960" />
