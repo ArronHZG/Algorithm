@@ -11,6 +11,11 @@ set(LIBRARIES
         gtest_main
         pthread)
 
-add_executable(${PROJECT_NAME} 455-assign-cookies.cpp 435-non-overlapping-intervals.cpp 452-minimum-number-of-arrows-to-burst-balloons.cpp)
+add_executable(${PROJECT_NAME} 455-assign-cookies.cpp
+        435-non-overlapping-intervals.cpp
+        452-minimum-number-of-arrows-to-burst-balloons.cpp
+        406-queue-reconstruction-by-height.cpp
+#        121-best-time-to-buy-and-sell-stock.cpp
+        122-best-time-to-buy-and-sell-stock-ii.cpp 605-can-place-flowers.cpp 392-is-subsequence.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})
