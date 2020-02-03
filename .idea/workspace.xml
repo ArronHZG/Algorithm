@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Greedy" targetName="DoublePointer" />
-      <config projectName="Greedy" targetName="Greedy" />
+      <config projectName="BinarySearch" targetName="DoublePointer" />
+      <config projectName="BinarySearch" targetName="BinarySearch" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -13,10 +13,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e3dd4c-284b-4c00-8466-a45d58091b98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/Greedy/53-maximum-subarray.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Greedy/665-non-decreasing-array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/BinarySearch/153-find-minimum-in-rotated-sorted-array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/BinarySearch/278-first-bad-version.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/BinarySearch/540-single-element-in-a-sorted-array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/BinarySearch/69-sqrtx.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/BinarySearch/744-find-smallest-letter-greater-than-target.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/BinarySearch/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Greedy/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Greedy/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/0_template.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/0_template.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/0_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/0_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/11_ContainerWithMostWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/11_ContainerWithMostWater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/15_three_sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/15_three_sum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/15_three_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/15_three_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/18_four_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/18_four_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/1_two_num.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/1_two_num.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/1_two_num.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/1_two_num.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/2_add_two_sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/2_add_two_sum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/36_Valid_Sudoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/36_Valid_Sudoku.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/39_Combination_Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/39_Combination_Sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/3_Longest_Substring_Without_Repeating_Characters.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/3_Longest_Substring_Without_Repeating_Characters.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/454_four_sum_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/454_four_sum_count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/4_Median_of_Two_Sorted_Arrays.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/4_Median_of_Two_Sorted_Arrays.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/6_ZigZag_Conversion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/6_ZigZag_Conversion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/71_path.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/71_path.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/7_reverse_integer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/7_reverse_integer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/other/list.cpp" afterDir="false" />
     </list>
     <list id="39c4d9fa-6eab-4a32-8450-7758b1367fd2" name="indexOfChar" comment="">
       <change afterPath="$PROJECT_DIR$/LeetCode/Greedy/763-partition-labels.cpp" afterDir="false" />
@@ -52,67 +73,79 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowCMake.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/LeetCode/Greedy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LeetCode/BinarySearch" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LeetCode/other" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LeetCode/BinarySearch" />
       <recent name="$PROJECT_DIR$/LeetCode/Greedy" />
       <recent name="$PROJECT_DIR$/LeetCode/Sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.partitionLabels.2">
-    <configuration name="checkPossibility.2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="checkPossibility" TEST_METHOD="2" TEST_MODE="SUITE_TEST">
+  <component name="RunManager" selected="Google Test.findMinimumInRotatedSortedArray.7">
+    <configuration name="findMinimumInRotatedSortedArray.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BinarySearch" TARGET_NAME="BinarySearch" RUN_TARGET_PROJECT_NAME="BinarySearch" RUN_TARGET_NAME="BinarySearch" TEST_CLASS="findMinimumInRotatedSortedArray" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="checkPossibility.3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="checkPossibility" TEST_METHOD="3" TEST_MODE="SUITE_TEST">
+    <configuration name="findMinimumInRotatedSortedArray.3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BinarySearch" TARGET_NAME="BinarySearch" RUN_TARGET_PROJECT_NAME="BinarySearch" RUN_TARGET_NAME="BinarySearch" TEST_CLASS="findMinimumInRotatedSortedArray" TEST_METHOD="3" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="checkPossibility.4" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="checkPossibility" TEST_METHOD="4" TEST_MODE="SUITE_TEST">
+    <configuration name="findMinimumInRotatedSortedArray.4" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BinarySearch" TARGET_NAME="BinarySearch" RUN_TARGET_PROJECT_NAME="BinarySearch" RUN_TARGET_NAME="BinarySearch" TEST_CLASS="findMinimumInRotatedSortedArray" TEST_METHOD="4" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maxSubArray.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="maxSubArray" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
+    <configuration name="findMinimumInRotatedSortedArray.6" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BinarySearch" TARGET_NAME="BinarySearch" RUN_TARGET_PROJECT_NAME="BinarySearch" RUN_TARGET_NAME="BinarySearch" TEST_CLASS="findMinimumInRotatedSortedArray" TEST_METHOD="6" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="partitionLabels.2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Greedy" TARGET_NAME="Greedy" RUN_TARGET_PROJECT_NAME="Greedy" RUN_TARGET_NAME="Greedy" TEST_CLASS="partitionLabels" TEST_METHOD="2" TEST_MODE="SUITE_TEST">
+    <configuration name="findMinimumInRotatedSortedArray.7" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BinarySearch" TARGET_NAME="BinarySearch" RUN_TARGET_PROJECT_NAME="BinarySearch" RUN_TARGET_NAME="BinarySearch" TEST_CLASS="findMinimumInRotatedSortedArray" TEST_METHOD="7" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BinarySearch" TARGET_NAME="BinarySearch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BinarySearch" RUN_TARGET_NAME="BinarySearch">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Google Test.checkPossibility.2" />
-      <item itemvalue="Google Test.checkPossibility.3" />
-      <item itemvalue="Google Test.checkPossibility.4" />
-      <item itemvalue="Google Test.maxSubArray.1" />
-      <item itemvalue="Google Test.partitionLabels.2" />
+      <item itemvalue="CMake Application.BinarySearch" />
+      <item itemvalue="Google Test.findMinimumInRotatedSortedArray.3" />
+      <item itemvalue="Google Test.findMinimumInRotatedSortedArray.6" />
+      <item itemvalue="Google Test.findMinimumInRotatedSortedArray.1" />
+      <item itemvalue="Google Test.findMinimumInRotatedSortedArray.4" />
+      <item itemvalue="Google Test.findMinimumInRotatedSortedArray.7" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.partitionLabels.2" />
-        <item itemvalue="Google Test.maxSubArray.1" />
-        <item itemvalue="Google Test.checkPossibility.4" />
-        <item itemvalue="Google Test.checkPossibility.3" />
-        <item itemvalue="Google Test.checkPossibility.2" />
+        <item itemvalue="Google Test.findMinimumInRotatedSortedArray.7" />
+        <item itemvalue="Google Test.findMinimumInRotatedSortedArray.1" />
+        <item itemvalue="Google Test.findMinimumInRotatedSortedArray.6" />
+        <item itemvalue="Google Test.findMinimumInRotatedSortedArray.3" />
+        <item itemvalue="Google Test.findMinimumInRotatedSortedArray.4" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +179,9 @@
       <workItem from="1579793561537" duration="15554000" />
       <workItem from="1579944745744" duration="1123000" />
       <workItem from="1580508902528" duration="5638000" />
-      <workItem from="1580635756951" duration="5245000" />
+      <workItem from="1580635756951" duration="5645000" />
+      <workItem from="1580654013695" duration="3000" />
+      <workItem from="1580708328270" duration="14065000" />
     </task>
     <task id="LOCAL-00001" summary="删掉一个,是否为回文">
       <created>1579434054857</created>
@@ -211,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580518444153</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="  - [x] 9. 修改一个数成为非递减数组&#10;  - [x] 10. 子数组最大的和&#10;  - [x] 11. 分隔字符串使同种字符出现在一起">
+      <created>1580644788233</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580644788233</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +269,8 @@
     <MESSAGE value="动态规划和贪心" />
     <MESSAGE value="贪心射气球" />
     <MESSAGE value="  - [x] 5. 买卖股票最大的收益&#10;  - [x] 6. 买卖股票的最大收益 II&#10;  - [x] 7. 种植花朵&#10;  - [x] 8. 判断是否为子序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="  - [x] 5. 买卖股票最大的收益&#10;  - [x] 6. 买卖股票的最大收益 II&#10;  - [x] 7. 种植花朵&#10;  - [x] 8. 判断是否为子序列" />
+    <MESSAGE value="  - [x] 9. 修改一个数成为非递减数组&#10;  - [x] 10. 子数组最大的和&#10;  - [x] 11. 分隔字符串使同种字符出现在一起" />
+    <option name="LAST_COMMIT_MESSAGE" value="  - [x] 9. 修改一个数成为非递减数组&#10;  - [x] 10. 子数组最大的和&#10;  - [x] 11. 分隔字符串使同种字符出现在一起" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="145" key="#Inspections" timestamp="1579802685585">
@@ -242,55 +285,56 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="355" y="81" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.960@0.0.1536.960" timestamp="1579509899015" />
-    <state x="0" y="0" width="837" height="937" key="CommitChangelistDialog2" timestamp="1580518444003">
+    <state x="0" y="23" width="837" height="937" key="CommitChangelistDialog2" timestamp="1580726981611">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="0" y="0" width="837" height="960" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1580518444003" />
+    <state x="0" y="23" width="837" height="937" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1580726981611" />
     <state x="0" y="23" width="837" height="937" key="CommitChangelistDialog2/0.23.1536.937@0.23.1536.937" timestamp="1579793603422" />
-    <state width="1492" height="229" key="GridCell.Tab.0.bottom" timestamp="1580644670611">
+    <state width="1492" height="254" key="GridCell.Tab.0.bottom" timestamp="1580726658648">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="229" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1580644670611" />
+    <state width="1492" height="254" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1580726658648" />
     <state width="1494" height="290" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1579345555050" />
-    <state width="1492" height="229" key="GridCell.Tab.0.center" timestamp="1580644670610">
+    <state width="1492" height="254" key="GridCell.Tab.0.center" timestamp="1580726658647">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="229" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1580644670610" />
+    <state width="1492" height="254" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1580726658647" />
     <state width="1494" height="290" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1579345555049" />
-    <state width="1492" height="229" key="GridCell.Tab.0.left" timestamp="1580644670610">
+    <state width="1492" height="254" key="GridCell.Tab.0.left" timestamp="1580726658646">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="229" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1580644670610" />
+    <state width="1492" height="254" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1580726658646" />
+    <state width="1492" height="229" key="GridCell.Tab.0.left/0.23.1536.937@0.0.1536.960" timestamp="1580653916746" />
     <state width="1494" height="290" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1579345555048" />
-    <state width="1492" height="229" key="GridCell.Tab.0.right" timestamp="1580644670611">
+    <state width="1492" height="254" key="GridCell.Tab.0.right" timestamp="1580726658648">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="229" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1580644670611" />
+    <state width="1492" height="254" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1580726658648" />
     <state width="1494" height="290" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1579345555049" />
-    <state width="1492" height="357" key="GridCell.Tab.1.bottom" timestamp="1580518599521">
+    <state width="1492" height="357" key="GridCell.Tab.1.bottom" timestamp="1580724754084">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="357" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1580518599521" />
+    <state width="1492" height="357" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1580724754084" />
     <state width="1494" height="290" key="GridCell.Tab.1.bottom/0.23.1536.937@0.23.1536.937" timestamp="1579345555700" />
-    <state width="1492" height="357" key="GridCell.Tab.1.center" timestamp="1580518599520">
+    <state width="1492" height="357" key="GridCell.Tab.1.center" timestamp="1580724754083">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="357" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1580518599520" />
+    <state width="1492" height="357" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1580724754083" />
     <state width="1494" height="290" key="GridCell.Tab.1.center/0.23.1536.937@0.23.1536.937" timestamp="1579345555700" />
-    <state width="1492" height="357" key="GridCell.Tab.1.left" timestamp="1580518599520">
+    <state width="1492" height="357" key="GridCell.Tab.1.left" timestamp="1580724754082">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="357" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1580518599520" />
+    <state width="1492" height="357" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1580724754082" />
     <state width="1494" height="290" key="GridCell.Tab.1.left/0.23.1536.937@0.23.1536.937" timestamp="1579345555699" />
-    <state width="1492" height="357" key="GridCell.Tab.1.right" timestamp="1580518599521">
+    <state width="1492" height="357" key="GridCell.Tab.1.right" timestamp="1580724754083">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="357" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1580518599521" />
+    <state width="1492" height="357" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1580724754083" />
     <state width="1494" height="290" key="GridCell.Tab.1.right/0.23.1536.937@0.23.1536.937" timestamp="1579345555700" />
-    <state x="542" y="113" key="RollbackChangesDialog" timestamp="1579710574852">
+    <state x="542" y="113" key="RollbackChangesDialog" timestamp="1580723090978">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="542" y="113" key="RollbackChangesDialog/0.0.1536.960@0.0.1536.960" timestamp="1579710574852" />
+    <state x="542" y="113" key="RollbackChangesDialog/0.0.1536.960@0.0.1536.960" timestamp="1580723090978" />
     <state x="202" y="125" key="SettingsEditor" timestamp="1579690013568">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -299,15 +343,15 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="618" y="394" key="VCS.ChangelistChooser/0.0.1536.960@0.0.1536.960" timestamp="1580644341857" />
-    <state x="368" y="216" key="Vcs.Push.Dialog.v2" timestamp="1580518446395">
+    <state x="368" y="216" key="Vcs.Push.Dialog.v2" timestamp="1580644790076">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="216" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1580518446395" />
+    <state x="368" y="216" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1580644790076" />
     <state x="368" y="234" key="Vcs.Push.Dialog.v2/0.23.1536.937@0.23.1536.937" timestamp="1579793642597" />
-    <state x="428" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1580635795913">
+    <state x="428" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1580708332558">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="428" y="324" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1580635795913" />
+    <state x="428" y="324" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1580708332558" />
     <state x="428" y="324" key="com.intellij.ide.util.TipDialog/0.23.1536.937@0.23.1536.937" timestamp="1579345393995" />
     <state x="339" y="93" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579710173280">
       <screen x="0" y="0" width="1536" height="960" />
@@ -341,6 +385,16 @@
           <url>file://$PROJECT_DIR$/LeetCode/DoublePointer/88-merge-sorted-array.cpp</url>
           <line>87</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/LeetCode/BinarySearch/744-find-smallest-letter-greater-than-target.cpp</url>
+          <line>64</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/LeetCode/BinarySearch/153-find-minimum-in-rotated-sorted-array.cpp</url>
+          <line>93</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
