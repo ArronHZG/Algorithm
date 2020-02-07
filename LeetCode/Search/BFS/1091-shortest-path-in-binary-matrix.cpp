@@ -51,32 +51,69 @@ grid[i][j] 为 0 或 1
 using namespace std;
 
 
+//class Solution {
+//public:
+//    //存行数和列数索引
+//    using Point = pair<int, int>;
+//
+//    int shortestPathBinaryMatrix(vector<vector<int>> &grid) {
+//        auto len = grid.size();
+//        if (grid[0][0] == 1 || grid[len - 1][len - 1] == 1) return -1;
+//        //这里grid和visit合并，0表示没有访问过,>0表示访问过的距离或者有障碍
+//        grid[0][0] = 1;
+//        queue<Point> path;
+//        path.emplace(0, 0);
+//        while (!path.empty()) {
+//            auto u = path.front();
+//            path.pop();
+//            int nx = u.first, ny = u.second;
+//            for (int i = -1; i <= 1; i++)
+//                for (int j = -1; j <= 1; j++) {
+//                    int x = nx + i, y = ny + j;
+//                    if (x < 0 || x > len - 1 || y < 0 || y > len - 1 || grid[x][y])
+//                        continue;
+//                    grid[x][y] = grid[nx][ny] + 1;
+//                    path.emplace(x, y);
+//                }
+//        }
+//        return grid[len - 1][len - 1] == 0 ? -1 : grid[len - 1][len - 1];
+//    }
+//};
+
 class Solution {
 public:
-    //存行数和列数索引
     using Point = pair<int, int>;
 
-    int shortestPathBinaryMatrix(vector<vector<int>> &grid) {
-        auto len = grid.size();
-        if (grid[0][0] == 1 || grid[len - 1][len - 1] == 1) return -1;
-        //这里grid和visit合并，0表示没有访问过,>0表示访问过的距离或者有障碍
-        grid[0][0] = 1;
+    int shortestPathBinaryMatrix(vector<vector<int>> &input) {
+        int N = input.size();
+        if (1 == input[0][0] || 1 == input[N - 1][N - 1]) {
+            return -1;
+        }
+
+        //初始点
+        input[0][0] = 1;
+        //该点生产队列
         queue<Point> path;
         path.emplace(0, 0);
         while (!path.empty()) {
-            auto u = path.front();
+            auto point = path.front();
             path.pop();
-            int nx = u.first, ny = u.second;
-            for (int i = -1; i <= 1; i++)
+            for (int i = -1; i <= 1; i++) {
                 for (int j = -1; j <= 1; j++) {
-                    int x = nx + i, y = ny + j;
-                    if (x < 0 || x > len - 1 || y < 0 || y > len - 1 || grid[x][y])
-                        continue;
-                    grid[x][y] = grid[nx][ny] + 1;
+                    auto x = point.first + i;
+                    auto y = point.second + j;
+                    //行越界
+                    if (x < 0 || x == N) continue;
+                    //列越界
+                    if (y < 0 || y == N) continue;
+                    //访问过, 或者处于阻塞
+                    if (input[x][y] > 0) continue;
+                    input[x][y] = input[point.first][point.second] + 1;
                     path.emplace(x, y);
                 }
+            }
         }
-        return grid[len - 1][len - 1] == 0 ? -1 : grid[len - 1][len - 1];
+        return input[N - 1][N - 1] == 0 ? -1 : input[N - 1][N - 1];
     }
 };
 
