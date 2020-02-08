@@ -2,8 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Search" targetName="Search" />
-      <config projectName="Search" targetName="DoublePointer" />
+      <config projectName="DFS" targetName="DFS" />
+      <config projectName="DFS" targetName="Search" />
+      <config projectName="DFS" targetName="DoublePointer" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -13,9 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e3dd4c-284b-4c00-8466-a45d58091b98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/DFS/130-surrounded-regions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/DFS/200-number-of-islands.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/DFS/417-pacific-atlantic-water-flow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/DFS/547-friend-circles.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/DFS/695-max-area-of-island.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Algorithm-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Search/BFS/1091-shortest-path-in-binary-matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/1091-shortest-path-in-binary-matrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Search/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Search/DFS/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Search/DFS/CMakeLists.txt" afterDir="false" />
     </list>
     <list id="39c4d9fa-6eab-4a32-8450-7758b1367fd2" name="indexOfChar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +33,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -72,6 +80,65 @@
       <recent name="$PROJECT_DIR$/LeetCode/Sort" />
     </key>
   </component>
+  <component name="RunManager" selected="Google Test.pacificAtlantic.2">
+    <configuration name="findCircleNum.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DFS" TARGET_NAME="DFS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DFS" RUN_TARGET_NAME="DFS" TEST_CLASS="findCircleNum" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pacificAtlantic.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DFS" TARGET_NAME="DFS" RUN_TARGET_PROJECT_NAME="DFS" RUN_TARGET_NAME="DFS" TEST_CLASS="pacificAtlantic" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pacificAtlantic.2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DFS" TARGET_NAME="DFS" RUN_TARGET_PROJECT_NAME="DFS" RUN_TARGET_NAME="DFS" TEST_CLASS="pacificAtlantic" TEST_METHOD="2" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="solve.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DFS" TARGET_NAME="DFS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DFS" RUN_TARGET_NAME="DFS" TEST_CLASS="solve" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="solve.2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DFS" TARGET_NAME="DFS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DFS" RUN_TARGET_NAME="DFS" TEST_CLASS="solve" TEST_METHOD="2" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DFS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DFS" RUN_TARGET_NAME="DFS" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.DFS" />
+      <item itemvalue="Google Test.findCircleNum.1" />
+      <item itemvalue="Google Test.solve.1" />
+      <item itemvalue="Google Test.solve.2" />
+      <item itemvalue="Google Test.pacificAtlantic.1" />
+      <item itemvalue="Google Test.pacificAtlantic.2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.pacificAtlantic.2" />
+        <item itemvalue="Google Test.pacificAtlantic.1" />
+        <item itemvalue="Google Test.solve.2" />
+        <item itemvalue="Google Test.solve.1" />
+        <item itemvalue="Google Test.findCircleNum.1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -109,7 +176,11 @@
       <workItem from="1580786566070" duration="5797000" />
       <workItem from="1580805854438" duration="4417000" />
       <workItem from="1580892808928" duration="4130000" />
-      <workItem from="1581065796422" duration="35000" />
+      <workItem from="1581065796422" duration="466000" />
+      <workItem from="1581066293901" duration="6000" />
+      <workItem from="1581066384931" duration="72000" />
+      <workItem from="1581066620554" duration="3824000" />
+      <workItem from="1581153958936" duration="7629000" />
     </task>
     <task id="LOCAL-00001" summary="删掉一个,是否为回文">
       <created>1579434054857</created>
@@ -195,7 +266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580820943305</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="    - [ ] 1. 计算在网格中从原点到特定点的最短路径长度&#10;    - [ ] 2. 组成整数的最小平方数数量&#10;    - [ ] 3. 最短单词路径">
+      <created>1581065925355</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581065925355</updated>
+    </task>
+    <task id="LOCAL-00014" summary="    - [ ] 1. 计算在网格中从原点到特定点的最短路径长度&#10;    - [ ] 2. 组成整数的最小平方数数量&#10;    - [ ] 3. 最短单词路径">
+      <created>1581066057280</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1581066057280</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,88 +299,89 @@
     <MESSAGE value="  - [x] 9. 修改一个数成为非递减数组&#10;  - [x] 10. 子数组最大的和&#10;  - [x] 11. 分隔字符串使同种字符出现在一起" />
     <MESSAGE value="  - [x] 1. 求开方&#10;  - [x] 2. 大于给定元素的最小元素&#10;  - [x] 3. 有序数组的 Single Element&#10;  - [x] 4. 第一个错误的版本&#10;  - [x] 5. 旋转数组的最小数字" />
     <MESSAGE value="- [x] 二分查找&#10;  - [x] 6. 查找区间&#10;- [x] 分治&#10;  - [x] 1. 给表达式加括号&#10;  - [x] 2. 不同的二叉搜索树" />
-    <option name="LAST_COMMIT_MESSAGE" value="- [x] 二分查找&#10;  - [x] 6. 查找区间&#10;- [x] 分治&#10;  - [x] 1. 给表达式加括号&#10;  - [x] 2. 不同的二叉搜索树" />
+    <MESSAGE value="    - [ ] 1. 计算在网格中从原点到特定点的最短路径长度&#10;    - [ ] 2. 组成整数的最小平方数数量&#10;    - [ ] 3. 最短单词路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="    - [ ] 1. 计算在网格中从原点到特定点的最短路径长度&#10;    - [ ] 2. 组成整数的最小平方数数量&#10;    - [ ] 3. 最短单词路径" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="145" key="#Inspections" timestamp="1580802244399">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="368" y="145" key="#Inspections/0.0.1536.960@0.0.1536.960" timestamp="1580802244399" />
-    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581065830386">
+    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581066220721">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1581065830386" />
+    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1581066220721" />
     <state x="355" y="81" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1579509899015">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="355" y="81" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.960@0.0.1536.960" timestamp="1579509899015" />
-    <state x="0" y="23" width="837" height="937" key="CommitChangelistDialog2" timestamp="1581065925174">
-      <screen x="0" y="0" width="1536" height="960" />
+    <state x="0" y="23" width="837" height="937" key="CommitChangelistDialog2" timestamp="1581066057070">
+      <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="0" y="23" width="837" height="937" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1581065925174" />
-    <state x="0" y="23" width="837" height="937" key="CommitChangelistDialog2/0.23.1536.937@0.23.1536.937" timestamp="1579793603422" />
-    <state width="1492" height="312" key="GridCell.Tab.0.bottom" timestamp="1580910245720">
+    <state x="0" y="23" width="837" height="937" key="CommitChangelistDialog2/0.23.1536.937@0.23.1536.937" timestamp="1581066057070" />
+    <state width="1492" height="208" key="GridCell.Tab.0.bottom" timestamp="1581165989361">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="312" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1580910245720" />
+    <state width="1492" height="208" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1581165989361" />
     <state width="1494" height="290" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1579345555050" />
-    <state width="1492" height="312" key="GridCell.Tab.0.center" timestamp="1580910245719">
+    <state width="1492" height="208" key="GridCell.Tab.0.center" timestamp="1581165989360">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="312" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1580910245719" />
+    <state width="1492" height="208" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1581165989360" />
     <state width="1494" height="290" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1579345555049" />
-    <state width="1492" height="312" key="GridCell.Tab.0.left" timestamp="1580910245718">
+    <state width="1492" height="208" key="GridCell.Tab.0.left" timestamp="1581165989360">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="312" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1580910245718" />
+    <state width="1492" height="208" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1581165989360" />
     <state width="1492" height="229" key="GridCell.Tab.0.left/0.23.1536.937@0.0.1536.960" timestamp="1580653916746" />
     <state width="1494" height="290" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1579345555048" />
-    <state width="1492" height="312" key="GridCell.Tab.0.right" timestamp="1580910245720">
+    <state width="1492" height="208" key="GridCell.Tab.0.right" timestamp="1581165989361">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="312" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1580910245720" />
+    <state width="1492" height="208" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1581165989361" />
     <state width="1494" height="290" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1579345555049" />
-    <state width="1492" height="312" key="GridCell.Tab.1.bottom" timestamp="1580910253953">
+    <state width="1492" height="343" key="GridCell.Tab.1.bottom" timestamp="1581072254401">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="312" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1580910253953" />
+    <state width="1492" height="343" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1581072254401" />
     <state width="1494" height="290" key="GridCell.Tab.1.bottom/0.23.1536.937@0.23.1536.937" timestamp="1579345555700" />
-    <state width="1492" height="312" key="GridCell.Tab.1.center" timestamp="1580910253952">
+    <state width="1492" height="343" key="GridCell.Tab.1.center" timestamp="1581072254400">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="312" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1580910253952" />
+    <state width="1492" height="343" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1581072254400" />
     <state width="1494" height="290" key="GridCell.Tab.1.center/0.23.1536.937@0.23.1536.937" timestamp="1579345555700" />
-    <state width="1492" height="312" key="GridCell.Tab.1.left" timestamp="1580910253951">
+    <state width="1492" height="343" key="GridCell.Tab.1.left" timestamp="1581072254400">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="312" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1580910253951" />
+    <state width="1492" height="343" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1581072254400" />
     <state width="1494" height="290" key="GridCell.Tab.1.left/0.23.1536.937@0.23.1536.937" timestamp="1579345555699" />
-    <state width="1492" height="312" key="GridCell.Tab.1.right" timestamp="1580910253953">
+    <state width="1492" height="343" key="GridCell.Tab.1.right" timestamp="1581072254401">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="312" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1580910253953" />
+    <state width="1492" height="343" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1581072254401" />
     <state width="1494" height="290" key="GridCell.Tab.1.right/0.23.1536.937@0.23.1536.937" timestamp="1579345555700" />
     <state x="542" y="113" key="RollbackChangesDialog" timestamp="1580723090978">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="542" y="113" key="RollbackChangesDialog/0.0.1536.960@0.0.1536.960" timestamp="1580723090978" />
-    <state x="202" y="125" key="SettingsEditor" timestamp="1581065853335">
+    <state x="202" y="124" key="SettingsEditor" timestamp="1581066155845">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="202" y="125" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1581065853335" />
+    <state x="202" y="124" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1581066155845" />
     <state x="618" y="394" key="VCS.ChangelistChooser" timestamp="1580644341857">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="618" y="394" key="VCS.ChangelistChooser/0.0.1536.960@0.0.1536.960" timestamp="1580644341857" />
-    <state x="368" y="216" key="Vcs.Push.Dialog.v2" timestamp="1581065927165">
-      <screen x="0" y="0" width="1536" height="960" />
+    <state x="368" y="234" key="Vcs.Push.Dialog.v2" timestamp="1581066060644">
+      <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="368" y="216" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1581065927165" />
-    <state x="368" y="234" key="Vcs.Push.Dialog.v2/0.23.1536.937@0.23.1536.937" timestamp="1579793642597" />
-    <state x="428" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1581065661788">
+    <state x="368" y="234" key="Vcs.Push.Dialog.v2/0.23.1536.937@0.23.1536.937" timestamp="1581066060644" />
+    <state x="428" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1581153960011">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="428" y="324" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1581065661788" />
+    <state x="428" y="324" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1581153960011" />
     <state x="428" y="324" key="com.intellij.ide.util.TipDialog/0.23.1536.937@0.23.1536.937" timestamp="1579345393995" />
     <state x="339" y="93" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579710173280">
       <screen x="0" y="0" width="1536" height="960" />
@@ -317,10 +403,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="530" y="118" key="refactoring.ChangeSignatureDialog/0.0.1536.960@0.0.1536.960" timestamp="1579512105255" />
-    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1579873943116">
+    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1581155784217">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1579873943116" />
+    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1581155784217" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

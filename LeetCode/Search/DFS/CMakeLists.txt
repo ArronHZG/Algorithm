@@ -11,6 +11,6 @@ set(LIBRARIES
         gtest_main
         pthread)
 
-add_executable(${PROJECT_NAME})
+add_executable(${PROJECT_NAME} 695-max-area-of-island.cpp 200-number-of-islands.cpp 547-friend-circles.cpp 130-surrounded-regions.cpp 417-pacific-atlantic-water-flow.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})
