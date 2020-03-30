@@ -32,9 +32,6 @@ using namespace std;
 class Solution {
 public:
     bool merge(int c) {
-        if (1 == c) {
-            return true;
-        }
         long low = 0, high = long(sqrt(c));
         while (low <= high) {
             long sum = low * low + high * high;
