@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="DFS" targetName="DFS" />
-      <config projectName="DFS" targetName="Search" />
-      <config projectName="DFS" targetName="DoublePointer" />
+      <config projectName="DoublePointer" targetName="Search" />
+      <config projectName="DoublePointer" targetName="DoublePointer" />
+      <config projectName="DoublePointer" targetName="BinarySearch" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -14,15 +14,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e3dd4c-284b-4c00-8466-a45d58091b98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/Search/DFS/130-surrounded-regions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Search/DFS/200-number-of-islands.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Search/DFS/417-pacific-atlantic-water-flow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Search/DFS/547-friend-circles.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Search/DFS/695-max-area-of-island.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithm-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Search/DFS/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Search/DFS/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/BinarySearch/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/BinarySearch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/BinarySearch.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/153-find-minimum-in-rotated-sorted-array.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/278-first-bad-version.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/34-find-first-and-last-position-of-element-in-sorted-array.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/540-single-element-in-a-sorted-array.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/69-sqrtx.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/744-find-smallest-letter-greater-than-target.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/Users/arron/Projects/ClionProjects/Algorithm/LeetCode/DivideAndConquer/241-different-ways-to-add-parentheses.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/Users/arron/Projects/ClionProjects/Algorithm/LeetCode/DivideAndConquer/95-unique-binary-search-trees-ii.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/BinarySearch.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/BinarySearch/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
     </list>
     <list id="39c4d9fa-6eab-4a32-8450-7758b1367fd2" name="indexOfChar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +68,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -66,7 +100,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.splitter.proportion" value="0.018072307" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -80,64 +115,12 @@
       <recent name="$PROJECT_DIR$/LeetCode/Sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.pacificAtlantic.2">
-    <configuration name="findCircleNum.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DFS" TARGET_NAME="DFS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DFS" RUN_TARGET_NAME="DFS" TEST_CLASS="findCircleNum" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pacificAtlantic.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DFS" TARGET_NAME="DFS" RUN_TARGET_PROJECT_NAME="DFS" RUN_TARGET_NAME="DFS" TEST_CLASS="pacificAtlantic" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pacificAtlantic.2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DFS" TARGET_NAME="DFS" RUN_TARGET_PROJECT_NAME="DFS" RUN_TARGET_NAME="DFS" TEST_CLASS="pacificAtlantic" TEST_METHOD="2" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="solve.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DFS" TARGET_NAME="DFS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DFS" RUN_TARGET_NAME="DFS" TEST_CLASS="solve" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="solve.2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DFS" TARGET_NAME="DFS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DFS" RUN_TARGET_NAME="DFS" TEST_CLASS="solve" TEST_METHOD="2" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DFS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DFS" RUN_TARGET_NAME="DFS" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="CMake Application.DFS" />
-      <item itemvalue="Google Test.findCircleNum.1" />
-      <item itemvalue="Google Test.solve.1" />
-      <item itemvalue="Google Test.solve.2" />
-      <item itemvalue="Google Test.pacificAtlantic.1" />
-      <item itemvalue="Google Test.pacificAtlantic.2" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Google Test.pacificAtlantic.2" />
-        <item itemvalue="Google Test.pacificAtlantic.1" />
-        <item itemvalue="Google Test.solve.2" />
-        <item itemvalue="Google Test.solve.1" />
-        <item itemvalue="Google Test.findCircleNum.1" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -181,6 +164,7 @@
       <workItem from="1581066384931" duration="72000" />
       <workItem from="1581066620554" duration="3824000" />
       <workItem from="1581153958936" duration="7629000" />
+      <workItem from="1585557076790" duration="408000" />
     </task>
     <task id="LOCAL-00001" summary="删掉一个,是否为回文">
       <created>1579434054857</created>
@@ -307,10 +291,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="368" y="145" key="#Inspections/0.0.1536.960@0.0.1536.960" timestamp="1580802244399" />
-    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581066220721">
+    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585557164872">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1581066220721" />
+    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1585557164872" />
     <state x="355" y="81" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1579509899015">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -320,26 +304,26 @@
     </state>
     <state x="0" y="23" width="837" height="937" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1581065925174" />
     <state x="0" y="23" width="837" height="937" key="CommitChangelistDialog2/0.23.1536.937@0.23.1536.937" timestamp="1581066057070" />
-    <state width="1492" height="208" key="GridCell.Tab.0.bottom" timestamp="1581165989361">
+    <state width="1492" height="250" key="GridCell.Tab.0.bottom" timestamp="1585557300514">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1581165989361" />
+    <state width="1492" height="250" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1585557300514" />
     <state width="1494" height="290" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1579345555050" />
-    <state width="1492" height="208" key="GridCell.Tab.0.center" timestamp="1581165989360">
+    <state width="1492" height="250" key="GridCell.Tab.0.center" timestamp="1585557300513">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1581165989360" />
+    <state width="1492" height="250" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1585557300513" />
     <state width="1494" height="290" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1579345555049" />
-    <state width="1492" height="208" key="GridCell.Tab.0.left" timestamp="1581165989360">
+    <state width="1492" height="250" key="GridCell.Tab.0.left" timestamp="1585557300513">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1581165989360" />
+    <state width="1492" height="250" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1585557300513" />
     <state width="1492" height="229" key="GridCell.Tab.0.left/0.23.1536.937@0.0.1536.960" timestamp="1580653916746" />
     <state width="1494" height="290" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1579345555048" />
-    <state width="1492" height="208" key="GridCell.Tab.0.right" timestamp="1581165989361">
+    <state width="1492" height="250" key="GridCell.Tab.0.right" timestamp="1585557300514">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1581165989361" />
+    <state width="1492" height="250" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1585557300514" />
     <state width="1494" height="290" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1579345555049" />
     <state width="1492" height="343" key="GridCell.Tab.1.bottom" timestamp="1581072254401">
       <screen x="0" y="0" width="1536" height="960" />
@@ -365,10 +349,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="542" y="113" key="RollbackChangesDialog/0.0.1536.960@0.0.1536.960" timestamp="1580723090978" />
-    <state x="202" y="124" key="SettingsEditor" timestamp="1581066155845">
+    <state x="202" y="124" key="SettingsEditor" timestamp="1585557143045">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="202" y="124" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1581066155845" />
+    <state x="202" y="124" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1585557143045" />
     <state x="618" y="394" key="VCS.ChangelistChooser" timestamp="1580644341857">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -378,10 +362,10 @@
     </state>
     <state x="368" y="216" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1581065927165" />
     <state x="368" y="234" key="Vcs.Push.Dialog.v2/0.23.1536.937@0.23.1536.937" timestamp="1581066060644" />
-    <state x="428" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1581153960011">
+    <state x="428" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1585557079034">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="428" y="324" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1581153960011" />
+    <state x="428" y="324" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1585557079034" />
     <state x="428" y="324" key="com.intellij.ide.util.TipDialog/0.23.1536.937@0.23.1536.937" timestamp="1579345393995" />
     <state x="339" y="93" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579710173280">
       <screen x="0" y="0" width="1536" height="960" />
