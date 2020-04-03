@@ -19,6 +19,7 @@ add_executable(${PROJECT_NAME}
 #        77-combinations.cpp
 #        39-combination-sum.cpp
 #        40-combination-sum-ii.cpp
-        216-combination-sum-iii.cpp main.cpp 78-subsets.cpp)
+#        216-combination-sum-iii.cpp
+        78-subsets.cpp 131-palindrome-partitioning.cpp sudoku-solver.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})
