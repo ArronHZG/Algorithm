@@ -15,32 +15,7 @@
 #include <cstring>
 #include <gtest/gtest.h>
 
-
 using namespace std;
-
-
-void print(vector<pair<int, int>> vec) {
-    for (auto a : vec) {
-        cout << a.first << ' ' << a.second << " | ";
-    }
-    cout << endl;
-}
-
-template<typename T>
-void print(vector<T> vec) {
-    for (auto a : vec) {
-        cout << a << ' ';
-    }
-    cout << endl;
-}
-
-template<typename T>
-void print(vector<vector<T>> vec) {
-    for (const auto &v: vec) {
-        print(v);
-    }
-    cout << endl;
-}
 
 class Solution {
 public:
@@ -74,5 +49,4 @@ TEST(rob, 1) { /* NOLINT */
     auto output = Solution().rob(input);
     EXPECT_EQ(answer, output);
 }
-
 

@@ -29,7 +29,6 @@ Explanation: There are three ways to climb to the top.
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 
-
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -41,32 +40,7 @@ Explanation: There are three ways to climb to the top.
 #include <cstring>
 #include <gtest/gtest.h>
 
-
 using namespace std;
-
-
-void print(vector<pair<int, int>> vec) {
-    for (auto a : vec) {
-        cout << a.first << ' ' << a.second << " | ";
-    }
-    cout << endl;
-}
-
-template<typename T>
-void print(vector<T> vec) {
-    for (auto a : vec) {
-        cout << a << ' ';
-    }
-    cout << endl;
-}
-
-template<typename T>
-void print(vector<vector<T>> vec) {
-    for (const auto &v: vec) {
-        print(v);
-    }
-    cout << endl;
-}
 
 class Solution {
 public:

@@ -40,9 +40,7 @@ public:
      * @return
      */
     int numSquares(int n) {
-
         queue<Node> channel;
-
         channel.emplace(n, 1);
         while (!channel.empty()) {
             auto node = channel.front();

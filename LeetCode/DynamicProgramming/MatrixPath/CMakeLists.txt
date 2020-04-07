@@ -12,6 +12,6 @@ set(LIBRARIES
         pthread)
 
 add_executable(${PROJECT_NAME}
-        213-house-robber-ii.cpp)
+        62-unique-paths.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})

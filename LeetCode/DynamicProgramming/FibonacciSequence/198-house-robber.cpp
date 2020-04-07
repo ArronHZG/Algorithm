@@ -41,30 +41,6 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (m
 
 using namespace std;
 
-
-void print(vector<pair<int, int>> vec) {
-    for (auto a : vec) {
-        cout << a.first << ' ' << a.second << " | ";
-    }
-    cout << endl;
-}
-
-template<typename T>
-void print(vector<T> vec) {
-    for (auto a : vec) {
-        cout << a << ' ';
-    }
-    cout << endl;
-}
-
-template<typename T>
-void print(vector<vector<T>> vec) {
-    for (const auto &v: vec) {
-        print(v);
-    }
-    cout << endl;
-}
-
 class Solution {
 public:
     /**
