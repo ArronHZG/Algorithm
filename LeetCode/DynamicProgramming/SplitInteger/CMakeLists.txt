@@ -12,6 +12,8 @@ set(LIBRARIES
         pthread)
 
 add_executable(${PROJECT_NAME}
-        show.h show.cpp 343-integer-break.cpp 279-perfect-squares.cpp)
+        show.h show.cpp
+        343-integer-break.cpp
+        279-perfect-squares.cpp 91-decode-ways.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})
