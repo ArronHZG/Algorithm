@@ -38,18 +38,17 @@ using namespace std;
 class Solution {
 public:
     int lengthOfLIS(vector<int> &nums) {
-        if(nums.empty()) return 0;
+        if (nums.empty()) return 0;
         int n = nums.size();
-        vector<int> dp(n);
+        vector<int> dp(n, 1);
         for (int i = 0; i < n; i++) {
-            int temp = 1;
             for (int j = 0; j < i; j++) {
                 if (nums[i] > nums[j]) {
-                    temp = max(temp, dp[j] + 1);
+                    dp[i] = max(dp[i], dp[j] + 1);
                 }
             }
-            dp[i] = temp;
         }
+        // 找到最大的值
         return *max_element(dp.begin(), dp.end());
     }
 };

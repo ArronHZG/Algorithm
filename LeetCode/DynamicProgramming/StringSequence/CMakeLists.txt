@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(LongestIncreasingSubsequence)
+project(LongestSubsequence)
 set(CMAKE_CXX_STANDARD 14)
 
 link_directories(/usr/local/lib)
@@ -12,6 +12,7 @@ set(LIBRARIES
         pthread)
 
 add_executable(${PROJECT_NAME}
-        show.h show.cpp 300-longest-increasing-subsequence.cpp 646-maximum-length-of-pair-chain.cpp 376-wiggle-subsequence.cpp ../LongestCommonSubsequence/1143-longest-common-subsequence.cpp)
+        show.h show.cpp
+        1143-longest-common-subsequence.cpp 72-edit-distance.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})
