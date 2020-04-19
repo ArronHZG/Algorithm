@@ -6,13 +6,15 @@ link_directories(/usr/local/lib)
 include_directories(/usr/local/include)
 
 find_package(Threads REQUIRED)
+
 set(LIBRARIES
         gtest
         gtest_main
-        pthread)
+        pthread
+        utils)
 
-add_subdirectory(Utils)
-add_subdirectory(Test)
-add_subdirectory(LeetCode)
+add_subdirectory(utils)
+add_subdirectory(test)
+add_subdirectory(leetcode)
 
 
