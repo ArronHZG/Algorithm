@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(MatrixPath)
+project(Algorithm)
 set(CMAKE_CXX_STANDARD 14)
 
 link_directories(/usr/local/lib)
@@ -11,7 +11,8 @@ set(LIBRARIES
         gtest_main
         pthread)
 
-add_executable(${PROJECT_NAME}
-        62-unique-paths.cpp)
+add_subdirectory(Utils)
+add_subdirectory(Test)
+add_subdirectory(LeetCode)
 
-target_link_libraries(${PROJECT_NAME} ${LIBRARIES})
+

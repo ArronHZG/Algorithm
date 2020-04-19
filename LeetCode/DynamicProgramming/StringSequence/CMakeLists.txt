@@ -13,6 +13,6 @@ set(LIBRARIES
 
 add_executable(${PROJECT_NAME}
         show.h show.cpp
-        1143-longest-common-subsequence.cpp 72-edit-distance.cpp)
+        1143-longest-common-subsequence.cpp 72-edit-distance.cpp 516-longest-palindromic-subsequence.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})

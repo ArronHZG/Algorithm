@@ -1,0 +1,6 @@
+add_subdirectory(ArrayInterval)
+add_subdirectory(FibonacciSequence)
+add_subdirectory(MatrixPath)
+add_subdirectory(NumberSubsequence)
+add_subdirectory(SplitInteger)
+add_subdirectory(StringSequence)

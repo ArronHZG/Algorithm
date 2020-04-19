@@ -1,0 +1,8 @@
+add_subdirectory(BinarySearch)
+add_subdirectory(DivideAndConquer)
+add_subdirectory(DoublePointer)
+add_subdirectory(DynamicProgramming)
+add_subdirectory(Greedy)
+add_subdirectory(Search)
+add_subdirectory(Sort)
+add_subdirectory(Tree)

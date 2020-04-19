@@ -38,6 +38,7 @@
 
 #include <iostream>
 #include <gtest/gtest.h>
+#include "show.h"
 
 using namespace std;
 
@@ -64,28 +65,25 @@ bool cmp(vector<int> a, vector<int> b) {
  * dp[i+1] = max(state_1,state_2)
  *
  */
-class Solution {
+class
+Solution {
 public:
     int eraseOverlapIntervals(vector<vector<int>> &intervals) {
         if (intervals.empty()) return 0;
         sort(intervals.begin(), intervals.end(), cmp);
-        for (auto &p:intervals) {
-            cout << p[0] << "  " << p[1] << endl;
-        }
-        vector<int> dp(intervals.size());
+        int n = intervals.size();
+        vector<int> dp(n, 0);
         dp[0] = 1;
-        for (auto i = 1; i != intervals.size(); ++i) {
-            int state_1 = 0, state_2 = dp[i - 1];
-            for (auto j = i - 1; j >= 0; --j) {
+        for (int i = 1; i < n; ++i) {
+            dp[i] = dp[i - 1];
+            for (int j = i - 1; j >= 0; --j) {
                 if (intervals[j][1] <= intervals[i][0]) {
-                    state_1 = dp[j] + 1;
+                    dp[i] = max(dp[j] + 1, dp[i]);
                     break;
                 }
             }
-            dp[i] = max(state_1, state_2);
         }
-        for (auto &p:dp) cout << p << endl;
-        return int(intervals.size()) - dp[dp.size() - 1];
+        return n - dp[n-1];
     }
 };
 
@@ -101,32 +99,30 @@ class Solution_2 {
 public:
     int eraseOverlapIntervals(vector<vector<int>> &intervals) {
         if (intervals.empty()) return 0;
-
         sort(intervals.begin(), intervals.end(), cmp);
-        for (auto &p:intervals) {
-            cout << p[0] << "  " << p[1] << endl;
-        }
-        int count = 0;
+        print<int>(intervals);
+        int res = 0;
         int j = 0;//指向可以存在的最后一个区间
         for (auto i = 1; i != intervals.size(); ++i)
             if (intervals[j][1] <= intervals[i][0]) j = i;
-            else ++count;
-        return count;
+            else res++;
+        return res;
     }
 };
 
 /**
  * 贪心优化
  */
-class Solution_3 {
+class Solution3 {
 public:
-    int eraseOverlapIntervals(vector<vector<int>>& intervals) {
+    int eraseOverlapIntervals(vector<vector<int>> &intervals) {
         if (intervals.empty()) return 0;
         sort(intervals.begin(), intervals.end());
+        print<int>(intervals);
         int left = intervals[0][1];
         int res = 0;
         for (int i = 1; i < intervals.size(); ++i) {
-            if (left<=intervals[i][0]) {
+            if (left <= intervals[i][0]) {
                 left = intervals[i][1];
             } else {
                 left = min(left, intervals[i][1]);
@@ -147,7 +143,7 @@ TEST(eraseOverlapIntervals, 2) { /* NOLINT */
     input[3] = {3, 5};
     input[4] = {4, 6};
     int answer = 2;
-    int output = Solution_3().eraseOverlapIntervals(input);
+    int output = Solution().eraseOverlapIntervals(input);
     EXPECT_EQ(answer, output);
 }
 
