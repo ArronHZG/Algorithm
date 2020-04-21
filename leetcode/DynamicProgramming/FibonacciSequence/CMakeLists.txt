@@ -12,10 +12,10 @@ set(LIBRARIES
         pthread)
 
 add_executable(${PROJECT_NAME}
-        #        213-house-robber-ii.cpp
-        #        198-house-robber.cpp
-        #        70-climbing-stairs.cpp
-        #        64-minimum-path-sum.cpp
-        ../MatrixPath/62-unique-paths.cpp show.cpp show.h)
+        213-house-robber-ii.cpp
+        198-house-robber.cpp
+        96-unique-binary-search-trees.cpp
+        70-climbing-stairs.cpp sum-fibon.cpp)
 
+include_directories(${CMAKE_SOURCE_DIR}/utils)
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})

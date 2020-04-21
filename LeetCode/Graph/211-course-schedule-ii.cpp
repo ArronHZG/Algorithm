@@ -2,6 +2,10 @@
 // Created by 侯正罡 on 2020/4/20.
 //
 
+//
+// Created by 侯正罡 on 2020/4/20.
+//
+
 /**
  * 方法一：入度表（广度优先遍历）
 算法流程：
@@ -39,7 +43,8 @@ public:
      * @param prerequisites
      * @return
      */
-    bool canFinish(int numCourses, vector<vector<int>> &prerequisites) {
+    vector<int> findOrder(int numCourses, vector<vector<int>> &prerequisites) {
+        vector<int> res;
         vector<int> indegree(numCourses);
         vector<vector<int>> adjacency(numCourses, vector<int>());
         //Get the indegree and adjacency of every course.
@@ -65,61 +70,29 @@ public:
             int i = q.front();
             q.pop();
             count++;
+            res.push_back(i);
             for (auto j: adjacency[i]) {
                 indegree[j]--;
                 if (indegree[j] == 0) {
                     q.push(j);
                 } else if (indegree[j] < 0) {
-                    return false;
+                    break;
                 }
             }
             print<int>(indegree);
         }
-        return count == numCourses;
+        return count == numCourses ? res : vector<int>();
     }
 };
 
-TEST(canFinish, 1) { /* NOLINT */
+TEST(findOrder, 1) { /* NOLINT */
     cout << endl;
     int num = 6;
     vector<vector<int>> input = {{2, 1},
                                  {3, 2},
                                  {4, 1, 2},
                                  {5, 4, 3}};
-    auto answer = true;
-    auto output = Solution().canFinish(num, input);
-    EXPECT_EQ(answer, output);
-}
-
-
-TEST(canFinish, 2) { /* NOLINT */
-    cout << endl;
-    int num = 2;
-    vector<vector<int>> input = {{0, 1},
-                                 {1, 0}};
-    auto answer = false;
-    auto output = Solution().canFinish(num, input);
-    EXPECT_EQ(answer, output);
-}
-
-
-TEST(canFinish, 3) { /* NOLINT */
-    cout << endl;
-    int num = 3;
-    vector<vector<int>> input = {{2, 1},
-                                 {2, 0}};
-    auto answer = true;
-    auto output = Solution().canFinish(num, input);
-    EXPECT_EQ(answer, output);
-}
-
-TEST(canFinish, 4) { /* NOLINT */
-    cout << endl;
-    int num = 3;
-    vector<vector<int>> input = {{1, 0},
-                                 {1, 2},
-                                 {0, 1}};
-    auto answer = false;
-    auto output = Solution().canFinish(num, input);
+    vector<int> answer = {0, 3, 1, 2, 4, 5};
+    auto output = Solution().findOrder(num, input);
     EXPECT_EQ(answer, output);
 }

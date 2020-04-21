@@ -19,7 +19,7 @@ using namespace std;
 
 class Solution {
 public:
-    int rob(vector<int>& nums) {
+    int rob2(vector<int>& nums) {
         int n = nums.size();
         if(n == 0) return 0;
         else if(n == 1) return nums[0];
@@ -42,11 +42,11 @@ public:
     }
 };
 
-TEST(rob, 1) { /* NOLINT */
+TEST(rob2, 1) { /* NOLINT */
     cout << endl;
     vector<int> input = {2, 3, 2};
     int answer = 3;
-    auto output = Solution().rob(input);
+    auto output = Solution().rob2(input);
     EXPECT_EQ(answer, output);
 }
 
