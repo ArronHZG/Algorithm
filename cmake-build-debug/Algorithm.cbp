@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Algorithm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\test\;CMake Files\leetcode\;CMake Files\leetcode\BinarySearch\;CMake Files\leetcode\DivideAndConquer\;CMake Files\leetcode\DoublePointer\;CMake Files\leetcode\DynamicProgramming\;CMake Files\leetcode\DynamicProgramming\ArrayInterval\;CMake Files\leetcode\DynamicProgramming\FibonacciSequence\;CMake Files\leetcode\DynamicProgramming\MatrixPath\;CMake Files\leetcode\DynamicProgramming\NumberSubsequence\;CMake Files\leetcode\DynamicProgramming\SplitInteger\;CMake Files\leetcode\DynamicProgramming\StringSequence\;CMake Files\leetcode\Greedy\;CMake Files\leetcode\Search\;CMake Files\leetcode\Search\Backtracking\;CMake Files\leetcode\Search\BFS\;CMake Files\leetcode\Search\DFS\;CMake Files\leetcode\Sort\;CMake Files\leetcode\Tree\;CMake Files\leetcode\Tree\Recursion\;CMake Files\leetcode\Graph\;CMake Files\leetcode\Array\;CMake Files\DeepGlint\;CMake Files\alibaba\;CMake Files\Nowcoder\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 utils"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 utils/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/test/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/Utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/test/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/Utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BinarySearch">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/BinarySearch/BinarySearch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/BinarySearch"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/BinarySearch/Makefile&quot;  VERBOSE=1 BinarySearch"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/BinarySearch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/BinarySearch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/BinarySearch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BinarySearch/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/BinarySearch/BinarySearch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/BinarySearch"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/BinarySearch/Makefile&quot;  VERBOSE=1 BinarySearch/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/BinarySearch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/BinarySearch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/BinarySearch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DivideAndConquer">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DivideAndConquer/DivideAndConquer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DivideAndConquer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DivideAndConquer/Makefile&quot;  VERBOSE=1 DivideAndConquer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DivideAndConquer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DivideAndConquer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DivideAndConquer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DivideAndConquer/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DivideAndConquer/DivideAndConquer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DivideAndConquer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DivideAndConquer/Makefile&quot;  VERBOSE=1 DivideAndConquer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DivideAndConquer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DivideAndConquer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DivideAndConquer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DoublePointer">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DoublePointer/DoublePointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DoublePointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DoublePointer/Makefile&quot;  VERBOSE=1 DoublePointer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DoublePointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DoublePointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DoublePointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DoublePointer/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DoublePointer/DoublePointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DoublePointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DoublePointer/Makefile&quot;  VERBOSE=1 DoublePointer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DoublePointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DoublePointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DoublePointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ArrayInterval">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/ArrayInterval" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/Makefile&quot;  VERBOSE=1 ArrayInterval"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ArrayInterval/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/ArrayInterval" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/Makefile&quot;  VERBOSE=1 ArrayInterval/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DynamicProgramming">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/DynamicProgramming" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/Makefile&quot;  VERBOSE=1 DynamicProgramming"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DynamicProgramming/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/DynamicProgramming" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/Makefile&quot;  VERBOSE=1 DynamicProgramming/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MatrixPath">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/MatrixPath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/Makefile&quot;  VERBOSE=1 MatrixPath"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MatrixPath/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/MatrixPath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/Makefile&quot;  VERBOSE=1 MatrixPath/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LongestIncreasingSubsequence">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/LongestIncreasingSubsequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/Makefile&quot;  VERBOSE=1 LongestIncreasingSubsequence"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LongestIncreasingSubsequence/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/LongestIncreasingSubsequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/Makefile&quot;  VERBOSE=1 LongestIncreasingSubsequence/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SplitInteger">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/SplitInteger" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/Makefile&quot;  VERBOSE=1 SplitInteger"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SplitInteger/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/SplitInteger" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/Makefile&quot;  VERBOSE=1 SplitInteger/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LongestSubsequence">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/LongestSubsequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/StringSequence"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/Makefile&quot;  VERBOSE=1 LongestSubsequence"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LongestSubsequence/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/LongestSubsequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/StringSequence"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/Makefile&quot;  VERBOSE=1 LongestSubsequence/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Greedy">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy/Greedy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/Utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy/Makefile&quot;  VERBOSE=1 Greedy"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Greedy/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy/Greedy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/Utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy/Makefile&quot;  VERBOSE=1 Greedy/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Backtracking">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking/Backtracking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking/Makefile&quot;  VERBOSE=1 Backtracking"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Backtracking/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking/Backtracking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking/Makefile&quot;  VERBOSE=1 Backtracking/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BFS">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/BFS/BFS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/BFS"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/BFS/Makefile&quot;  VERBOSE=1 BFS"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/BFS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/BFS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/BFS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BFS/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/BFS/BFS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/BFS"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/BFS/Makefile&quot;  VERBOSE=1 BFS/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/BFS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/BFS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/BFS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DFS">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/DFS/DFS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/DFS"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/DFS/Makefile&quot;  VERBOSE=1 DFS"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/DFS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/DFS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/DFS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DFS/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/DFS/DFS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/DFS"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/DFS/Makefile&quot;  VERBOSE=1 DFS/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/DFS/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/DFS/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/DFS/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sort">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Sort/Sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Sort/Makefile&quot;  VERBOSE=1 Sort"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sort/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Sort/Sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Sort/Makefile&quot;  VERBOSE=1 Sort/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Recursion">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Tree/Recursion/Recursion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Tree/Recursion"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Tree/Recursion/Makefile&quot;  VERBOSE=1 Recursion"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Tree/Recursion/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Tree/Recursion/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Tree/Recursion/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Recursion/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Tree/Recursion/Recursion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Tree/Recursion"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Tree/Recursion/Makefile&quot;  VERBOSE=1 Recursion/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Tree/Recursion/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Tree/Recursion/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Tree/Recursion/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Graph">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Graph/Graph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Graph"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Graph/Makefile&quot;  VERBOSE=1 Graph"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Graph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Graph/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Graph/Graph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Graph"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Graph/Makefile&quot;  VERBOSE=1 Graph/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Graph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Array">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Array/Array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Array/Makefile&quot;  VERBOSE=1 Array"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Array/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Array/Array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Array/Makefile&quot;  VERBOSE=1 Array/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DeepGlint">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/DeepGlint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 DeepGlint"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DeepGlint/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/DeepGlint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 DeepGlint/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Alibaba">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Alibaba" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 Alibaba"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Alibaba/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Alibaba" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 Alibaba/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nowcoder">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Nowcoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 Nowcoder"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nowcoder/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Nowcoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 Nowcoder/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/Matrix.cpp">
+			<Option target="DeepGlint"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/Matrix.h">
+			<Option target="DeepGlint"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/attack.cpp">
+			<Option target="DeepGlint"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/main.cpp">
+			<Option target="DeepGlint"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/match-prior-box.cpp">
+			<Option target="DeepGlint"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/weapon.cpp">
+			<Option target="DeepGlint"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/cakeNumber.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/countLR.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/increasingArray.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/maxPresent.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/selectPresent.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/seqSum.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/sequenceSum.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/eatFish.cpp">
+			<Option target="Alibaba"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/main.cpp">
+			<Option target="Alibaba"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/splitNum.cpp">
+			<Option target="Alibaba"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/test.cpp">
+			<Option target="Alibaba"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Array/283-move-zeroes.cpp">
+			<Option target="Array"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Array/485-max-consecutive-ones.cpp">
+			<Option target="Array"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Array/566-reshape-the-matrix.cpp">
+			<Option target="Array"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/BinarySearch/153-find-minimum-in-rotated-sorted-array.cpp">
+			<Option target="BinarySearch"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/BinarySearch/278-first-bad-version.cpp">
+			<Option target="BinarySearch"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/BinarySearch/34-find-first-and-last-position-of-element-in-sorted-array.cpp">
+			<Option target="BinarySearch"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/BinarySearch/540-single-element-in-a-sorted-array.cpp">
+			<Option target="BinarySearch"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/BinarySearch/69-sqrtx.cpp">
+			<Option target="BinarySearch"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/BinarySearch/744-find-smallest-letter-greater-than-target.cpp">
+			<Option target="BinarySearch"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DivideAndConquer/241-different-ways-to-add-parentheses.cpp">
+			<Option target="DivideAndConquer"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DivideAndConquer/95-unique-binary-search-trees-ii.cpp">
+			<Option target="DivideAndConquer"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DoublePointer/141-linked-list-cycle.cpp">
+			<Option target="DoublePointer"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DoublePointer/167-two-sum-ii-input-array-is-sorted.cpp">
+			<Option target="DoublePointer"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DoublePointer/345-reverse-vowels-of-a-string.cpp">
+			<Option target="DoublePointer"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DoublePointer/524-longest-word-in-dictionary-through-deleting.cpp">
+			<Option target="DoublePointer"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DoublePointer/633-sum-of-square-numbers.cpp">
+			<Option target="DoublePointer"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DoublePointer/680-valid-palindrome-ii.cpp">
+			<Option target="DoublePointer"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DoublePointer/88-merge-sorted-array.cpp">
+			<Option target="DoublePointer"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/303-range-sum-query-immutable.cpp">
+			<Option target="ArrayInterval"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/413-arithmetic-slices.cpp">
+			<Option target="ArrayInterval"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/show.cpp">
+			<Option target="ArrayInterval"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/show.h">
+			<Option target="ArrayInterval"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/FibonacciSequence/198-house-robber.cpp">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/FibonacciSequence/213-house-robber-ii.cpp">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/FibonacciSequence/70-climbing-stairs.cpp">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/FibonacciSequence/96-unique-binary-search-trees.cpp">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/FibonacciSequence/sum-fibon.cpp">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/MatrixPath/62-unique-paths.cpp">
+			<Option target="MatrixPath"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/300-longest-increasing-subsequence.cpp">
+			<Option target="LongestIncreasingSubsequence"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/376-wiggle-subsequence.cpp">
+			<Option target="LongestIncreasingSubsequence"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/646-maximum-length-of-pair-chain.cpp">
+			<Option target="LongestIncreasingSubsequence"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/show.cpp">
+			<Option target="LongestIncreasingSubsequence"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/show.h">
+			<Option target="LongestIncreasingSubsequence"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/279-perfect-squares.cpp">
+			<Option target="SplitInteger"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/343-integer-break.cpp">
+			<Option target="SplitInteger"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/91-decode-ways.cpp">
+			<Option target="SplitInteger"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/show.cpp">
+			<Option target="SplitInteger"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/show.h">
+			<Option target="SplitInteger"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/StringSequence/1143-longest-common-subsequence.cpp">
+			<Option target="LongestSubsequence"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/StringSequence/516-longest-palindromic-subsequence.cpp">
+			<Option target="LongestSubsequence"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/StringSequence/72-edit-distance.cpp">
+			<Option target="LongestSubsequence"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/StringSequence/show.cpp">
+			<Option target="LongestSubsequence"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/StringSequence/show.h">
+			<Option target="LongestSubsequence"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Graph/207-course-schedule.cpp">
+			<Option target="Graph"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Graph/211-course-schedule-ii.cpp">
+			<Option target="Graph"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Graph/684-redundant-connection.cpp">
+			<Option target="Graph"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Graph/785-is-graph-bipartite.cpp">
+			<Option target="Graph"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/121-best-time-to-buy-and-sell-stock.cpp">
+			<Option target="Greedy"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/122-best-time-to-buy-and-sell-stock-ii.cpp">
+			<Option target="Greedy"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/392-is-subsequence.cpp">
+			<Option target="Greedy"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/406-queue-reconstruction-by-height.cpp">
+			<Option target="Greedy"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/435-non-overlapping-intervals.cpp">
+			<Option target="Greedy"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/452-minimum-number-of-arrows-to-burst-balloons.cpp">
+			<Option target="Greedy"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/455-assign-cookies.cpp">
+			<Option target="Greedy"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/53-maximum-subarray.cpp">
+			<Option target="Greedy"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/605-can-place-flowers.cpp">
+			<Option target="Greedy"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/665-non-decreasing-array.cpp">
+			<Option target="Greedy"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/763-partition-labels.cpp">
+			<Option target="Greedy"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/BFS/1091-shortest-path-in-binary-matrix.cpp">
+			<Option target="BFS"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/BFS/127-word-ladder.cpp">
+			<Option target="BFS"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/BFS/279-perfect-squares.cpp">
+			<Option target="BFS"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/131-palindrome-partitioning.cpp">
+			<Option target="Backtracking"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/78-subsets.cpp">
+			<Option target="Backtracking"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/sudoku-solver.cpp">
+			<Option target="Backtracking"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/DFS/130-surrounded-regions.cpp">
+			<Option target="DFS"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/DFS/200-number-of-islands.cpp">
+			<Option target="DFS"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/DFS/417-pacific-atlantic-water-flow.cpp">
+			<Option target="DFS"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/DFS/547-friend-circles.cpp">
+			<Option target="DFS"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/DFS/695-max-area-of-island.cpp">
+			<Option target="DFS"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Sort/215-kth-largest-element-in-an-array.cpp">
+			<Option target="Sort"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Sort/347-top-k-frequent-elements.cpp">
+			<Option target="Sort"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Sort/451-sort-characters-by-frequency.cpp">
+			<Option target="Sort"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Sort/75-sort-colors.cpp">
+			<Option target="Sort"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Tree/Recursion/104-maximum-depth-of-binary-tree.cpp">
+			<Option target="Recursion"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Tree/Recursion/110-balanced-binary-tree.cpp">
+			<Option target="Recursion"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Tree/Recursion/543-diameter-of-binary-tree.cpp">
+			<Option target="Recursion"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/test/test.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/ListNode.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/ListNode.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/TreeNode.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/TreeNode.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/show.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/show.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utils\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/BinarySearch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\BinarySearch\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DivideAndConquer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DivideAndConquer\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DoublePointer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DoublePointer\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\ArrayInterval\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/FibonacciSequence/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\FibonacciSequence\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/MatrixPath/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\MatrixPath\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\NumberSubsequence\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\SplitInteger\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/StringSequence/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\StringSequence\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Greedy\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Search\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Search\Backtracking\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/BFS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Search\BFS\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/DFS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Search\DFS\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Sort\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Tree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Tree\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Tree/Recursion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Tree\Recursion\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Graph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Graph\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Array/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Array\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DeepGlint\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\alibaba\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Nowcoder\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

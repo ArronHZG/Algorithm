@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/arron/Projects/ClionProjects/Algorithm/utils/show.cpp
+show.h
+/Users/arron/Projects/ClionProjects/Algorithm/utils/show.h
+
+/Users/arron/Projects/ClionProjects/Algorithm/utils/show.h
+iostream
+-
+vector
+-
+queue
+-
+set
+-
+map
+-
+unordered_set
+-
+unordered_map
+-
+cmath
+-
+cstring
+-
+algorithm
+-
+numeric
+-
+

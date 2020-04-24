@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="utils"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\test\;CMake Files\leetcode\;CMake Files\leetcode\BinarySearch\;CMake Files\leetcode\DivideAndConquer\;CMake Files\leetcode\DoublePointer\;CMake Files\leetcode\DynamicProgramming\;CMake Files\leetcode\DynamicProgramming\ArrayInterval\;CMake Files\leetcode\DynamicProgramming\FibonacciSequence\;CMake Files\leetcode\DynamicProgramming\MatrixPath\;CMake Files\leetcode\DynamicProgramming\NumberSubsequence\;CMake Files\leetcode\DynamicProgramming\SplitInteger\;CMake Files\leetcode\DynamicProgramming\StringSequence\;CMake Files\leetcode\Greedy\;CMake Files\leetcode\Search\;CMake Files\leetcode\Search\Backtracking\;CMake Files\leetcode\Search\BFS\;CMake Files\leetcode\Search\DFS\;CMake Files\leetcode\Sort\;CMake Files\leetcode\Tree\;CMake Files\leetcode\Tree\Recursion\;CMake Files\leetcode\Graph\;CMake Files\leetcode\Array\;CMake Files\DeepGlint\;CMake Files\alibaba\;CMake Files\Nowcoder\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 utils"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 utils/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/ListNode.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/ListNode.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/TreeNode.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/TreeNode.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/show.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/show.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utils\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/BinarySearch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\BinarySearch\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DivideAndConquer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DivideAndConquer\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DoublePointer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DoublePointer\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\ArrayInterval\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/FibonacciSequence/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\FibonacciSequence\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/MatrixPath/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\MatrixPath\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\NumberSubsequence\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\SplitInteger\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/StringSequence/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\StringSequence\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Greedy\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Search\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Search\Backtracking\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/BFS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Search\BFS\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/DFS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Search\DFS\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Sort\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Tree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Tree\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Tree/Recursion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Tree\Recursion\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Graph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Graph\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Array/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Array\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DeepGlint\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\alibaba\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Nowcoder\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Algorithm" targetName="Alibaba" />
+      <config projectName="Algorithm" targetName="DoublePointer" />
+      <config projectName="Algorithm" targetName="Greedy" />
+      <config projectName="Algorithm" targetName="DeepGlint" />
+      <config projectName="Algorithm" targetName="LongestIncreasingSubsequence" />
+      <config projectName="Algorithm" targetName="Backtracking" />
+      <config projectName="Algorithm" targetName="DynamicProgramming" />
+      <config projectName="Algorithm" targetName="Graph" />
+      <config projectName="Algorithm" targetName="Array" />
+      <config projectName="Algorithm" targetName="MatrixPath" />
+      <config projectName="Algorithm" targetName="LongestSubsequence" />
+      <config projectName="Algorithm" targetName="Sort" />
+      <config projectName="Algorithm" targetName="Recursion" />
+      <config projectName="Algorithm" targetName="SplitInteger" />
+      <config projectName="Algorithm" targetName="BFS" />
+      <config projectName="Algorithm" targetName="DivideAndConquer" />
+      <config projectName="Algorithm" targetName="ArrayInterval" />
+      <config projectName="Algorithm" targetName="DFS" />
+      <config projectName="Algorithm" targetName="Test" />
+      <config projectName="Algorithm" targetName="utils" />
+      <config projectName="Algorithm" targetName="Nowcoder" />
+      <config projectName="Algorithm" targetName="BinarySearch" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a2bb45b-a822-4fe9-a5cf-a565defc757f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/arron.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Array/283-move-zeroes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Array/485-max-consecutive-ones.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Array/566-reshape-the-matrix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Array/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/BFS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/BFS.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/BFS.dir/1091-shortest-path-in-binary-matrix.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/BFS.dir/127-word-ladder.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/BFS.dir/279-perfect-squares.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/BFS.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/BFS.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/BFS.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/BFS.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/BFS.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/BFS.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/BFS.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/BFS.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/BFS.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Search/BFS/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nowcoder/increasingArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nowcoder/maxPresent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/eatFish.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/splitNum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithm.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/Alibaba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/Alibaba.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/Alibaba.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/Alibaba.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/Alibaba.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/Alibaba.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/Alibaba.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/Alibaba.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/Alibaba.dir/eatFish.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/Alibaba.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/Alibaba.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/Alibaba.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/Alibaba.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/Alibaba.dir/splitNum.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/Alibaba.dir/test.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Alibaba/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/Matrix.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/attack.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/match-prior-box.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/DeepGlint.dir/weapon.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/DeepGlint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/DeepGlint.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/DeepGlint/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/Nowcoder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/Nowcoder.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Nowcoder/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/Array" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/Array.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/CMakeFiles/Array.dir/283-move-zeroes.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/CMakeFiles/Array.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/CMakeFiles/Array.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/CMakeFiles/Array.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/CMakeFiles/Array.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/CMakeFiles/Array.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/CMakeFiles/Array.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/CMakeFiles/Array.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/CMakeFiles/Array.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/CMakeFiles/Array.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Array/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/BinarySearch/BinarySearch.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/BinarySearch/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/BinarySearch/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/BinarySearch/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/BinarySearch/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DivideAndConquer/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DivideAndConquer/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DivideAndConquer/DivideAndConquer.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DivideAndConquer/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DivideAndConquer/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/141-linked-list-cycle.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/167-two-sum-ii-input-array-is-sorted.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/345-reverse-vowels-of-a-string.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/524-longest-word-in-dictionary-through-deleting.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/633-sum-of-square-numbers.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/680-valid-palindrome-ii.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/88-merge-sorted-array.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/__/Graph/785-is-graph-bipartite.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/DoublePointer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/DoublePointer.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DoublePointer/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/ArrayInterval.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/198-house-robber.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/213-house-robber-ii.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/70-climbing-stairs.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/96-unique-binary-search-trees.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/sum-fibon.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/DynamicProgramming" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/DynamicProgramming.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/FibonacciSequence/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/MatrixPath.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/MatrixPath/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/LongestIncreasingSubsequence.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/SplitInteger.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/LongestSubsequence.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/DynamicProgramming/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/Graph.dir/207-course-schedule.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/Graph.dir/211-course-schedule-ii.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/Graph.dir/684-redundant-connection.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/Graph.dir/785-is-graph-bipartite.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/Graph.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/Graph.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/Graph.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/Graph.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/Graph.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/Graph.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/Graph.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/Graph.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/Graph.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/Graph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/Graph.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Graph/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Greedy/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Greedy/CMakeFiles/Greedy.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Greedy/CMakeFiles/Greedy.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Greedy/CMakeFiles/Greedy.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Greedy/CMakeFiles/Greedy.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Greedy/CMakeFiles/Greedy.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Greedy/CMakeFiles/Greedy.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Greedy/CMakeFiles/Greedy.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Greedy/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Greedy/Greedy.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Greedy/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Greedy/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/BFS/BFS.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/BFS/CMakeFiles/BFS.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/BFS/CMakeFiles/BFS.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/BFS/CMakeFiles/BFS.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/BFS/CMakeFiles/BFS.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/BFS/CMakeFiles/BFS.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/BFS/CMakeFiles/BFS.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/BFS/CMakeFiles/BFS.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/BFS/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/BFS/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/BFS/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/BFS/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/Backtracking/Backtracking.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/Backtracking/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/Backtracking/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/Backtracking/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/Backtracking/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/DFS/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/DFS/CMakeFiles/DFS.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/DFS/CMakeFiles/DFS.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/DFS/CMakeFiles/DFS.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/DFS/CMakeFiles/DFS.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/DFS/CMakeFiles/DFS.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/DFS/CMakeFiles/DFS.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/DFS/CMakeFiles/DFS.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/DFS/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/DFS/DFS.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/DFS/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/DFS/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Search/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Sort/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Sort/CMakeFiles/Sort.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Sort/CMakeFiles/Sort.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Sort/CMakeFiles/Sort.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Sort/CMakeFiles/Sort.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Sort/CMakeFiles/Sort.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Sort/CMakeFiles/Sort.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Sort/CMakeFiles/Sort.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Sort/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Sort/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Sort/Sort.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Sort/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/104-maximum-depth-of-binary-tree.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/110-balanced-binary-tree.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/543-diameter-of-binary-tree.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/Recursion" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/Recursion.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/Recursion/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/Tree/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/Test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/Test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/Test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/Test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/Test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/Test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/Test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/test/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/test/Test.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/test/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/utils.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/utils.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/utils.dir/ListNode.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/utils.dir/TreeNode.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/utils.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/utils.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/utils.dir/cmake_clean_target.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/utils.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/utils.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/utils.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/utils.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/utils.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/CMakeFiles/utils.dir/show.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/libutils.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/utils/utils.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Graph/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Graph/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nowcoder/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Nowcoder/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/DoublePointer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/DoublePointer/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/show.h" beforeDir="false" afterPath="$PROJECT_DIR$/utils/show.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-Array" />
+  </component>
+  <component name="ProjectId" id="1alnVsY7pOFbmHccL4AGt0xntAr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leetcode/Array" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leetcode/Array" />
+      <recent name="$PROJECT_DIR$/Nowcoder" />
+      <recent name="$PROJECT_DIR$/deepGlint" />
+      <recent name="$PROJECT_DIR$/Alibaba" />
+      <recent name="$PROJECT_DIR$/ DeepGlint" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Google Test.findMaxConsecutiveOnes.1">
+    <configuration name="findMaxConsecutiveOnes.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithm" TARGET_NAME="Array" RUN_TARGET_PROJECT_NAME="Algorithm" RUN_TARGET_NAME="Array" TEST_CLASS="findMaxConsecutiveOnes" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="matrixReshape.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithm" TARGET_NAME="Array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithm" RUN_TARGET_NAME="Array" TEST_CLASS="matrixReshape" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moveZeroes.1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithm" TARGET_NAME="Array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithm" RUN_TARGET_NAME="Array" TEST_CLASS="moveZeroes" TEST_METHOD="1" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Google Test.moveZeroes.1" />
+      <item itemvalue="Google Test.matrixReshape.1" />
+      <item itemvalue="Google Test.findMaxConsecutiveOnes.1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.findMaxConsecutiveOnes.1" />
+        <item itemvalue="Google Test.matrixReshape.1" />
+        <item itemvalue="Google Test.moveZeroes.1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a2bb45b-a822-4fe9-a5cf-a565defc757f" name="Default Changelist" comment="" />
+      <created>1587319074852</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587319074852</updated>
+      <workItem from="1587319079099" duration="3215000" />
+      <workItem from="1587371453831" duration="9712000" />
+      <workItem from="1587411099662" duration="37549000" />
+      <workItem from="1587721531411" duration="2552000" />
+    </task>
+    <task id="LOCAL-00001" summary="graph">
+      <created>1587372191958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587372191959</updated>
+    </task>
+    <task id="LOCAL-00002" summary=" nowcoder">
+      <created>1587466323054</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587466323054</updated>
+    </task>
+    <task id="LOCAL-00003" summary=" nowcoder">
+      <created>1587537074421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587537074421</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="graph" />
+    <MESSAGE value=" nowcoder" />
+    <option name="LAST_COMMIT_MESSAGE" value=" nowcoder" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587722520935">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="232" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1587722520935" />
+    <state x="0" y="0" width="853" height="960" key="CommitChangelistDialog2" timestamp="1587537074221">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="0" y="0" width="853" height="960" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1587537074221" />
+    <state width="1492" height="321" key="GridCell.Tab.0.bottom" timestamp="1587723349810">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1492" height="321" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1587723349810" />
+    <state width="1492" height="321" key="GridCell.Tab.0.center" timestamp="1587723349809">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1492" height="321" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1587723349809" />
+    <state width="1492" height="321" key="GridCell.Tab.0.left" timestamp="1587723349809">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1492" height="321" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1587723349809" />
+    <state width="1492" height="321" key="GridCell.Tab.0.right" timestamp="1587723349810">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1492" height="321" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1587723349810" />
+    <state width="1492" height="345" key="GridCell.Tab.1.bottom" timestamp="1587722489048">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1492" height="345" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1587722489048" />
+    <state width="1492" height="345" key="GridCell.Tab.1.center" timestamp="1587722489047">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1492" height="345" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1587722489047" />
+    <state width="1492" height="345" key="GridCell.Tab.1.left" timestamp="1587722489046">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1492" height="345" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1587722489046" />
+    <state width="1492" height="345" key="GridCell.Tab.1.right" timestamp="1587722489047">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1492" height="345" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1587722489047" />
+    <state x="537" y="113" key="RollbackChangesDialog" timestamp="1587465013676">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="537" y="113" key="RollbackChangesDialog/0.0.1536.960@0.0.1536.960" timestamp="1587465013676" />
+    <state x="0" y="0" width="1536" height="960" key="SettingsEditor" timestamp="1587482538363">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="0" y="0" width="1536" height="960" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1587482538363" />
+    <state x="368" y="216" key="Vcs.Push.Dialog.v2" timestamp="1587537076121">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="368" y="216" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1587537076121" />
+    <state x="428" y="312" key="com.intellij.ide.util.TipDialog" timestamp="1587721534345">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="428" y="312" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1587721534345" />
+    <state x="416" y="221" width="706" height="518" key="find.popup" timestamp="1587722371310">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="416" y="221" width="706" height="518" key="find.popup/0.0.1536.960@0.0.1536.960" timestamp="1587722371310" />
+    <state x="651" y="122" key="refactoring.ChangeSignatureDialog" timestamp="1587459934038">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="651" y="122" key="refactoring.ChangeSignatureDialog/0.0.1536.960@0.0.1536.960" timestamp="1587459934038" />
+    <state x="433" y="225" key="run.anything.popup" timestamp="1587425238881">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="433" y="225" key="run.anything.popup/0.0.1536.960@0.0.1536.960" timestamp="1587425238881" />
+    <state x="433" y="211" key="search.everywhere.popup" timestamp="1587722711238">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="433" y="211" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1587722711238" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Nowcoder/increasingArray.cpp</url>
+          <line>31</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

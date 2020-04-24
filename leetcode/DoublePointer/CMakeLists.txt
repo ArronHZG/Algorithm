@@ -18,6 +18,6 @@ add_executable(${PROJECT_NAME}
         680-valid-palindrome-ii.cpp
         88-merge-sorted-array.cpp
         141-linked-list-cycle.cpp
-        524-longest-word-in-dictionary-through-deleting.cpp ../Graph/785-is-graph-bipartite.cpp)
+        524-longest-word-in-dictionary-through-deleting.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})
