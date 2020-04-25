@@ -59,7 +59,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/cmake_install.cmake")
+  include("/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

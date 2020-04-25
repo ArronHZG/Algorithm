@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/cakeNumber.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o"
-  "/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/countLR.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.o"
-  "/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/increasingArray.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.o"
-  "/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/maxPresent.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.o"
-  "/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/selectPresent.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.o"
-  "/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/seqSum.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.o"
-  "/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/sequenceSum.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o"
+  "/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/cakeNumber.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o"
+  "/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/countLR.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.o"
+  "/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/increasingArray.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.o"
+  "/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/maxPresent.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.o"
+  "/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/selectPresent.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.o"
+  "/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/seqSum.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.o"
+  "/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/sequenceSum.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

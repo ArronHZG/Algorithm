@@ -41,7 +41,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
   "../DeepGlint/CMakeLists.txt"
-  "../Nowcoder/CMakeLists.txt"
   "../alibaba/CMakeLists.txt"
   "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
@@ -56,6 +55,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../leetcode/DynamicProgramming/FibonacciSequence/CMakeLists.txt"
   "../leetcode/DynamicProgramming/MatrixPath/CMakeLists.txt"
   "../leetcode/DynamicProgramming/NumberSubsequence/CMakeLists.txt"
+  "../leetcode/DynamicProgramming/OneZeroPackage/CMakeLists.txt"
   "../leetcode/DynamicProgramming/SplitInteger/CMakeLists.txt"
   "../leetcode/DynamicProgramming/StringSequence/CMakeLists.txt"
   "../leetcode/Graph/CMakeLists.txt"
@@ -68,6 +68,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../leetcode/Sort/CMakeLists.txt"
   "../leetcode/Tree/CMakeLists.txt"
   "../leetcode/Tree/Recursion/CMakeLists.txt"
+  "../nowcoder/CMakeLists.txt"
   "../test/CMakeLists.txt"
   "../utils/CMakeLists.txt"
   )
@@ -94,6 +95,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/CMakeDirectoryInformation.cmake"
   "leetcode/DynamicProgramming/SplitInteger/CMakeFiles/CMakeDirectoryInformation.cmake"
   "leetcode/DynamicProgramming/StringSequence/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "leetcode/DynamicProgramming/OneZeroPackage/CMakeFiles/CMakeDirectoryInformation.cmake"
   "leetcode/Greedy/CMakeFiles/CMakeDirectoryInformation.cmake"
   "leetcode/Search/CMakeFiles/CMakeDirectoryInformation.cmake"
   "leetcode/Search/Backtracking/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -107,7 +109,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "leetcode/Link/CMakeFiles/CMakeDirectoryInformation.cmake"
   "DeepGlint/CMakeFiles/CMakeDirectoryInformation.cmake"
   "alibaba/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Nowcoder/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "nowcoder/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -123,6 +125,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/DependInfo.cmake"
   "leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/DependInfo.cmake"
   "leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/DependInfo.cmake"
+  "leetcode/DynamicProgramming/OneZeroPackage/CMakeFiles/OneZeroPackage.dir/DependInfo.cmake"
   "leetcode/Greedy/CMakeFiles/Greedy.dir/DependInfo.cmake"
   "leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/DependInfo.cmake"
   "leetcode/Search/BFS/CMakeFiles/BFS.dir/DependInfo.cmake"
@@ -134,5 +137,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "leetcode/Link/CMakeFiles/Link.dir/DependInfo.cmake"
   "DeepGlint/CMakeFiles/DeepGlint.dir/DependInfo.cmake"
   "alibaba/CMakeFiles/Alibaba.dir/DependInfo.cmake"
-  "Nowcoder/CMakeFiles/Nowcoder.dir/DependInfo.cmake"
+  "nowcoder/CMakeFiles/Nowcoder.dir/DependInfo.cmake"
   )

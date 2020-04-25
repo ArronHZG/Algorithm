@@ -1,4 +1,4 @@
-# Install script for directory: /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder
+# Install script for directory: /Users/arron/Projects/ClionProjects/Algorithm/nowcoder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/CMakeFiles/progress.marks
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Nowcoder/all
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/CMakeFiles/progress.marks
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 nowcoder/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Nowcoder/clean
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 nowcoder/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,12 +97,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Nowcoder/preinstall
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 nowcoder/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Nowcoder/preinstall
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 nowcoder/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -111,18 +111,18 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Nowcoder/CMakeFiles/Nowcoder.dir/rule:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Nowcoder/CMakeFiles/Nowcoder.dir/rule
-.PHONY : Nowcoder/CMakeFiles/Nowcoder.dir/rule
+nowcoder/CMakeFiles/Nowcoder.dir/rule:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 nowcoder/CMakeFiles/Nowcoder.dir/rule
+.PHONY : nowcoder/CMakeFiles/Nowcoder.dir/rule
 
 # Convenience name for target.
-Nowcoder: Nowcoder/CMakeFiles/Nowcoder.dir/rule
+Nowcoder: nowcoder/CMakeFiles/Nowcoder.dir/rule
 
 .PHONY : Nowcoder
 
 # fast build rule for target.
 Nowcoder/fast:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/build
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/build
 .PHONY : Nowcoder/fast
 
 cakeNumber.o: cakeNumber.cpp.o
@@ -131,7 +131,7 @@ cakeNumber.o: cakeNumber.cpp.o
 
 # target to build an object file
 cakeNumber.cpp.o:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o
 .PHONY : cakeNumber.cpp.o
 
 cakeNumber.i: cakeNumber.cpp.i
@@ -140,7 +140,7 @@ cakeNumber.i: cakeNumber.cpp.i
 
 # target to preprocess a source file
 cakeNumber.cpp.i:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.i
 .PHONY : cakeNumber.cpp.i
 
 cakeNumber.s: cakeNumber.cpp.s
@@ -149,7 +149,7 @@ cakeNumber.s: cakeNumber.cpp.s
 
 # target to generate assembly for a file
 cakeNumber.cpp.s:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.s
 .PHONY : cakeNumber.cpp.s
 
 countLR.o: countLR.cpp.o
@@ -158,7 +158,7 @@ countLR.o: countLR.cpp.o
 
 # target to build an object file
 countLR.cpp.o:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.o
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.o
 .PHONY : countLR.cpp.o
 
 countLR.i: countLR.cpp.i
@@ -167,7 +167,7 @@ countLR.i: countLR.cpp.i
 
 # target to preprocess a source file
 countLR.cpp.i:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.i
 .PHONY : countLR.cpp.i
 
 countLR.s: countLR.cpp.s
@@ -176,7 +176,7 @@ countLR.s: countLR.cpp.s
 
 # target to generate assembly for a file
 countLR.cpp.s:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.s
 .PHONY : countLR.cpp.s
 
 increasingArray.o: increasingArray.cpp.o
@@ -185,7 +185,7 @@ increasingArray.o: increasingArray.cpp.o
 
 # target to build an object file
 increasingArray.cpp.o:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.o
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.o
 .PHONY : increasingArray.cpp.o
 
 increasingArray.i: increasingArray.cpp.i
@@ -194,7 +194,7 @@ increasingArray.i: increasingArray.cpp.i
 
 # target to preprocess a source file
 increasingArray.cpp.i:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.i
 .PHONY : increasingArray.cpp.i
 
 increasingArray.s: increasingArray.cpp.s
@@ -203,7 +203,7 @@ increasingArray.s: increasingArray.cpp.s
 
 # target to generate assembly for a file
 increasingArray.cpp.s:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.s
 .PHONY : increasingArray.cpp.s
 
 maxPresent.o: maxPresent.cpp.o
@@ -212,7 +212,7 @@ maxPresent.o: maxPresent.cpp.o
 
 # target to build an object file
 maxPresent.cpp.o:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.o
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.o
 .PHONY : maxPresent.cpp.o
 
 maxPresent.i: maxPresent.cpp.i
@@ -221,7 +221,7 @@ maxPresent.i: maxPresent.cpp.i
 
 # target to preprocess a source file
 maxPresent.cpp.i:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.i
 .PHONY : maxPresent.cpp.i
 
 maxPresent.s: maxPresent.cpp.s
@@ -230,7 +230,7 @@ maxPresent.s: maxPresent.cpp.s
 
 # target to generate assembly for a file
 maxPresent.cpp.s:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.s
 .PHONY : maxPresent.cpp.s
 
 selectPresent.o: selectPresent.cpp.o
@@ -239,7 +239,7 @@ selectPresent.o: selectPresent.cpp.o
 
 # target to build an object file
 selectPresent.cpp.o:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.o
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.o
 .PHONY : selectPresent.cpp.o
 
 selectPresent.i: selectPresent.cpp.i
@@ -248,7 +248,7 @@ selectPresent.i: selectPresent.cpp.i
 
 # target to preprocess a source file
 selectPresent.cpp.i:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.i
 .PHONY : selectPresent.cpp.i
 
 selectPresent.s: selectPresent.cpp.s
@@ -257,7 +257,7 @@ selectPresent.s: selectPresent.cpp.s
 
 # target to generate assembly for a file
 selectPresent.cpp.s:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.s
 .PHONY : selectPresent.cpp.s
 
 seqSum.o: seqSum.cpp.o
@@ -266,7 +266,7 @@ seqSum.o: seqSum.cpp.o
 
 # target to build an object file
 seqSum.cpp.o:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.o
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.o
 .PHONY : seqSum.cpp.o
 
 seqSum.i: seqSum.cpp.i
@@ -275,7 +275,7 @@ seqSum.i: seqSum.cpp.i
 
 # target to preprocess a source file
 seqSum.cpp.i:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.i
 .PHONY : seqSum.cpp.i
 
 seqSum.s: seqSum.cpp.s
@@ -284,7 +284,7 @@ seqSum.s: seqSum.cpp.s
 
 # target to generate assembly for a file
 seqSum.cpp.s:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.s
 .PHONY : seqSum.cpp.s
 
 sequenceSum.o: sequenceSum.cpp.o
@@ -293,7 +293,7 @@ sequenceSum.o: sequenceSum.cpp.o
 
 # target to build an object file
 sequenceSum.cpp.o:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o
 .PHONY : sequenceSum.cpp.o
 
 sequenceSum.i: sequenceSum.cpp.i
@@ -302,7 +302,7 @@ sequenceSum.i: sequenceSum.cpp.i
 
 # target to preprocess a source file
 sequenceSum.cpp.i:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.i
 .PHONY : sequenceSum.cpp.i
 
 sequenceSum.s: sequenceSum.cpp.s
@@ -311,7 +311,7 @@ sequenceSum.s: sequenceSum.cpp.s
 
 # target to generate assembly for a file
 sequenceSum.cpp.s:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.s
 .PHONY : sequenceSum.cpp.s
 
 # Help Target

@@ -5,7 +5,7 @@
 		<Option title="Algorithm"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\test\;CMake Files\leetcode\;CMake Files\leetcode\BinarySearch\;CMake Files\leetcode\DivideAndConquer\;CMake Files\leetcode\DoublePointer\;CMake Files\leetcode\DynamicProgramming\;CMake Files\leetcode\DynamicProgramming\ArrayInterval\;CMake Files\leetcode\DynamicProgramming\FibonacciSequence\;CMake Files\leetcode\DynamicProgramming\MatrixPath\;CMake Files\leetcode\DynamicProgramming\NumberSubsequence\;CMake Files\leetcode\DynamicProgramming\SplitInteger\;CMake Files\leetcode\DynamicProgramming\StringSequence\;CMake Files\leetcode\Greedy\;CMake Files\leetcode\Search\;CMake Files\leetcode\Search\Backtracking\;CMake Files\leetcode\Search\BFS\;CMake Files\leetcode\Search\DFS\;CMake Files\leetcode\Sort\;CMake Files\leetcode\Tree\;CMake Files\leetcode\Tree\Recursion\;CMake Files\leetcode\Graph\;CMake Files\leetcode\Array\;CMake Files\leetcode\Link\;CMake Files\DeepGlint\;CMake Files\alibaba\;CMake Files\Nowcoder\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\test\;CMake Files\leetcode\;CMake Files\leetcode\BinarySearch\;CMake Files\leetcode\DivideAndConquer\;CMake Files\leetcode\DoublePointer\;CMake Files\leetcode\DynamicProgramming\;CMake Files\leetcode\DynamicProgramming\ArrayInterval\;CMake Files\leetcode\DynamicProgramming\FibonacciSequence\;CMake Files\leetcode\DynamicProgramming\MatrixPath\;CMake Files\leetcode\DynamicProgramming\NumberSubsequence\;CMake Files\leetcode\DynamicProgramming\SplitInteger\;CMake Files\leetcode\DynamicProgramming\StringSequence\;CMake Files\leetcode\DynamicProgramming\OneZeroPackage\;CMake Files\leetcode\Greedy\;CMake Files\leetcode\Search\;CMake Files\leetcode\Search\Backtracking\;CMake Files\leetcode\Search\BFS\;CMake Files\leetcode\Search\DFS\;CMake Files\leetcode\Sort\;CMake Files\leetcode\Tree\;CMake Files\leetcode\Tree\Recursion\;CMake Files\leetcode\Graph\;CMake Files\leetcode\Array\;CMake Files\leetcode\Link\;CMake Files\DeepGlint\;CMake Files\alibaba\;CMake Files\nowcoder\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug"/>
@@ -505,6 +505,50 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/StringSequence/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="OneZeroPackage">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/OneZeroPackage/OneZeroPackage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/OneZeroPackage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/OneZeroPackage/Makefile&quot;  VERBOSE=1 OneZeroPackage"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/OneZeroPackage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/OneZeroPackage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/OneZeroPackage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OneZeroPackage/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/OneZeroPackage/OneZeroPackage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/OneZeroPackage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/OneZeroPackage/Makefile&quot;  VERBOSE=1 OneZeroPackage/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/OneZeroPackage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/OneZeroPackage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/OneZeroPackage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Greedy">
 				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy/Greedy" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Greedy"/>
@@ -982,8 +1026,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="Nowcoder">
-				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Nowcoder" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder"/>
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/Nowcoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -997,15 +1041,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 Nowcoder"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/Makefile&quot;  VERBOSE=1 Nowcoder"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Nowcoder/fast">
-				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Nowcoder" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder"/>
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/Nowcoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1019,10 +1063,10 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 Nowcoder/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/Makefile&quot;  VERBOSE=1 Nowcoder/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -1043,27 +1087,6 @@
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/weapon.cpp">
 			<Option target="DeepGlint"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/cakeNumber.cpp">
-			<Option target="Nowcoder"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/countLR.cpp">
-			<Option target="Nowcoder"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/increasingArray.cpp">
-			<Option target="Nowcoder"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/maxPresent.cpp">
-			<Option target="Nowcoder"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/selectPresent.cpp">
-			<Option target="Nowcoder"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/seqSum.cpp">
-			<Option target="Nowcoder"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/sequenceSum.cpp">
-			<Option target="Nowcoder"/>
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/eatFish.cpp">
 			<Option target="Alibaba"/>
@@ -1163,6 +1186,15 @@
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/646-maximum-length-of-pair-chain.cpp">
 			<Option target="LongestIncreasingSubsequence"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/OneZeroPackage/416-partition-equal-subset-sum.cpp">
+			<Option target="OneZeroPackage"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/OneZeroPackage/494-target-sum.cpp">
+			<Option target="OneZeroPackage"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/OneZeroPackage/Package.cpp">
+			<Option target="OneZeroPackage"/>
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/279-perfect-squares.cpp">
 			<Option target="SplitInteger"/>
@@ -1284,6 +1316,27 @@
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Tree/Recursion/543-diameter-of-binary-tree.cpp">
 			<Option target="Recursion"/>
 		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/cakeNumber.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/countLR.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/increasingArray.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/maxPresent.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/selectPresent.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/seqSum.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/sequenceSum.cpp">
+			<Option target="Nowcoder"/>
+		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/test/test.cpp">
 			<Option target="Test"/>
 		</Unit>
@@ -1347,6 +1400,9 @@
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/StringSequence/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\StringSequence\"/>
 		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/OneZeroPackage/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\OneZeroPackage\"/>
+		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\leetcode\Greedy\"/>
 		</Unit>
@@ -1386,8 +1442,8 @@
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\alibaba\"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Nowcoder\"/>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\nowcoder\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

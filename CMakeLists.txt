@@ -18,6 +18,6 @@ add_subdirectory(test)
 add_subdirectory(leetcode)
 add_subdirectory(DeepGlint)
 add_subdirectory(alibaba)
-add_subdirectory(Nowcoder)
+add_subdirectory(nowcoder)
 
 

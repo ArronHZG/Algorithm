@@ -12,7 +12,6 @@ set(LIBRARIES
         pthread)
 
 add_executable(${PROJECT_NAME}
-        300-longest-increasing-subsequence.cpp 646-maximum-length-of-pair-chain.cpp 376-wiggle-subsequence.cpp
-        )
+        300-longest-increasing-subsequence.cpp 646-maximum-length-of-pair-chain.cpp 376-wiggle-subsequence.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})

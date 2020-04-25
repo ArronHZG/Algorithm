@@ -49,104 +49,104 @@ CMAKE_SOURCE_DIR = /Users/arron/Projects/ClionProjects/Algorithm
 CMAKE_BINARY_DIR = /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include Nowcoder/CMakeFiles/Nowcoder.dir/depend.make
+include nowcoder/CMakeFiles/Nowcoder.dir/depend.make
 
 # Include the progress variables for this target.
-include Nowcoder/CMakeFiles/Nowcoder.dir/progress.make
+include nowcoder/CMakeFiles/Nowcoder.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include Nowcoder/CMakeFiles/Nowcoder.dir/flags.make
+include nowcoder/CMakeFiles/Nowcoder.dir/flags.make
 
-Nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.o: Nowcoder/CMakeFiles/Nowcoder.dir/flags.make
-Nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.o: ../Nowcoder/seqSum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.o"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/seqSum.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/seqSum.cpp
+nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.o: nowcoder/CMakeFiles/Nowcoder.dir/flags.make
+nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.o: ../nowcoder/seqSum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/seqSum.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/seqSum.cpp
 
-Nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.i: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nowcoder.dir/seqSum.cpp.i"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/seqSum.cpp > CMakeFiles/Nowcoder.dir/seqSum.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/seqSum.cpp > CMakeFiles/Nowcoder.dir/seqSum.cpp.i
 
-Nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.s: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nowcoder.dir/seqSum.cpp.s"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/seqSum.cpp -o CMakeFiles/Nowcoder.dir/seqSum.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/seqSum.cpp -o CMakeFiles/Nowcoder.dir/seqSum.cpp.s
 
-Nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o: Nowcoder/CMakeFiles/Nowcoder.dir/flags.make
-Nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o: ../Nowcoder/sequenceSum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/sequenceSum.cpp
+nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o: nowcoder/CMakeFiles/Nowcoder.dir/flags.make
+nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o: ../nowcoder/sequenceSum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/sequenceSum.cpp
 
-Nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.i: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nowcoder.dir/sequenceSum.cpp.i"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/sequenceSum.cpp > CMakeFiles/Nowcoder.dir/sequenceSum.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/sequenceSum.cpp > CMakeFiles/Nowcoder.dir/sequenceSum.cpp.i
 
-Nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.s: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nowcoder.dir/sequenceSum.cpp.s"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/sequenceSum.cpp -o CMakeFiles/Nowcoder.dir/sequenceSum.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/sequenceSum.cpp -o CMakeFiles/Nowcoder.dir/sequenceSum.cpp.s
 
-Nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.o: Nowcoder/CMakeFiles/Nowcoder.dir/flags.make
-Nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.o: ../Nowcoder/countLR.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.o"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/countLR.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/countLR.cpp
+nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.o: nowcoder/CMakeFiles/Nowcoder.dir/flags.make
+nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.o: ../nowcoder/countLR.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/countLR.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/countLR.cpp
 
-Nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.i: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nowcoder.dir/countLR.cpp.i"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/countLR.cpp > CMakeFiles/Nowcoder.dir/countLR.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/countLR.cpp > CMakeFiles/Nowcoder.dir/countLR.cpp.i
 
-Nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.s: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nowcoder.dir/countLR.cpp.s"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/countLR.cpp -o CMakeFiles/Nowcoder.dir/countLR.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/countLR.cpp -o CMakeFiles/Nowcoder.dir/countLR.cpp.s
 
-Nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o: Nowcoder/CMakeFiles/Nowcoder.dir/flags.make
-Nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o: ../Nowcoder/cakeNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/cakeNumber.cpp
+nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o: nowcoder/CMakeFiles/Nowcoder.dir/flags.make
+nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o: ../nowcoder/cakeNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/cakeNumber.cpp
 
-Nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.i: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nowcoder.dir/cakeNumber.cpp.i"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/cakeNumber.cpp > CMakeFiles/Nowcoder.dir/cakeNumber.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/cakeNumber.cpp > CMakeFiles/Nowcoder.dir/cakeNumber.cpp.i
 
-Nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.s: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nowcoder.dir/cakeNumber.cpp.s"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/cakeNumber.cpp -o CMakeFiles/Nowcoder.dir/cakeNumber.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/cakeNumber.cpp -o CMakeFiles/Nowcoder.dir/cakeNumber.cpp.s
 
-Nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.o: Nowcoder/CMakeFiles/Nowcoder.dir/flags.make
-Nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.o: ../Nowcoder/selectPresent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.o"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/selectPresent.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/selectPresent.cpp
+nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.o: nowcoder/CMakeFiles/Nowcoder.dir/flags.make
+nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.o: ../nowcoder/selectPresent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/selectPresent.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/selectPresent.cpp
 
-Nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.i: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nowcoder.dir/selectPresent.cpp.i"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/selectPresent.cpp > CMakeFiles/Nowcoder.dir/selectPresent.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/selectPresent.cpp > CMakeFiles/Nowcoder.dir/selectPresent.cpp.i
 
-Nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.s: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nowcoder.dir/selectPresent.cpp.s"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/selectPresent.cpp -o CMakeFiles/Nowcoder.dir/selectPresent.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/selectPresent.cpp -o CMakeFiles/Nowcoder.dir/selectPresent.cpp.s
 
-Nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.o: Nowcoder/CMakeFiles/Nowcoder.dir/flags.make
-Nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.o: ../Nowcoder/increasingArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.o"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/increasingArray.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/increasingArray.cpp
+nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.o: nowcoder/CMakeFiles/Nowcoder.dir/flags.make
+nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.o: ../nowcoder/increasingArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/increasingArray.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/increasingArray.cpp
 
-Nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.i: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nowcoder.dir/increasingArray.cpp.i"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/increasingArray.cpp > CMakeFiles/Nowcoder.dir/increasingArray.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/increasingArray.cpp > CMakeFiles/Nowcoder.dir/increasingArray.cpp.i
 
-Nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.s: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nowcoder.dir/increasingArray.cpp.s"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/increasingArray.cpp -o CMakeFiles/Nowcoder.dir/increasingArray.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/increasingArray.cpp -o CMakeFiles/Nowcoder.dir/increasingArray.cpp.s
 
-Nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.o: Nowcoder/CMakeFiles/Nowcoder.dir/flags.make
-Nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.o: ../Nowcoder/maxPresent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.o"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/maxPresent.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/maxPresent.cpp
+nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.o: nowcoder/CMakeFiles/Nowcoder.dir/flags.make
+nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.o: ../nowcoder/maxPresent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nowcoder.dir/maxPresent.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/maxPresent.cpp
 
-Nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.i: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nowcoder.dir/maxPresent.cpp.i"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/maxPresent.cpp > CMakeFiles/Nowcoder.dir/maxPresent.cpp.i
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/maxPresent.cpp > CMakeFiles/Nowcoder.dir/maxPresent.cpp.i
 
-Nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.s: cmake_force
+nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nowcoder.dir/maxPresent.cpp.s"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/maxPresent.cpp -o CMakeFiles/Nowcoder.dir/maxPresent.cpp.s
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/nowcoder/maxPresent.cpp -o CMakeFiles/Nowcoder.dir/maxPresent.cpp.s
 
 # Object files for target Nowcoder
 Nowcoder_OBJECTS = \
@@ -161,29 +161,29 @@ Nowcoder_OBJECTS = \
 # External object files for target Nowcoder
 Nowcoder_EXTERNAL_OBJECTS =
 
-Nowcoder/Nowcoder: Nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.o
-Nowcoder/Nowcoder: Nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o
-Nowcoder/Nowcoder: Nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.o
-Nowcoder/Nowcoder: Nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o
-Nowcoder/Nowcoder: Nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.o
-Nowcoder/Nowcoder: Nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.o
-Nowcoder/Nowcoder: Nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.o
-Nowcoder/Nowcoder: Nowcoder/CMakeFiles/Nowcoder.dir/build.make
-Nowcoder/Nowcoder: utils/libutils.a
-Nowcoder/Nowcoder: Nowcoder/CMakeFiles/Nowcoder.dir/link.txt
+nowcoder/Nowcoder: nowcoder/CMakeFiles/Nowcoder.dir/seqSum.cpp.o
+nowcoder/Nowcoder: nowcoder/CMakeFiles/Nowcoder.dir/sequenceSum.cpp.o
+nowcoder/Nowcoder: nowcoder/CMakeFiles/Nowcoder.dir/countLR.cpp.o
+nowcoder/Nowcoder: nowcoder/CMakeFiles/Nowcoder.dir/cakeNumber.cpp.o
+nowcoder/Nowcoder: nowcoder/CMakeFiles/Nowcoder.dir/selectPresent.cpp.o
+nowcoder/Nowcoder: nowcoder/CMakeFiles/Nowcoder.dir/increasingArray.cpp.o
+nowcoder/Nowcoder: nowcoder/CMakeFiles/Nowcoder.dir/maxPresent.cpp.o
+nowcoder/Nowcoder: nowcoder/CMakeFiles/Nowcoder.dir/build.make
+nowcoder/Nowcoder: utils/libutils.a
+nowcoder/Nowcoder: nowcoder/CMakeFiles/Nowcoder.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Nowcoder"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Nowcoder.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Nowcoder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Nowcoder/CMakeFiles/Nowcoder.dir/build: Nowcoder/Nowcoder
+nowcoder/CMakeFiles/Nowcoder.dir/build: nowcoder/Nowcoder
 
-.PHONY : Nowcoder/CMakeFiles/Nowcoder.dir/build
+.PHONY : nowcoder/CMakeFiles/Nowcoder.dir/build
 
-Nowcoder/CMakeFiles/Nowcoder.dir/clean:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder && $(CMAKE_COMMAND) -P CMakeFiles/Nowcoder.dir/cmake_clean.cmake
-.PHONY : Nowcoder/CMakeFiles/Nowcoder.dir/clean
+nowcoder/CMakeFiles/Nowcoder.dir/clean:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder && $(CMAKE_COMMAND) -P CMakeFiles/Nowcoder.dir/cmake_clean.cmake
+.PHONY : nowcoder/CMakeFiles/Nowcoder.dir/clean
 
-Nowcoder/CMakeFiles/Nowcoder.dir/depend:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/arron/Projects/ClionProjects/Algorithm /Users/arron/Projects/ClionProjects/Algorithm/Nowcoder /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/Nowcoder/CMakeFiles/Nowcoder.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : Nowcoder/CMakeFiles/Nowcoder.dir/depend
+nowcoder/CMakeFiles/Nowcoder.dir/depend:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/arron/Projects/ClionProjects/Algorithm /Users/arron/Projects/ClionProjects/Algorithm/nowcoder /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/CMakeFiles/Nowcoder.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : nowcoder/CMakeFiles/Nowcoder.dir/depend
 

@@ -23,7 +23,9 @@ using namespace std;
 template<typename T>
 void print(vector<T> vec) {
     for (auto a : vec) {
-        cout << a << ' ';
+        cout.setf(ios_base::left, ios_base::adjustfield); //使用右对齐
+        cout.width(4);
+        cout << a;
     }
     cout << endl;
 }

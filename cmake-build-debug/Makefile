@@ -254,6 +254,19 @@ LongestSubsequence/fast:
 .PHONY : LongestSubsequence/fast
 
 #=============================================================================
+# Target rules for targets named OneZeroPackage
+
+# Build rule for target.
+OneZeroPackage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OneZeroPackage
+.PHONY : OneZeroPackage
+
+# fast build rule for target.
+OneZeroPackage/fast:
+	$(MAKE) -f leetcode/DynamicProgramming/OneZeroPackage/CMakeFiles/OneZeroPackage.dir/build.make leetcode/DynamicProgramming/OneZeroPackage/CMakeFiles/OneZeroPackage.dir/build
+.PHONY : OneZeroPackage/fast
+
+#=============================================================================
 # Target rules for targets named Greedy
 
 # Build rule for target.
@@ -406,7 +419,7 @@ Nowcoder: cmake_check_build_system
 
 # fast build rule for target.
 Nowcoder/fast:
-	$(MAKE) -f Nowcoder/CMakeFiles/Nowcoder.dir/build.make Nowcoder/CMakeFiles/Nowcoder.dir/build
+	$(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/build
 .PHONY : Nowcoder/fast
 
 # Help Target
@@ -428,6 +441,7 @@ help:
 	@echo "... LongestIncreasingSubsequence"
 	@echo "... SplitInteger"
 	@echo "... LongestSubsequence"
+	@echo "... OneZeroPackage"
 	@echo "... Greedy"
 	@echo "... Backtracking"
 	@echo "... BFS"

@@ -5,7 +5,7 @@
 		<Option title="ArrayInterval"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\test\;CMake Files\leetcode\;CMake Files\leetcode\BinarySearch\;CMake Files\leetcode\DivideAndConquer\;CMake Files\leetcode\DoublePointer\;CMake Files\leetcode\DynamicProgramming\;CMake Files\leetcode\DynamicProgramming\ArrayInterval\;CMake Files\leetcode\DynamicProgramming\FibonacciSequence\;CMake Files\leetcode\DynamicProgramming\MatrixPath\;CMake Files\leetcode\DynamicProgramming\NumberSubsequence\;CMake Files\leetcode\DynamicProgramming\SplitInteger\;CMake Files\leetcode\DynamicProgramming\StringSequence\;CMake Files\leetcode\Greedy\;CMake Files\leetcode\Search\;CMake Files\leetcode\Search\Backtracking\;CMake Files\leetcode\Search\BFS\;CMake Files\leetcode\Search\DFS\;CMake Files\leetcode\Sort\;CMake Files\leetcode\Tree\;CMake Files\leetcode\Tree\Recursion\;CMake Files\leetcode\Graph\;CMake Files\leetcode\Array\;CMake Files\leetcode\Link\;CMake Files\DeepGlint\;CMake Files\alibaba\;CMake Files\Nowcoder\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\test\;CMake Files\leetcode\;CMake Files\leetcode\BinarySearch\;CMake Files\leetcode\DivideAndConquer\;CMake Files\leetcode\DoublePointer\;CMake Files\leetcode\DynamicProgramming\;CMake Files\leetcode\DynamicProgramming\ArrayInterval\;CMake Files\leetcode\DynamicProgramming\FibonacciSequence\;CMake Files\leetcode\DynamicProgramming\MatrixPath\;CMake Files\leetcode\DynamicProgramming\NumberSubsequence\;CMake Files\leetcode\DynamicProgramming\SplitInteger\;CMake Files\leetcode\DynamicProgramming\StringSequence\;CMake Files\leetcode\DynamicProgramming\OneZeroPackage\;CMake Files\leetcode\Greedy\;CMake Files\leetcode\Search\;CMake Files\leetcode\Search\Backtracking\;CMake Files\leetcode\Search\BFS\;CMake Files\leetcode\Search\DFS\;CMake Files\leetcode\Sort\;CMake Files\leetcode\Tree\;CMake Files\leetcode\Tree\Recursion\;CMake Files\leetcode\Graph\;CMake Files\leetcode\Array\;CMake Files\leetcode\Link\;CMake Files\DeepGlint\;CMake Files\alibaba\;CMake Files\nowcoder\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval"/>
@@ -108,6 +108,9 @@
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/StringSequence/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\StringSequence\"/>
 		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/OneZeroPackage/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\DynamicProgramming\OneZeroPackage\"/>
+		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\leetcode\Greedy\"/>
 		</Unit>
@@ -147,8 +150,8 @@
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\alibaba\"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/Nowcoder/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Nowcoder\"/>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\nowcoder\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
