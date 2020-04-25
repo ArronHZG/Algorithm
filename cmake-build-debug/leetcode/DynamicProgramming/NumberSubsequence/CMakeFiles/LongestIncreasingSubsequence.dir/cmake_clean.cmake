@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/LongestIncreasingSubsequence.dir/300-longest-increasing-subsequence.cpp.o"
   "CMakeFiles/LongestIncreasingSubsequence.dir/376-wiggle-subsequence.cpp.o"
   "CMakeFiles/LongestIncreasingSubsequence.dir/646-maximum-length-of-pair-chain.cpp.o"
-  "CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.o"
   "LongestIncreasingSubsequence"
   "LongestIncreasingSubsequence.pdb"
 )

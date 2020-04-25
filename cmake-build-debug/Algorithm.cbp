@@ -5,7 +5,7 @@
 		<Option title="Algorithm"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\test\;CMake Files\leetcode\;CMake Files\leetcode\BinarySearch\;CMake Files\leetcode\DivideAndConquer\;CMake Files\leetcode\DoublePointer\;CMake Files\leetcode\DynamicProgramming\;CMake Files\leetcode\DynamicProgramming\ArrayInterval\;CMake Files\leetcode\DynamicProgramming\FibonacciSequence\;CMake Files\leetcode\DynamicProgramming\MatrixPath\;CMake Files\leetcode\DynamicProgramming\NumberSubsequence\;CMake Files\leetcode\DynamicProgramming\SplitInteger\;CMake Files\leetcode\DynamicProgramming\StringSequence\;CMake Files\leetcode\Greedy\;CMake Files\leetcode\Search\;CMake Files\leetcode\Search\Backtracking\;CMake Files\leetcode\Search\BFS\;CMake Files\leetcode\Search\DFS\;CMake Files\leetcode\Sort\;CMake Files\leetcode\Tree\;CMake Files\leetcode\Tree\Recursion\;CMake Files\leetcode\Graph\;CMake Files\leetcode\Array\;CMake Files\DeepGlint\;CMake Files\alibaba\;CMake Files\Nowcoder\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\test\;CMake Files\leetcode\;CMake Files\leetcode\BinarySearch\;CMake Files\leetcode\DivideAndConquer\;CMake Files\leetcode\DoublePointer\;CMake Files\leetcode\DynamicProgramming\;CMake Files\leetcode\DynamicProgramming\ArrayInterval\;CMake Files\leetcode\DynamicProgramming\FibonacciSequence\;CMake Files\leetcode\DynamicProgramming\MatrixPath\;CMake Files\leetcode\DynamicProgramming\NumberSubsequence\;CMake Files\leetcode\DynamicProgramming\SplitInteger\;CMake Files\leetcode\DynamicProgramming\StringSequence\;CMake Files\leetcode\Greedy\;CMake Files\leetcode\Search\;CMake Files\leetcode\Search\Backtracking\;CMake Files\leetcode\Search\BFS\;CMake Files\leetcode\Search\DFS\;CMake Files\leetcode\Sort\;CMake Files\leetcode\Tree\;CMake Files\leetcode\Tree\Recursion\;CMake Files\leetcode\Graph\;CMake Files\leetcode\Array\;CMake Files\leetcode\Link\;CMake Files\DeepGlint\;CMake Files\alibaba\;CMake Files\Nowcoder\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug"/>
@@ -469,6 +469,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -490,6 +491,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -847,6 +849,50 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Array/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Link">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Link/Link" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Link"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Link/Makefile&quot;  VERBOSE=1 Link"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Link/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Link/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Link/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Link/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Link/Link" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Link"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Link/Makefile&quot;  VERBOSE=1 Link/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Link/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Link/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Link/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="DeepGlint">
 				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/DeepGlint" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint"/>
@@ -1091,12 +1137,6 @@
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/413-arithmetic-slices.cpp">
 			<Option target="ArrayInterval"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/show.cpp">
-			<Option target="ArrayInterval"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/show.h">
-			<Option target="ArrayInterval"/>
-		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/FibonacciSequence/198-house-robber.cpp">
 			<Option target="DynamicProgramming"/>
 		</Unit>
@@ -1124,12 +1164,6 @@
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/646-maximum-length-of-pair-chain.cpp">
 			<Option target="LongestIncreasingSubsequence"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/show.cpp">
-			<Option target="LongestIncreasingSubsequence"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/show.h">
-			<Option target="LongestIncreasingSubsequence"/>
-		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/279-perfect-squares.cpp">
 			<Option target="SplitInteger"/>
 		</Unit>
@@ -1139,12 +1173,6 @@
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/91-decode-ways.cpp">
 			<Option target="SplitInteger"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/show.cpp">
-			<Option target="SplitInteger"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/show.h">
-			<Option target="SplitInteger"/>
-		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/StringSequence/1143-longest-common-subsequence.cpp">
 			<Option target="LongestSubsequence"/>
 		</Unit>
@@ -1152,12 +1180,6 @@
 			<Option target="LongestSubsequence"/>
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/StringSequence/72-edit-distance.cpp">
-			<Option target="LongestSubsequence"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/StringSequence/show.cpp">
-			<Option target="LongestSubsequence"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/StringSequence/show.h">
 			<Option target="LongestSubsequence"/>
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Graph/207-course-schedule.cpp">
@@ -1204,6 +1226,9 @@
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy/763-partition-labels.cpp">
 			<Option target="Greedy"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Link/LRUCache.cpp">
+			<Option target="Link"/>
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/BFS/1091-shortest-path-in-binary-matrix.cpp">
 			<Option target="BFS"/>
@@ -1351,6 +1376,9 @@
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Array/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\leetcode\Array\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Link/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Link\"/>
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\DeepGlint\"/>

@@ -18,26 +18,10 @@ make install
 >
 > [labuladong的算法小抄](https://labuladong.gitbook.io/algo/)
 
-### DoublePointer
-
-[167-two-sum-ii-input-array-is-sorted](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted)
-
-[345-reverse-vowels-of-a-string](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)
-
-[633-sum-of-square-numbers](https://leetcode-cn.com/problems/sum-of-square-numbers)
-
-[680-valid-palindrome-ii](https://leetcode-cn.com/problems/valid-palindrome-ii)
-
-
-
-### Search
-
-#### Backtracking
-
-[17. Letter Combinations of a Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
-
-
+## 补充
 ### DP
 #### 最长公共子序列
+
 [146. LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
+
 [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/)

@@ -179,33 +179,6 @@ ArrayInterval/fast:
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/build.make leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/413-arithmetic-slices.cpp.s
 .PHONY : 413-arithmetic-slices.cpp.s
 
-show.o: show.cpp.o
-
-.PHONY : show.o
-
-# target to build an object file
-show.cpp.o:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/build.make leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/show.cpp.o
-.PHONY : show.cpp.o
-
-show.i: show.cpp.i
-
-.PHONY : show.i
-
-# target to preprocess a source file
-show.cpp.i:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/build.make leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/show.cpp.i
-.PHONY : show.cpp.i
-
-show.s: show.cpp.s
-
-.PHONY : show.s
-
-# target to generate assembly for a file
-show.cpp.s:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/build.make leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/show.cpp.s
-.PHONY : show.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -221,9 +194,6 @@ help:
 	@echo "... 413-arithmetic-slices.o"
 	@echo "... 413-arithmetic-slices.i"
 	@echo "... 413-arithmetic-slices.s"
-	@echo "... show.o"
-	@echo "... show.i"
-	@echo "... show.s"
 .PHONY : help
 
 

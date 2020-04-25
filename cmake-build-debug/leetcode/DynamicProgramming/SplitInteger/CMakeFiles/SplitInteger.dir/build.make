@@ -57,22 +57,9 @@ include leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/pro
 # Include the compile flags for this target's objects.
 include leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/flags.make
 
-leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/show.cpp.o: leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/flags.make
-leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/show.cpp.o: ../leetcode/DynamicProgramming/SplitInteger/show.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/show.cpp.o"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SplitInteger.dir/show.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/show.cpp
-
-leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/show.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SplitInteger.dir/show.cpp.i"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/show.cpp > CMakeFiles/SplitInteger.dir/show.cpp.i
-
-leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/show.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SplitInteger.dir/show.cpp.s"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/show.cpp -o CMakeFiles/SplitInteger.dir/show.cpp.s
-
 leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/343-integer-break.cpp.o: leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/flags.make
 leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/343-integer-break.cpp.o: ../leetcode/DynamicProgramming/SplitInteger/343-integer-break.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/343-integer-break.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/343-integer-break.cpp.o"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SplitInteger.dir/343-integer-break.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/343-integer-break.cpp
 
 leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/343-integer-break.cpp.i: cmake_force
@@ -85,7 +72,7 @@ leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/343-integer
 
 leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/279-perfect-squares.cpp.o: leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/flags.make
 leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/279-perfect-squares.cpp.o: ../leetcode/DynamicProgramming/SplitInteger/279-perfect-squares.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/279-perfect-squares.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/279-perfect-squares.cpp.o"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SplitInteger.dir/279-perfect-squares.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/279-perfect-squares.cpp
 
 leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/279-perfect-squares.cpp.i: cmake_force
@@ -98,7 +85,7 @@ leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/279-perfect
 
 leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/91-decode-ways.cpp.o: leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/flags.make
 leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/91-decode-ways.cpp.o: ../leetcode/DynamicProgramming/SplitInteger/91-decode-ways.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/91-decode-ways.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/91-decode-ways.cpp.o"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SplitInteger.dir/91-decode-ways.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger/91-decode-ways.cpp
 
 leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/91-decode-ways.cpp.i: cmake_force
@@ -111,7 +98,6 @@ leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/91-decode-w
 
 # Object files for target SplitInteger
 SplitInteger_OBJECTS = \
-"CMakeFiles/SplitInteger.dir/show.cpp.o" \
 "CMakeFiles/SplitInteger.dir/343-integer-break.cpp.o" \
 "CMakeFiles/SplitInteger.dir/279-perfect-squares.cpp.o" \
 "CMakeFiles/SplitInteger.dir/91-decode-ways.cpp.o"
@@ -119,13 +105,12 @@ SplitInteger_OBJECTS = \
 # External object files for target SplitInteger
 SplitInteger_EXTERNAL_OBJECTS =
 
-leetcode/DynamicProgramming/SplitInteger/SplitInteger: leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/show.cpp.o
 leetcode/DynamicProgramming/SplitInteger/SplitInteger: leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/343-integer-break.cpp.o
 leetcode/DynamicProgramming/SplitInteger/SplitInteger: leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/279-perfect-squares.cpp.o
 leetcode/DynamicProgramming/SplitInteger/SplitInteger: leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/91-decode-ways.cpp.o
 leetcode/DynamicProgramming/SplitInteger/SplitInteger: leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/build.make
 leetcode/DynamicProgramming/SplitInteger/SplitInteger: leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable SplitInteger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SplitInteger"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/SplitInteger && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SplitInteger.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

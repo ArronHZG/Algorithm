@@ -297,6 +297,12 @@ Greedy_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-bui
 Greedy_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Greedy
 
 //Value Computed by CMake
+Link_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Link
+
+//Value Computed by CMake
+Link_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Link
+
+//Value Computed by CMake
 LongestIncreasingSubsequence_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence
 
 //Value Computed by CMake
@@ -456,7 +462,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=27
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=28
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

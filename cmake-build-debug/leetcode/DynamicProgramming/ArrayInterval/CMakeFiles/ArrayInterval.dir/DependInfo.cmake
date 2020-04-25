@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/303-range-sum-query-immutable.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/303-range-sum-query-immutable.cpp.o"
   "/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/413-arithmetic-slices.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/413-arithmetic-slices.cpp.o"
-  "/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/show.cpp" "/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/show.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

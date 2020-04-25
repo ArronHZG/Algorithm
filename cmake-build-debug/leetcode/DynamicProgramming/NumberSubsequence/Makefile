@@ -206,33 +206,6 @@ LongestIncreasingSubsequence/fast:
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/build.make leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/646-maximum-length-of-pair-chain.cpp.s
 .PHONY : 646-maximum-length-of-pair-chain.cpp.s
 
-show.o: show.cpp.o
-
-.PHONY : show.o
-
-# target to build an object file
-show.cpp.o:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/build.make leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.o
-.PHONY : show.cpp.o
-
-show.i: show.cpp.i
-
-.PHONY : show.i
-
-# target to preprocess a source file
-show.cpp.i:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/build.make leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.i
-.PHONY : show.cpp.i
-
-show.s: show.cpp.s
-
-.PHONY : show.s
-
-# target to generate assembly for a file
-show.cpp.s:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/build.make leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.s
-.PHONY : show.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -251,9 +224,6 @@ help:
 	@echo "... 646-maximum-length-of-pair-chain.o"
 	@echo "... 646-maximum-length-of-pair-chain.i"
 	@echo "... 646-maximum-length-of-pair-chain.s"
-	@echo "... show.o"
-	@echo "... show.i"
-	@echo "... show.s"
 .PHONY : help
 
 

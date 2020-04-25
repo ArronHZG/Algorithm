@@ -12,7 +12,6 @@ set(LIBRARIES
         pthread)
 
 add_executable(${PROJECT_NAME}
-        show.cpp show.h
         303-range-sum-query-immutable.cpp 413-arithmetic-slices.cpp)
 
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})

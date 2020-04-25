@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/SplitInteger.dir/279-perfect-squares.cpp.o"
   "CMakeFiles/SplitInteger.dir/343-integer-break.cpp.o"
   "CMakeFiles/SplitInteger.dir/91-decode-ways.cpp.o"
-  "CMakeFiles/SplitInteger.dir/show.cpp.o"
   "SplitInteger"
   "SplitInteger.pdb"
 )

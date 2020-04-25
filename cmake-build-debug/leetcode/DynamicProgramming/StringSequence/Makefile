@@ -206,33 +206,6 @@ LongestSubsequence/fast:
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/build.make leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/72-edit-distance.cpp.s
 .PHONY : 72-edit-distance.cpp.s
 
-show.o: show.cpp.o
-
-.PHONY : show.o
-
-# target to build an object file
-show.cpp.o:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/build.make leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/show.cpp.o
-.PHONY : show.cpp.o
-
-show.i: show.cpp.i
-
-.PHONY : show.i
-
-# target to preprocess a source file
-show.cpp.i:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/build.make leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/show.cpp.i
-.PHONY : show.cpp.i
-
-show.s: show.cpp.s
-
-.PHONY : show.s
-
-# target to generate assembly for a file
-show.cpp.s:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/build.make leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/show.cpp.s
-.PHONY : show.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -251,9 +224,6 @@ help:
 	@echo "... 72-edit-distance.o"
 	@echo "... 72-edit-distance.i"
 	@echo "... 72-edit-distance.s"
-	@echo "... show.o"
-	@echo "... show.i"
-	@echo "... show.s"
 .PHONY : help
 
 

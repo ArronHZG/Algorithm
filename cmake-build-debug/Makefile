@@ -358,6 +358,19 @@ Array/fast:
 .PHONY : Array/fast
 
 #=============================================================================
+# Target rules for targets named Link
+
+# Build rule for target.
+Link: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Link
+.PHONY : Link
+
+# fast build rule for target.
+Link/fast:
+	$(MAKE) -f leetcode/Link/CMakeFiles/Link.dir/build.make leetcode/Link/CMakeFiles/Link.dir/build
+.PHONY : Link/fast
+
+#=============================================================================
 # Target rules for targets named DeepGlint
 
 # Build rule for target.
@@ -423,6 +436,7 @@ help:
 	@echo "... Recursion"
 	@echo "... Graph"
 	@echo "... Array"
+	@echo "... Link"
 	@echo "... DeepGlint"
 	@echo "... Alibaba"
 	@echo "... Nowcoder"

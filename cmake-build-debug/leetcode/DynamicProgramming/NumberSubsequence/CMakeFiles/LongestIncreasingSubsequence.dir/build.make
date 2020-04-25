@@ -57,22 +57,9 @@ include leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasi
 # Include the compile flags for this target's objects.
 include leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/flags.make
 
-leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.o: leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/flags.make
-leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.o: ../leetcode/DynamicProgramming/NumberSubsequence/show.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.o"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/show.cpp
-
-leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.i"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/show.cpp > CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.i
-
-leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.s"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/show.cpp -o CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.s
-
 leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/300-longest-increasing-subsequence.cpp.o: leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/flags.make
 leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/300-longest-increasing-subsequence.cpp.o: ../leetcode/DynamicProgramming/NumberSubsequence/300-longest-increasing-subsequence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/300-longest-increasing-subsequence.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/300-longest-increasing-subsequence.cpp.o"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LongestIncreasingSubsequence.dir/300-longest-increasing-subsequence.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/300-longest-increasing-subsequence.cpp
 
 leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/300-longest-increasing-subsequence.cpp.i: cmake_force
@@ -85,7 +72,7 @@ leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubseq
 
 leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/646-maximum-length-of-pair-chain.cpp.o: leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/flags.make
 leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/646-maximum-length-of-pair-chain.cpp.o: ../leetcode/DynamicProgramming/NumberSubsequence/646-maximum-length-of-pair-chain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/646-maximum-length-of-pair-chain.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/646-maximum-length-of-pair-chain.cpp.o"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LongestIncreasingSubsequence.dir/646-maximum-length-of-pair-chain.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/646-maximum-length-of-pair-chain.cpp
 
 leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/646-maximum-length-of-pair-chain.cpp.i: cmake_force
@@ -98,7 +85,7 @@ leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubseq
 
 leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/376-wiggle-subsequence.cpp.o: leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/flags.make
 leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/376-wiggle-subsequence.cpp.o: ../leetcode/DynamicProgramming/NumberSubsequence/376-wiggle-subsequence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/376-wiggle-subsequence.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/376-wiggle-subsequence.cpp.o"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LongestIncreasingSubsequence.dir/376-wiggle-subsequence.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/NumberSubsequence/376-wiggle-subsequence.cpp
 
 leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/376-wiggle-subsequence.cpp.i: cmake_force
@@ -111,7 +98,6 @@ leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubseq
 
 # Object files for target LongestIncreasingSubsequence
 LongestIncreasingSubsequence_OBJECTS = \
-"CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.o" \
 "CMakeFiles/LongestIncreasingSubsequence.dir/300-longest-increasing-subsequence.cpp.o" \
 "CMakeFiles/LongestIncreasingSubsequence.dir/646-maximum-length-of-pair-chain.cpp.o" \
 "CMakeFiles/LongestIncreasingSubsequence.dir/376-wiggle-subsequence.cpp.o"
@@ -119,13 +105,12 @@ LongestIncreasingSubsequence_OBJECTS = \
 # External object files for target LongestIncreasingSubsequence
 LongestIncreasingSubsequence_EXTERNAL_OBJECTS =
 
-leetcode/DynamicProgramming/NumberSubsequence/LongestIncreasingSubsequence: leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/show.cpp.o
 leetcode/DynamicProgramming/NumberSubsequence/LongestIncreasingSubsequence: leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/300-longest-increasing-subsequence.cpp.o
 leetcode/DynamicProgramming/NumberSubsequence/LongestIncreasingSubsequence: leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/646-maximum-length-of-pair-chain.cpp.o
 leetcode/DynamicProgramming/NumberSubsequence/LongestIncreasingSubsequence: leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/376-wiggle-subsequence.cpp.o
 leetcode/DynamicProgramming/NumberSubsequence/LongestIncreasingSubsequence: leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/build.make
 leetcode/DynamicProgramming/NumberSubsequence/LongestIncreasingSubsequence: leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable LongestIncreasingSubsequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LongestIncreasingSubsequence"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/NumberSubsequence && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LongestIncreasingSubsequence.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

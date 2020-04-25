@@ -206,33 +206,6 @@ SplitInteger/fast:
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/build.make leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/91-decode-ways.cpp.s
 .PHONY : 91-decode-ways.cpp.s
 
-show.o: show.cpp.o
-
-.PHONY : show.o
-
-# target to build an object file
-show.cpp.o:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/build.make leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/show.cpp.o
-.PHONY : show.cpp.o
-
-show.i: show.cpp.i
-
-.PHONY : show.i
-
-# target to preprocess a source file
-show.cpp.i:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/build.make leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/show.cpp.i
-.PHONY : show.cpp.i
-
-show.s: show.cpp.s
-
-.PHONY : show.s
-
-# target to generate assembly for a file
-show.cpp.s:
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/build.make leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/show.cpp.s
-.PHONY : show.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -251,9 +224,6 @@ help:
 	@echo "... 91-decode-ways.o"
 	@echo "... 91-decode-ways.i"
 	@echo "... 91-decode-ways.s"
-	@echo "... show.o"
-	@echo "... show.i"
-	@echo "... show.s"
 .PHONY : help
 
 

@@ -1,18 +1,7 @@
 //
 // Created by 侯正罡 on 2020/4/19.
 //
-
-#include <iostream>
-#include <vector>
-#include <queue>
-#include <set>
-#include <map>
-#include <unordered_set>
-#include <unordered_map>
-#include <cmath>
-#include <cstring>
 #include <gtest/gtest.h>
-#include<algorithm>
 #include "show.h"
 
 using namespace std;

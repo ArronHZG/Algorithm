@@ -57,22 +57,9 @@ include leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/p
 # Include the compile flags for this target's objects.
 include leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/flags.make
 
-leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/show.cpp.o: leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/flags.make
-leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/show.cpp.o: ../leetcode/DynamicProgramming/ArrayInterval/show.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/show.cpp.o"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArrayInterval.dir/show.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/show.cpp
-
-leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/show.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ArrayInterval.dir/show.cpp.i"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/show.cpp > CMakeFiles/ArrayInterval.dir/show.cpp.i
-
-leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/show.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ArrayInterval.dir/show.cpp.s"
-	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/show.cpp -o CMakeFiles/ArrayInterval.dir/show.cpp.s
-
 leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/303-range-sum-query-immutable.cpp.o: leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/flags.make
 leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/303-range-sum-query-immutable.cpp.o: ../leetcode/DynamicProgramming/ArrayInterval/303-range-sum-query-immutable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/303-range-sum-query-immutable.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/303-range-sum-query-immutable.cpp.o"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArrayInterval.dir/303-range-sum-query-immutable.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/303-range-sum-query-immutable.cpp
 
 leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/303-range-sum-query-immutable.cpp.i: cmake_force
@@ -85,7 +72,7 @@ leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/303-range
 
 leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/413-arithmetic-slices.cpp.o: leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/flags.make
 leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/413-arithmetic-slices.cpp.o: ../leetcode/DynamicProgramming/ArrayInterval/413-arithmetic-slices.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/413-arithmetic-slices.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/413-arithmetic-slices.cpp.o"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ArrayInterval.dir/413-arithmetic-slices.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/ArrayInterval/413-arithmetic-slices.cpp
 
 leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/413-arithmetic-slices.cpp.i: cmake_force
@@ -98,19 +85,17 @@ leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/413-arith
 
 # Object files for target ArrayInterval
 ArrayInterval_OBJECTS = \
-"CMakeFiles/ArrayInterval.dir/show.cpp.o" \
 "CMakeFiles/ArrayInterval.dir/303-range-sum-query-immutable.cpp.o" \
 "CMakeFiles/ArrayInterval.dir/413-arithmetic-slices.cpp.o"
 
 # External object files for target ArrayInterval
 ArrayInterval_EXTERNAL_OBJECTS =
 
-leetcode/DynamicProgramming/ArrayInterval/ArrayInterval: leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/show.cpp.o
 leetcode/DynamicProgramming/ArrayInterval/ArrayInterval: leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/303-range-sum-query-immutable.cpp.o
 leetcode/DynamicProgramming/ArrayInterval/ArrayInterval: leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/413-arithmetic-slices.cpp.o
 leetcode/DynamicProgramming/ArrayInterval/ArrayInterval: leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/build.make
 leetcode/DynamicProgramming/ArrayInterval/ArrayInterval: leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ArrayInterval"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ArrayInterval"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ArrayInterval.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
