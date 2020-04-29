@@ -410,6 +410,19 @@ Stack/fast:
 .PHONY : Stack/fast
 
 #=============================================================================
+# Target rules for targets named Number
+
+# Build rule for target.
+Number: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Number
+.PHONY : Number
+
+# fast build rule for target.
+Number/fast:
+	$(MAKE) -f leetcode/Number/CMakeFiles/Number.dir/build.make leetcode/Number/CMakeFiles/Number.dir/build
+.PHONY : Number/fast
+
+#=============================================================================
 # Target rules for targets named DeepGlint
 
 # Build rule for target.
@@ -461,6 +474,19 @@ kuaishou/fast:
 	$(MAKE) -f kuaishou/CMakeFiles/kuaishou.dir/build.make kuaishou/CMakeFiles/kuaishou.dir/build
 .PHONY : kuaishou/fast
 
+#=============================================================================
+# Target rules for targets named huawei
+
+# Build rule for target.
+huawei: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 huawei
+.PHONY : huawei
+
+# fast build rule for target.
+huawei/fast:
+	$(MAKE) -f huawei/CMakeFiles/huawei.dir/build.make huawei/CMakeFiles/huawei.dir/build
+.PHONY : huawei/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -492,10 +518,12 @@ help:
 	@echo "... Link"
 	@echo "... String"
 	@echo "... Stack"
+	@echo "... Number"
 	@echo "... DeepGlint"
 	@echo "... Alibaba"
 	@echo "... Nowcoder"
 	@echo "... kuaishou"
+	@echo "... huawei"
 .PHONY : help
 
 

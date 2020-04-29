@@ -97,3 +97,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Stack/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number/cmake_install.cmake")
+endif()
+

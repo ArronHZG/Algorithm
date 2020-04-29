@@ -5,7 +5,7 @@
 		<Option title="Algorithm"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\test\;CMake Files\leetcode\;CMake Files\leetcode\BinarySearch\;CMake Files\leetcode\DivideAndConquer\;CMake Files\leetcode\DoublePointer\;CMake Files\leetcode\DynamicProgramming\;CMake Files\leetcode\DynamicProgramming\ArrayInterval\;CMake Files\leetcode\DynamicProgramming\FibonacciSequence\;CMake Files\leetcode\DynamicProgramming\MatrixPath\;CMake Files\leetcode\DynamicProgramming\NumberSubsequence\;CMake Files\leetcode\DynamicProgramming\SplitInteger\;CMake Files\leetcode\DynamicProgramming\StringSequence\;CMake Files\leetcode\DynamicProgramming\OneZeroPackage\;CMake Files\leetcode\Greedy\;CMake Files\leetcode\Search\;CMake Files\leetcode\Search\Backtracking\;CMake Files\leetcode\Search\BFS\;CMake Files\leetcode\Search\DFS\;CMake Files\leetcode\Sort\;CMake Files\leetcode\Tree\;CMake Files\leetcode\Tree\Recursion\;CMake Files\leetcode\Graph\;CMake Files\leetcode\Array\;CMake Files\leetcode\Link\;CMake Files\leetcode\String\;CMake Files\leetcode\Stack\;CMake Files\DeepGlint\;CMake Files\alibaba\;CMake Files\nowcoder\;CMake Files\kuaishou\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\test\;CMake Files\leetcode\;CMake Files\leetcode\BinarySearch\;CMake Files\leetcode\DivideAndConquer\;CMake Files\leetcode\DoublePointer\;CMake Files\leetcode\DynamicProgramming\;CMake Files\leetcode\DynamicProgramming\ArrayInterval\;CMake Files\leetcode\DynamicProgramming\FibonacciSequence\;CMake Files\leetcode\DynamicProgramming\MatrixPath\;CMake Files\leetcode\DynamicProgramming\NumberSubsequence\;CMake Files\leetcode\DynamicProgramming\SplitInteger\;CMake Files\leetcode\DynamicProgramming\StringSequence\;CMake Files\leetcode\DynamicProgramming\OneZeroPackage\;CMake Files\leetcode\Greedy\;CMake Files\leetcode\Search\;CMake Files\leetcode\Search\Backtracking\;CMake Files\leetcode\Search\BFS\;CMake Files\leetcode\Search\DFS\;CMake Files\leetcode\Sort\;CMake Files\leetcode\Tree\;CMake Files\leetcode\Tree\Recursion\;CMake Files\leetcode\Graph\;CMake Files\leetcode\Array\;CMake Files\leetcode\Link\;CMake Files\leetcode\String\;CMake Files\leetcode\Stack\;CMake Files\leetcode\Number\;CMake Files\DeepGlint\;CMake Files\alibaba\;CMake Files\nowcoder\;CMake Files\kuaishou\;CMake Files\huawei\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug"/>
@@ -1027,6 +1027,50 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Stack/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Number">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number/Number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number/Makefile&quot;  VERBOSE=1 Number"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Number/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number/Number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number/Makefile&quot;  VERBOSE=1 Number/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="DeepGlint">
 				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/DeepGlint" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint"/>
@@ -1203,6 +1247,50 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="huawei">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/huawei" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 huawei"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huawei/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/huawei" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 huawei/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/Matrix.cpp">
 			<Option target="DeepGlint"/>
@@ -1233,6 +1321,15 @@
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/test.cpp">
 			<Option target="Alibaba"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/huawei/NoRepeatString.cpp">
+			<Option target="huawei"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/huawei/decoder.cpp">
+			<Option target="huawei"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/huawei/findWay.cpp">
+			<Option target="huawei"/>
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/kuaishou/arrange.cpp">
 			<Option target="kuaishou"/>
@@ -1411,6 +1508,9 @@
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Link/LRUCache.cpp">
 			<Option target="Link"/>
 		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Number/9-palindrome-number.cpp">
+			<Option target="Number"/>
+		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/BFS/1091-shortest-path-in-binary-matrix.cpp">
 			<Option target="BFS"/>
 		</Unit>
@@ -1479,6 +1579,9 @@
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Sort/75-sort-colors.cpp">
 			<Option target="Sort"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Stack/394-decodeString.cpp">
+			<Option target="Stack"/>
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Stack/84-largest-rectangle-in-histogram.cpp">
 			<Option target="Stack"/>
@@ -1627,6 +1730,9 @@
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Stack/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\leetcode\Stack\"/>
 		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Number/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leetcode\Number\"/>
+		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\DeepGlint\"/>
 		</Unit>
@@ -1638,6 +1744,9 @@
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/kuaishou/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\kuaishou\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/huawei/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\huawei\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

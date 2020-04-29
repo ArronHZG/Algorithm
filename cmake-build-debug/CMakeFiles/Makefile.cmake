@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
+  "../huawei/CMakeLists.txt"
   "../kuaishou/CMakeLists.txt"
   "../leetcode/Array/CMakeLists.txt"
   "../leetcode/BinarySearch/CMakeLists.txt"
@@ -62,6 +63,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../leetcode/Graph/CMakeLists.txt"
   "../leetcode/Greedy/CMakeLists.txt"
   "../leetcode/Link/CMakeLists.txt"
+  "../leetcode/Number/CMakeLists.txt"
   "../leetcode/Search/BFS/CMakeLists.txt"
   "../leetcode/Search/Backtracking/CMakeLists.txt"
   "../leetcode/Search/CMakeLists.txt"
@@ -112,10 +114,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "leetcode/Link/CMakeFiles/CMakeDirectoryInformation.cmake"
   "leetcode/String/CMakeFiles/CMakeDirectoryInformation.cmake"
   "leetcode/Stack/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "leetcode/Number/CMakeFiles/CMakeDirectoryInformation.cmake"
   "DeepGlint/CMakeFiles/CMakeDirectoryInformation.cmake"
   "alibaba/CMakeFiles/CMakeDirectoryInformation.cmake"
   "nowcoder/CMakeFiles/CMakeDirectoryInformation.cmake"
   "kuaishou/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "huawei/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -143,8 +147,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "leetcode/Link/CMakeFiles/Link.dir/DependInfo.cmake"
   "leetcode/String/CMakeFiles/String.dir/DependInfo.cmake"
   "leetcode/Stack/CMakeFiles/Stack.dir/DependInfo.cmake"
+  "leetcode/Number/CMakeFiles/Number.dir/DependInfo.cmake"
   "DeepGlint/CMakeFiles/DeepGlint.dir/DependInfo.cmake"
   "alibaba/CMakeFiles/Alibaba.dir/DependInfo.cmake"
   "nowcoder/CMakeFiles/Nowcoder.dir/DependInfo.cmake"
   "kuaishou/CMakeFiles/kuaishou.dir/DependInfo.cmake"
+  "huawei/CMakeFiles/huawei.dir/DependInfo.cmake"
   )

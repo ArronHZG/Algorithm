@@ -327,6 +327,12 @@ Nowcoder_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-b
 Nowcoder_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/nowcoder
 
 //Value Computed by CMake
+Number_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number
+
+//Value Computed by CMake
+Number_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Number
+
+//Value Computed by CMake
 OneZeroPackage_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/OneZeroPackage
 
 //Value Computed by CMake
@@ -376,6 +382,12 @@ Test_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build
 
 //Value Computed by CMake
 Test_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/test
+
+//Value Computed by CMake
+huawei_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei
+
+//Value Computed by CMake
+huawei_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/huawei
 
 //Value Computed by CMake
 kuaishou_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou
@@ -492,7 +504,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=32
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=34
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

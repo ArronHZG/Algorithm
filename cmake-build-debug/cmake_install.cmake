@@ -67,6 +67,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
