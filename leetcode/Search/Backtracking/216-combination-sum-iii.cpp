@@ -21,33 +21,10 @@ Output: [[1,2,6], [1,3,5], [2,3,4]]
 链接：https://leetcode-cn.com/problems/combination-sum-iii
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-#include <iostream>
-#include <vector>
-#include <queue>
-#include <set>
-#include <map>
-#include <unordered_set>
-#include <unordered_map>
-#include <math.h>
-#include <cstring>
+#include <gtest/gtest.h>
+#include <show.h>
 
 using namespace std;
-
-template<typename T>
-void print(vector<T> vec) {
-    for (auto a : vec) {
-        cout << a << " ";
-    }
-    cout << endl;
-}
-
-template<typename T>
-void print(vector<vector<T>> vec) {
-    for (const auto &v: vec) {
-        print(v);
-    }
-    cout << endl;
-}
 
 class Solution {
 public:
@@ -75,7 +52,7 @@ public:
 };
 
 
-int main() { /* NOLINT */
+TEST(combinationSum3,1) { /* NOLINT */
     cout << endl;
     int k = 3;
     int n = 12;
@@ -88,10 +65,6 @@ int main() { /* NOLINT */
 
     auto so = Solution();
     auto output = so.combinationSum3(n, k);
-
     print<int>(output);
-
     print<int>(so.result);
-
-    return 0;
 }

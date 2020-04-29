@@ -360,6 +360,18 @@ SplitInteger_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cma
 SplitInteger_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/leetcode/DynamicProgramming/SplitInteger
 
 //Value Computed by CMake
+Stack_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Stack
+
+//Value Computed by CMake
+Stack_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Stack
+
+//Value Computed by CMake
+String_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/String
+
+//Value Computed by CMake
+String_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/leetcode/String
+
+//Value Computed by CMake
 Test_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/test
 
 //Value Computed by CMake
@@ -480,7 +492,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=30
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=32
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

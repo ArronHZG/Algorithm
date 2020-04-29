@@ -110,12 +110,12 @@ utils/preinstall:
 utils/CMakeFiles/utils.dir/all:
 	$(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/depend
 	$(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=97,98,99,100 "Built target utils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=98,99,100 "Built target utils"
 .PHONY : utils/CMakeFiles/utils.dir/all
 
 # Build rule for subdir invocation for target.
 utils/CMakeFiles/utils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 utils/CMakeFiles/utils.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : utils/CMakeFiles/utils.dir/rule
@@ -155,12 +155,12 @@ test/preinstall:
 test/CMakeFiles/Test.dir/all: utils/CMakeFiles/utils.dir/all
 	$(MAKE) -f test/CMakeFiles/Test.dir/build.make test/CMakeFiles/Test.dir/depend
 	$(MAKE) -f test/CMakeFiles/Test.dir/build.make test/CMakeFiles/Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=91 "Built target Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=92 "Built target Test"
 .PHONY : test/CMakeFiles/Test.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/Test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/Test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : test/CMakeFiles/Test.dir/rule
@@ -190,6 +190,8 @@ leetcode/all: leetcode/Tree/all
 leetcode/all: leetcode/Graph/all
 leetcode/all: leetcode/Array/all
 leetcode/all: leetcode/Link/all
+leetcode/all: leetcode/String/all
+leetcode/all: leetcode/Stack/all
 
 .PHONY : leetcode/all
 
@@ -205,6 +207,8 @@ leetcode/clean: leetcode/Tree/clean
 leetcode/clean: leetcode/Graph/clean
 leetcode/clean: leetcode/Array/clean
 leetcode/clean: leetcode/Link/clean
+leetcode/clean: leetcode/String/clean
+leetcode/clean: leetcode/Stack/clean
 
 .PHONY : leetcode/clean
 
@@ -220,6 +224,8 @@ leetcode/preinstall: leetcode/Tree/preinstall
 leetcode/preinstall: leetcode/Graph/preinstall
 leetcode/preinstall: leetcode/Array/preinstall
 leetcode/preinstall: leetcode/Link/preinstall
+leetcode/preinstall: leetcode/String/preinstall
+leetcode/preinstall: leetcode/Stack/preinstall
 
 .PHONY : leetcode/preinstall
 
@@ -248,12 +254,12 @@ leetcode/BinarySearch/preinstall:
 leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/all: utils/CMakeFiles/utils.dir/all
 	$(MAKE) -f leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/build.make leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/depend
 	$(MAKE) -f leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/build.make leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=17,18,19,20,21,22 "Built target BinarySearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=21,22,23,24,25 "Built target BinarySearch"
 .PHONY : leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/BinarySearch/CMakeFiles/BinarySearch.dir/rule
@@ -293,12 +299,12 @@ leetcode/DivideAndConquer/preinstall:
 leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/all: utils/CMakeFiles/utils.dir/all
 	$(MAKE) -f leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/build.make leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/depend
 	$(MAKE) -f leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/build.make leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=32,33,34 "Built target DivideAndConquer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target DivideAndConquer"
 .PHONY : leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/DivideAndConquer/CMakeFiles/DivideAndConquer.dir/rule
@@ -338,7 +344,7 @@ leetcode/DoublePointer/preinstall:
 leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/all:
 	$(MAKE) -f leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/build.make leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/depend
 	$(MAKE) -f leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/build.make leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=35,36,37,38,39,40 "Built target DoublePointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=37,38,39,40,41,42 "Built target DoublePointer"
 .PHONY : leetcode/DoublePointer/CMakeFiles/DoublePointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -419,7 +425,7 @@ leetcode/DynamicProgramming/ArrayInterval/preinstall:
 leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/all:
 	$(MAKE) -f leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/build.make leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/depend
 	$(MAKE) -f leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/build.make leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target ArrayInterval"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target ArrayInterval"
 .PHONY : leetcode/DynamicProgramming/ArrayInterval/CMakeFiles/ArrayInterval.dir/all
 
 # Build rule for subdir invocation for target.
@@ -464,7 +470,7 @@ leetcode/DynamicProgramming/FibonacciSequence/preinstall:
 leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/all:
 	$(MAKE) -f leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/build.make leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/depend
 	$(MAKE) -f leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/build.make leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=41,42,43,44,45 "Built target DynamicProgramming"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=43,44,45,46,47 "Built target DynamicProgramming"
 .PHONY : leetcode/DynamicProgramming/FibonacciSequence/CMakeFiles/DynamicProgramming.dir/all
 
 # Build rule for subdir invocation for target.
@@ -509,12 +515,12 @@ leetcode/DynamicProgramming/MatrixPath/preinstall:
 leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/all:
 	$(MAKE) -f leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/build.make leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/depend
 	$(MAKE) -f leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/build.make leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=69 "Built target MatrixPath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target MatrixPath"
 .PHONY : leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/DynamicProgramming/MatrixPath/CMakeFiles/MatrixPath.dir/rule
@@ -554,12 +560,12 @@ leetcode/DynamicProgramming/NumberSubsequence/preinstall:
 leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/all:
 	$(MAKE) -f leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/build.make leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/depend
 	$(MAKE) -f leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/build.make leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=62,63,64 "Built target LongestIncreasingSubsequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=62,63 "Built target LongestIncreasingSubsequence"
 .PHONY : leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/DynamicProgramming/NumberSubsequence/CMakeFiles/LongestIncreasingSubsequence.dir/rule
@@ -599,12 +605,12 @@ leetcode/DynamicProgramming/SplitInteger/preinstall:
 leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/all:
 	$(MAKE) -f leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/build.make leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/depend
 	$(MAKE) -f leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/build.make leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=87,88,89,90 "Built target SplitInteger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=84,85,86 "Built target SplitInteger"
 .PHONY : leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/DynamicProgramming/SplitInteger/CMakeFiles/SplitInteger.dir/rule
@@ -644,12 +650,12 @@ leetcode/DynamicProgramming/StringSequence/preinstall:
 leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/all: utils/CMakeFiles/utils.dir/all
 	$(MAKE) -f leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/build.make leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/depend
 	$(MAKE) -f leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/build.make leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=65,66,67,68 "Built target LongestSubsequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=64,65,66 "Built target LongestSubsequence"
 .PHONY : leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/DynamicProgramming/StringSequence/CMakeFiles/LongestSubsequence.dir/rule
@@ -689,12 +695,12 @@ leetcode/DynamicProgramming/OneZeroPackage/preinstall:
 leetcode/DynamicProgramming/OneZeroPackage/CMakeFiles/OneZeroPackage.dir/all: utils/CMakeFiles/utils.dir/all
 	$(MAKE) -f leetcode/DynamicProgramming/OneZeroPackage/CMakeFiles/OneZeroPackage.dir/build.make leetcode/DynamicProgramming/OneZeroPackage/CMakeFiles/OneZeroPackage.dir/depend
 	$(MAKE) -f leetcode/DynamicProgramming/OneZeroPackage/CMakeFiles/OneZeroPackage.dir/build.make leetcode/DynamicProgramming/OneZeroPackage/CMakeFiles/OneZeroPackage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=77,78,79 "Built target OneZeroPackage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=75,76,77 "Built target OneZeroPackage"
 .PHONY : leetcode/DynamicProgramming/OneZeroPackage/CMakeFiles/OneZeroPackage.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/DynamicProgramming/OneZeroPackage/CMakeFiles/OneZeroPackage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/DynamicProgramming/OneZeroPackage/CMakeFiles/OneZeroPackage.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/DynamicProgramming/OneZeroPackage/CMakeFiles/OneZeroPackage.dir/rule
@@ -800,15 +806,15 @@ leetcode/Search/Backtracking/preinstall:
 # Target rules for target leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir
 
 # All Build rule for target.
-leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/all:
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/all: utils/CMakeFiles/utils.dir/all
 	$(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/depend
 	$(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=14,15,16 "Built target Backtracking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20 "Built target Backtracking"
 .PHONY : leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/rule
@@ -848,12 +854,12 @@ leetcode/Search/BFS/preinstall:
 leetcode/Search/BFS/CMakeFiles/BFS.dir/all:
 	$(MAKE) -f leetcode/Search/BFS/CMakeFiles/BFS.dir/build.make leetcode/Search/BFS/CMakeFiles/BFS.dir/depend
 	$(MAKE) -f leetcode/Search/BFS/CMakeFiles/BFS.dir/build.make leetcode/Search/BFS/CMakeFiles/BFS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=10,11,12,13 "Built target BFS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=9,10,11 "Built target BFS"
 .PHONY : leetcode/Search/BFS/CMakeFiles/BFS.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/Search/BFS/CMakeFiles/BFS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/Search/BFS/CMakeFiles/BFS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/Search/BFS/CMakeFiles/BFS.dir/rule
@@ -893,7 +899,7 @@ leetcode/Search/DFS/preinstall:
 leetcode/Search/DFS/CMakeFiles/DFS.dir/all:
 	$(MAKE) -f leetcode/Search/DFS/CMakeFiles/DFS.dir/build.make leetcode/Search/DFS/CMakeFiles/DFS.dir/depend
 	$(MAKE) -f leetcode/Search/DFS/CMakeFiles/DFS.dir/build.make leetcode/Search/DFS/CMakeFiles/DFS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=23,24,25,26,27 "Built target DFS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=26,27,28,29,30 "Built target DFS"
 .PHONY : leetcode/Search/DFS/CMakeFiles/DFS.dir/all
 
 # Build rule for subdir invocation for target.
@@ -938,12 +944,12 @@ leetcode/Sort/preinstall:
 leetcode/Sort/CMakeFiles/Sort.dir/all:
 	$(MAKE) -f leetcode/Sort/CMakeFiles/Sort.dir/build.make leetcode/Sort/CMakeFiles/Sort.dir/depend
 	$(MAKE) -f leetcode/Sort/CMakeFiles/Sort.dir/build.make leetcode/Sort/CMakeFiles/Sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=83,84,85,86 "Built target Sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=81,82,83 "Built target Sort"
 .PHONY : leetcode/Sort/CMakeFiles/Sort.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/Sort/CMakeFiles/Sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/Sort/CMakeFiles/Sort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/Sort/CMakeFiles/Sort.dir/rule
@@ -1001,12 +1007,12 @@ leetcode/Tree/Recursion/preinstall:
 leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/all: utils/CMakeFiles/utils.dir/all
 	$(MAKE) -f leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/build.make leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/depend
 	$(MAKE) -f leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/build.make leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=80,81,82 "Built target Recursion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=78,79,80 "Built target Recursion"
 .PHONY : leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/Tree/Recursion/CMakeFiles/Recursion.dir/rule
@@ -1046,12 +1052,12 @@ leetcode/Graph/preinstall:
 leetcode/Graph/CMakeFiles/Graph.dir/all: utils/CMakeFiles/utils.dir/all
 	$(MAKE) -f leetcode/Graph/CMakeFiles/Graph.dir/build.make leetcode/Graph/CMakeFiles/Graph.dir/depend
 	$(MAKE) -f leetcode/Graph/CMakeFiles/Graph.dir/build.make leetcode/Graph/CMakeFiles/Graph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=46,47,48,49,50 "Built target Graph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=48,49,50 "Built target Graph"
 .PHONY : leetcode/Graph/CMakeFiles/Graph.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/Graph/CMakeFiles/Graph.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/Graph/CMakeFiles/Graph.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/Graph/CMakeFiles/Graph.dir/rule
@@ -1091,12 +1097,12 @@ leetcode/Array/preinstall:
 leetcode/Array/CMakeFiles/Array.dir/all: utils/CMakeFiles/utils.dir/all
 	$(MAKE) -f leetcode/Array/CMakeFiles/Array.dir/build.make leetcode/Array/CMakeFiles/Array.dir/depend
 	$(MAKE) -f leetcode/Array/CMakeFiles/Array.dir/build.make leetcode/Array/CMakeFiles/Array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=5,6,7 "Built target Array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=4,5,6 "Built target Array"
 .PHONY : leetcode/Array/CMakeFiles/Array.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/Array/CMakeFiles/Array.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/Array/CMakeFiles/Array.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/Array/CMakeFiles/Array.dir/rule
@@ -1141,7 +1147,7 @@ leetcode/Link/CMakeFiles/Link.dir/all: utils/CMakeFiles/utils.dir/all
 
 # Build rule for subdir invocation for target.
 leetcode/Link/CMakeFiles/Link.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 leetcode/Link/CMakeFiles/Link.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : leetcode/Link/CMakeFiles/Link.dir/rule
@@ -1155,6 +1161,96 @@ Link: leetcode/Link/CMakeFiles/Link.dir/rule
 leetcode/Link/CMakeFiles/Link.dir/clean:
 	$(MAKE) -f leetcode/Link/CMakeFiles/Link.dir/build.make leetcode/Link/CMakeFiles/Link.dir/clean
 .PHONY : leetcode/Link/CMakeFiles/Link.dir/clean
+
+#=============================================================================
+# Directory level rules for directory leetcode/String
+
+# Recursive "all" directory target.
+leetcode/String/all: leetcode/String/CMakeFiles/String.dir/all
+
+.PHONY : leetcode/String/all
+
+# Recursive "clean" directory target.
+leetcode/String/clean: leetcode/String/CMakeFiles/String.dir/clean
+
+.PHONY : leetcode/String/clean
+
+# Recursive "preinstall" directory target.
+leetcode/String/preinstall:
+
+.PHONY : leetcode/String/preinstall
+
+#=============================================================================
+# Target rules for target leetcode/String/CMakeFiles/String.dir
+
+# All Build rule for target.
+leetcode/String/CMakeFiles/String.dir/all: utils/CMakeFiles/utils.dir/all
+	$(MAKE) -f leetcode/String/CMakeFiles/String.dir/build.make leetcode/String/CMakeFiles/String.dir/depend
+	$(MAKE) -f leetcode/String/CMakeFiles/String.dir/build.make leetcode/String/CMakeFiles/String.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=89,90,91 "Built target String"
+.PHONY : leetcode/String/CMakeFiles/String.dir/all
+
+# Build rule for subdir invocation for target.
+leetcode/String/CMakeFiles/String.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode/String/CMakeFiles/String.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
+.PHONY : leetcode/String/CMakeFiles/String.dir/rule
+
+# Convenience name for target.
+String: leetcode/String/CMakeFiles/String.dir/rule
+
+.PHONY : String
+
+# clean rule for target.
+leetcode/String/CMakeFiles/String.dir/clean:
+	$(MAKE) -f leetcode/String/CMakeFiles/String.dir/build.make leetcode/String/CMakeFiles/String.dir/clean
+.PHONY : leetcode/String/CMakeFiles/String.dir/clean
+
+#=============================================================================
+# Directory level rules for directory leetcode/Stack
+
+# Recursive "all" directory target.
+leetcode/Stack/all: leetcode/Stack/CMakeFiles/Stack.dir/all
+
+.PHONY : leetcode/Stack/all
+
+# Recursive "clean" directory target.
+leetcode/Stack/clean: leetcode/Stack/CMakeFiles/Stack.dir/clean
+
+.PHONY : leetcode/Stack/clean
+
+# Recursive "preinstall" directory target.
+leetcode/Stack/preinstall:
+
+.PHONY : leetcode/Stack/preinstall
+
+#=============================================================================
+# Target rules for target leetcode/Stack/CMakeFiles/Stack.dir
+
+# All Build rule for target.
+leetcode/Stack/CMakeFiles/Stack.dir/all: utils/CMakeFiles/utils.dir/all
+	$(MAKE) -f leetcode/Stack/CMakeFiles/Stack.dir/build.make leetcode/Stack/CMakeFiles/Stack.dir/depend
+	$(MAKE) -f leetcode/Stack/CMakeFiles/Stack.dir/build.make leetcode/Stack/CMakeFiles/Stack.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=87,88 "Built target Stack"
+.PHONY : leetcode/Stack/CMakeFiles/Stack.dir/all
+
+# Build rule for subdir invocation for target.
+leetcode/Stack/CMakeFiles/Stack.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode/Stack/CMakeFiles/Stack.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
+.PHONY : leetcode/Stack/CMakeFiles/Stack.dir/rule
+
+# Convenience name for target.
+Stack: leetcode/Stack/CMakeFiles/Stack.dir/rule
+
+.PHONY : Stack
+
+# clean rule for target.
+leetcode/Stack/CMakeFiles/Stack.dir/clean:
+	$(MAKE) -f leetcode/Stack/CMakeFiles/Stack.dir/build.make leetcode/Stack/CMakeFiles/Stack.dir/clean
+.PHONY : leetcode/Stack/CMakeFiles/Stack.dir/clean
 
 #=============================================================================
 # Directory level rules for directory DeepGlint
@@ -1181,12 +1277,12 @@ DeepGlint/preinstall:
 DeepGlint/CMakeFiles/DeepGlint.dir/all: utils/CMakeFiles/utils.dir/all
 	$(MAKE) -f DeepGlint/CMakeFiles/DeepGlint.dir/build.make DeepGlint/CMakeFiles/DeepGlint.dir/depend
 	$(MAKE) -f DeepGlint/CMakeFiles/DeepGlint.dir/build.make DeepGlint/CMakeFiles/DeepGlint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=28,29,30,31 "Built target DeepGlint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=31,32,33,34 "Built target DeepGlint"
 .PHONY : DeepGlint/CMakeFiles/DeepGlint.dir/all
 
 # Build rule for subdir invocation for target.
 DeepGlint/CMakeFiles/DeepGlint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 DeepGlint/CMakeFiles/DeepGlint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : DeepGlint/CMakeFiles/DeepGlint.dir/rule
@@ -1226,12 +1322,12 @@ alibaba/preinstall:
 alibaba/CMakeFiles/Alibaba.dir/all: utils/CMakeFiles/utils.dir/all
 	$(MAKE) -f alibaba/CMakeFiles/Alibaba.dir/build.make alibaba/CMakeFiles/Alibaba.dir/depend
 	$(MAKE) -f alibaba/CMakeFiles/Alibaba.dir/build.make alibaba/CMakeFiles/Alibaba.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target Alibaba"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Alibaba"
 .PHONY : alibaba/CMakeFiles/Alibaba.dir/all
 
 # Build rule for subdir invocation for target.
 alibaba/CMakeFiles/Alibaba.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 alibaba/CMakeFiles/Alibaba.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : alibaba/CMakeFiles/Alibaba.dir/rule
@@ -1271,12 +1367,12 @@ nowcoder/preinstall:
 nowcoder/CMakeFiles/Nowcoder.dir/all: utils/CMakeFiles/utils.dir/all
 	$(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/depend
 	$(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=70,71,72,73,74,75,76 "Built target Nowcoder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=69,70,71,72,73,74 "Built target Nowcoder"
 .PHONY : nowcoder/CMakeFiles/Nowcoder.dir/all
 
 # Build rule for subdir invocation for target.
 nowcoder/CMakeFiles/Nowcoder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 nowcoder/CMakeFiles/Nowcoder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : nowcoder/CMakeFiles/Nowcoder.dir/rule
@@ -1316,12 +1412,12 @@ kuaishou/preinstall:
 kuaishou/CMakeFiles/kuaishou.dir/all: utils/CMakeFiles/utils.dir/all
 	$(MAKE) -f kuaishou/CMakeFiles/kuaishou.dir/build.make kuaishou/CMakeFiles/kuaishou.dir/depend
 	$(MAKE) -f kuaishou/CMakeFiles/kuaishou.dir/build.make kuaishou/CMakeFiles/kuaishou.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=92,93,94,95,96 "Built target kuaishou"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=93,94,95,96,97 "Built target kuaishou"
 .PHONY : kuaishou/CMakeFiles/kuaishou.dir/all
 
 # Build rule for subdir invocation for target.
 kuaishou/CMakeFiles/kuaishou.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 kuaishou/CMakeFiles/kuaishou.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : kuaishou/CMakeFiles/kuaishou.dir/rule

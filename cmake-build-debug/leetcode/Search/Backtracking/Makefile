@@ -152,6 +152,168 @@ Backtracking/fast:
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/131-palindrome-partitioning.cpp.s
 .PHONY : 131-palindrome-partitioning.cpp.s
 
+17-letter-combinations-of-a-phone-number.o: 17-letter-combinations-of-a-phone-number.cpp.o
+
+.PHONY : 17-letter-combinations-of-a-phone-number.o
+
+# target to build an object file
+17-letter-combinations-of-a-phone-number.cpp.o:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.o
+.PHONY : 17-letter-combinations-of-a-phone-number.cpp.o
+
+17-letter-combinations-of-a-phone-number.i: 17-letter-combinations-of-a-phone-number.cpp.i
+
+.PHONY : 17-letter-combinations-of-a-phone-number.i
+
+# target to preprocess a source file
+17-letter-combinations-of-a-phone-number.cpp.i:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.i
+.PHONY : 17-letter-combinations-of-a-phone-number.cpp.i
+
+17-letter-combinations-of-a-phone-number.s: 17-letter-combinations-of-a-phone-number.cpp.s
+
+.PHONY : 17-letter-combinations-of-a-phone-number.s
+
+# target to generate assembly for a file
+17-letter-combinations-of-a-phone-number.cpp.s:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.s
+.PHONY : 17-letter-combinations-of-a-phone-number.cpp.s
+
+216-combination-sum-iii.o: 216-combination-sum-iii.cpp.o
+
+.PHONY : 216-combination-sum-iii.o
+
+# target to build an object file
+216-combination-sum-iii.cpp.o:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.o
+.PHONY : 216-combination-sum-iii.cpp.o
+
+216-combination-sum-iii.i: 216-combination-sum-iii.cpp.i
+
+.PHONY : 216-combination-sum-iii.i
+
+# target to preprocess a source file
+216-combination-sum-iii.cpp.i:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.i
+.PHONY : 216-combination-sum-iii.cpp.i
+
+216-combination-sum-iii.s: 216-combination-sum-iii.cpp.s
+
+.PHONY : 216-combination-sum-iii.s
+
+# target to generate assembly for a file
+216-combination-sum-iii.cpp.s:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.s
+.PHONY : 216-combination-sum-iii.cpp.s
+
+257-binary-tree-paths.o: 257-binary-tree-paths.cpp.o
+
+.PHONY : 257-binary-tree-paths.o
+
+# target to build an object file
+257-binary-tree-paths.cpp.o:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.o
+.PHONY : 257-binary-tree-paths.cpp.o
+
+257-binary-tree-paths.i: 257-binary-tree-paths.cpp.i
+
+.PHONY : 257-binary-tree-paths.i
+
+# target to preprocess a source file
+257-binary-tree-paths.cpp.i:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.i
+.PHONY : 257-binary-tree-paths.cpp.i
+
+257-binary-tree-paths.s: 257-binary-tree-paths.cpp.s
+
+.PHONY : 257-binary-tree-paths.s
+
+# target to generate assembly for a file
+257-binary-tree-paths.cpp.s:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.s
+.PHONY : 257-binary-tree-paths.cpp.s
+
+39-combination-sum.o: 39-combination-sum.cpp.o
+
+.PHONY : 39-combination-sum.o
+
+# target to build an object file
+39-combination-sum.cpp.o:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/39-combination-sum.cpp.o
+.PHONY : 39-combination-sum.cpp.o
+
+39-combination-sum.i: 39-combination-sum.cpp.i
+
+.PHONY : 39-combination-sum.i
+
+# target to preprocess a source file
+39-combination-sum.cpp.i:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/39-combination-sum.cpp.i
+.PHONY : 39-combination-sum.cpp.i
+
+39-combination-sum.s: 39-combination-sum.cpp.s
+
+.PHONY : 39-combination-sum.s
+
+# target to generate assembly for a file
+39-combination-sum.cpp.s:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/39-combination-sum.cpp.s
+.PHONY : 39-combination-sum.cpp.s
+
+40-combination-sum-ii.o: 40-combination-sum-ii.cpp.o
+
+.PHONY : 40-combination-sum-ii.o
+
+# target to build an object file
+40-combination-sum-ii.cpp.o:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.o
+.PHONY : 40-combination-sum-ii.cpp.o
+
+40-combination-sum-ii.i: 40-combination-sum-ii.cpp.i
+
+.PHONY : 40-combination-sum-ii.i
+
+# target to preprocess a source file
+40-combination-sum-ii.cpp.i:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.i
+.PHONY : 40-combination-sum-ii.cpp.i
+
+40-combination-sum-ii.s: 40-combination-sum-ii.cpp.s
+
+.PHONY : 40-combination-sum-ii.s
+
+# target to generate assembly for a file
+40-combination-sum-ii.cpp.s:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.s
+.PHONY : 40-combination-sum-ii.cpp.s
+
+77-combinations.o: 77-combinations.cpp.o
+
+.PHONY : 77-combinations.o
+
+# target to build an object file
+77-combinations.cpp.o:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/77-combinations.cpp.o
+.PHONY : 77-combinations.cpp.o
+
+77-combinations.i: 77-combinations.cpp.i
+
+.PHONY : 77-combinations.i
+
+# target to preprocess a source file
+77-combinations.cpp.i:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/77-combinations.cpp.i
+.PHONY : 77-combinations.cpp.i
+
+77-combinations.s: 77-combinations.cpp.s
+
+.PHONY : 77-combinations.s
+
+# target to generate assembly for a file
+77-combinations.cpp.s:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/77-combinations.cpp.s
+.PHONY : 77-combinations.cpp.s
+
 78-subsets.o: 78-subsets.cpp.o
 
 .PHONY : 78-subsets.o
@@ -178,6 +340,60 @@ Backtracking/fast:
 78-subsets.cpp.s:
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/78-subsets.cpp.s
 .PHONY : 78-subsets.cpp.s
+
+79-word-search.o: 79-word-search.cpp.o
+
+.PHONY : 79-word-search.o
+
+# target to build an object file
+79-word-search.cpp.o:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/79-word-search.cpp.o
+.PHONY : 79-word-search.cpp.o
+
+79-word-search.i: 79-word-search.cpp.i
+
+.PHONY : 79-word-search.i
+
+# target to preprocess a source file
+79-word-search.cpp.i:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/79-word-search.cpp.i
+.PHONY : 79-word-search.cpp.i
+
+79-word-search.s: 79-word-search.cpp.s
+
+.PHONY : 79-word-search.s
+
+# target to generate assembly for a file
+79-word-search.cpp.s:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/79-word-search.cpp.s
+.PHONY : 79-word-search.cpp.s
+
+93-restore-ip-addresses.o: 93-restore-ip-addresses.cpp.o
+
+.PHONY : 93-restore-ip-addresses.o
+
+# target to build an object file
+93-restore-ip-addresses.cpp.o:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.o
+.PHONY : 93-restore-ip-addresses.cpp.o
+
+93-restore-ip-addresses.i: 93-restore-ip-addresses.cpp.i
+
+.PHONY : 93-restore-ip-addresses.i
+
+# target to preprocess a source file
+93-restore-ip-addresses.cpp.i:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.i
+.PHONY : 93-restore-ip-addresses.cpp.i
+
+93-restore-ip-addresses.s: 93-restore-ip-addresses.cpp.s
+
+.PHONY : 93-restore-ip-addresses.s
+
+# target to generate assembly for a file
+93-restore-ip-addresses.cpp.s:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.s
+.PHONY : 93-restore-ip-addresses.cpp.s
 
 sudoku-solver.o: sudoku-solver.cpp.o
 
@@ -218,9 +434,33 @@ help:
 	@echo "... 131-palindrome-partitioning.o"
 	@echo "... 131-palindrome-partitioning.i"
 	@echo "... 131-palindrome-partitioning.s"
+	@echo "... 17-letter-combinations-of-a-phone-number.o"
+	@echo "... 17-letter-combinations-of-a-phone-number.i"
+	@echo "... 17-letter-combinations-of-a-phone-number.s"
+	@echo "... 216-combination-sum-iii.o"
+	@echo "... 216-combination-sum-iii.i"
+	@echo "... 216-combination-sum-iii.s"
+	@echo "... 257-binary-tree-paths.o"
+	@echo "... 257-binary-tree-paths.i"
+	@echo "... 257-binary-tree-paths.s"
+	@echo "... 39-combination-sum.o"
+	@echo "... 39-combination-sum.i"
+	@echo "... 39-combination-sum.s"
+	@echo "... 40-combination-sum-ii.o"
+	@echo "... 40-combination-sum-ii.i"
+	@echo "... 40-combination-sum-ii.s"
+	@echo "... 77-combinations.o"
+	@echo "... 77-combinations.i"
+	@echo "... 77-combinations.s"
 	@echo "... 78-subsets.o"
 	@echo "... 78-subsets.i"
 	@echo "... 78-subsets.s"
+	@echo "... 79-word-search.o"
+	@echo "... 79-word-search.i"
+	@echo "... 79-word-search.s"
+	@echo "... 93-restore-ip-addresses.o"
+	@echo "... 93-restore-ip-addresses.i"
+	@echo "... 93-restore-ip-addresses.s"
 	@echo "... sudoku-solver.o"
 	@echo "... sudoku-solver.i"
 	@echo "... sudoku-solver.s"

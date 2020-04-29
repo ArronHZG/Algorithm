@@ -57,9 +57,113 @@ include leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/progress.make
 # Include the compile flags for this target's objects.
 include leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/flags.make
 
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.o: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/flags.make
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.o: ../leetcode/Search/Backtracking/17-letter-combinations-of-a-phone-number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/17-letter-combinations-of-a-phone-number.cpp
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.i"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/17-letter-combinations-of-a-phone-number.cpp > CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.i
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.s"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/17-letter-combinations-of-a-phone-number.cpp -o CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.s
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.o: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/flags.make
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.o: ../leetcode/Search/Backtracking/93-restore-ip-addresses.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/93-restore-ip-addresses.cpp
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.i"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/93-restore-ip-addresses.cpp > CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.i
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.s"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/93-restore-ip-addresses.cpp -o CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.s
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/79-word-search.cpp.o: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/flags.make
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/79-word-search.cpp.o: ../leetcode/Search/Backtracking/79-word-search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/79-word-search.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Backtracking.dir/79-word-search.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/79-word-search.cpp
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/79-word-search.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Backtracking.dir/79-word-search.cpp.i"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/79-word-search.cpp > CMakeFiles/Backtracking.dir/79-word-search.cpp.i
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/79-word-search.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Backtracking.dir/79-word-search.cpp.s"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/79-word-search.cpp -o CMakeFiles/Backtracking.dir/79-word-search.cpp.s
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.o: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/flags.make
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.o: ../leetcode/Search/Backtracking/257-binary-tree-paths.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/257-binary-tree-paths.cpp
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.i"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/257-binary-tree-paths.cpp > CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.i
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.s"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/257-binary-tree-paths.cpp -o CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.s
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/77-combinations.cpp.o: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/flags.make
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/77-combinations.cpp.o: ../leetcode/Search/Backtracking/77-combinations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/77-combinations.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Backtracking.dir/77-combinations.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/77-combinations.cpp
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/77-combinations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Backtracking.dir/77-combinations.cpp.i"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/77-combinations.cpp > CMakeFiles/Backtracking.dir/77-combinations.cpp.i
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/77-combinations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Backtracking.dir/77-combinations.cpp.s"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/77-combinations.cpp -o CMakeFiles/Backtracking.dir/77-combinations.cpp.s
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/39-combination-sum.cpp.o: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/flags.make
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/39-combination-sum.cpp.o: ../leetcode/Search/Backtracking/39-combination-sum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/39-combination-sum.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Backtracking.dir/39-combination-sum.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/39-combination-sum.cpp
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/39-combination-sum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Backtracking.dir/39-combination-sum.cpp.i"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/39-combination-sum.cpp > CMakeFiles/Backtracking.dir/39-combination-sum.cpp.i
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/39-combination-sum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Backtracking.dir/39-combination-sum.cpp.s"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/39-combination-sum.cpp -o CMakeFiles/Backtracking.dir/39-combination-sum.cpp.s
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.o: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/flags.make
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.o: ../leetcode/Search/Backtracking/40-combination-sum-ii.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/40-combination-sum-ii.cpp
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.i"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/40-combination-sum-ii.cpp > CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.i
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.s"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/40-combination-sum-ii.cpp -o CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.s
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.o: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/flags.make
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.o: ../leetcode/Search/Backtracking/216-combination-sum-iii.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.o"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/216-combination-sum-iii.cpp
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.i"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/216-combination-sum-iii.cpp > CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.i
+
+leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.s"
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/216-combination-sum-iii.cpp -o CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.s
+
 leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/78-subsets.cpp.o: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/flags.make
 leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/78-subsets.cpp.o: ../leetcode/Search/Backtracking/78-subsets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/78-subsets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/78-subsets.cpp.o"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Backtracking.dir/78-subsets.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/78-subsets.cpp
 
 leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/78-subsets.cpp.i: cmake_force
@@ -72,7 +176,7 @@ leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/78-subsets.cpp.s: cmake
 
 leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/131-palindrome-partitioning.cpp.o: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/flags.make
 leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/131-palindrome-partitioning.cpp.o: ../leetcode/Search/Backtracking/131-palindrome-partitioning.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/131-palindrome-partitioning.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/131-palindrome-partitioning.cpp.o"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Backtracking.dir/131-palindrome-partitioning.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/131-palindrome-partitioning.cpp
 
 leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/131-palindrome-partitioning.cpp.i: cmake_force
@@ -85,7 +189,7 @@ leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/131-palindrome-partitio
 
 leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/sudoku-solver.cpp.o: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/flags.make
 leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/sudoku-solver.cpp.o: ../leetcode/Search/Backtracking/sudoku-solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/sudoku-solver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/sudoku-solver.cpp.o"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Backtracking.dir/sudoku-solver.cpp.o -c /Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/Backtracking/sudoku-solver.cpp
 
 leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/sudoku-solver.cpp.i: cmake_force
@@ -98,6 +202,14 @@ leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/sudoku-solver.cpp.s: cm
 
 # Object files for target Backtracking
 Backtracking_OBJECTS = \
+"CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.o" \
+"CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.o" \
+"CMakeFiles/Backtracking.dir/79-word-search.cpp.o" \
+"CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.o" \
+"CMakeFiles/Backtracking.dir/77-combinations.cpp.o" \
+"CMakeFiles/Backtracking.dir/39-combination-sum.cpp.o" \
+"CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.o" \
+"CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.o" \
 "CMakeFiles/Backtracking.dir/78-subsets.cpp.o" \
 "CMakeFiles/Backtracking.dir/131-palindrome-partitioning.cpp.o" \
 "CMakeFiles/Backtracking.dir/sudoku-solver.cpp.o"
@@ -105,12 +217,21 @@ Backtracking_OBJECTS = \
 # External object files for target Backtracking
 Backtracking_EXTERNAL_OBJECTS =
 
+leetcode/Search/Backtracking/Backtracking: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/17-letter-combinations-of-a-phone-number.cpp.o
+leetcode/Search/Backtracking/Backtracking: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/93-restore-ip-addresses.cpp.o
+leetcode/Search/Backtracking/Backtracking: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/79-word-search.cpp.o
+leetcode/Search/Backtracking/Backtracking: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/257-binary-tree-paths.cpp.o
+leetcode/Search/Backtracking/Backtracking: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/77-combinations.cpp.o
+leetcode/Search/Backtracking/Backtracking: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/39-combination-sum.cpp.o
+leetcode/Search/Backtracking/Backtracking: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/40-combination-sum-ii.cpp.o
+leetcode/Search/Backtracking/Backtracking: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/216-combination-sum-iii.cpp.o
 leetcode/Search/Backtracking/Backtracking: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/78-subsets.cpp.o
 leetcode/Search/Backtracking/Backtracking: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/131-palindrome-partitioning.cpp.o
 leetcode/Search/Backtracking/Backtracking: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/sudoku-solver.cpp.o
 leetcode/Search/Backtracking/Backtracking: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/build.make
+leetcode/Search/Backtracking/Backtracking: utils/libutils.a
 leetcode/Search/Backtracking/Backtracking: leetcode/Search/Backtracking/CMakeFiles/Backtracking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Backtracking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Backtracking"
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Search/Backtracking && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Backtracking.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

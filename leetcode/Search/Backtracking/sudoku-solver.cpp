@@ -14,41 +14,14 @@ Each of the the digits 1-9 must occur exactly once in each of the 9 3x3 sub-boxe
 Empty cells are indicated by the character '.'.
  */
 
-
-#include <iostream>
-#include <vector>
-#include <queue>
-#include <set>
-#include <map>
-#include <unordered_set>
-#include <unordered_map>
-#include <math.h>
-#include <cstring>
 #include <gtest/gtest.h>
-
+#include <show.h>
 
 using namespace std;
-
 
 void print(vector<pair<int, int>> vec) {
     for (auto a : vec) {
         cout << a.first << ' ' << a.second << " | ";
-    }
-    cout << endl;
-}
-
-template<typename T>
-void print(vector<T> vec) {
-    for (auto a : vec) {
-        cout << a << ' ';
-    }
-    cout << endl;
-}
-
-template<typename T>
-void print(vector<vector<T>> vec) {
-    for (const auto &v: vec) {
-        print(v);
     }
     cout << endl;
 }
@@ -127,6 +100,7 @@ public:
         return board;
     }
 };
+
 TEST(solveSudoku, 1) { /* NOLINT */
     cout << endl;
     vector<vector<char>> input =

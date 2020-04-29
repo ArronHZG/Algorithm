@@ -27,35 +27,10 @@ Output:
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 
-#include <iostream>
-#include <vector>
-#include <queue>
-#include <set>
-#include <map>
-#include <unordered_set>
-#include <unordered_map>
-#include <math.h>
-#include <cstring>
 #include <gtest/gtest.h>
-
+#include <show.h>
 
 using namespace std;
-
-template<typename T>
-void print(vector<T> vec) {
-    for (auto a : vec) {
-        cout << a << " ";
-    }
-    cout << endl;
-}
-
-template<typename T>
-void print(vector<vector<T>> vec) {
-    for (const auto &v: vec) {
-        print(v);
-    }
-    cout << endl;
-}
 
 class Solution {
 public:

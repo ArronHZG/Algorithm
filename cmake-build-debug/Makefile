@@ -384,6 +384,32 @@ Link/fast:
 .PHONY : Link/fast
 
 #=============================================================================
+# Target rules for targets named String
+
+# Build rule for target.
+String: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 String
+.PHONY : String
+
+# fast build rule for target.
+String/fast:
+	$(MAKE) -f leetcode/String/CMakeFiles/String.dir/build.make leetcode/String/CMakeFiles/String.dir/build
+.PHONY : String/fast
+
+#=============================================================================
+# Target rules for targets named Stack
+
+# Build rule for target.
+Stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Stack
+.PHONY : Stack
+
+# fast build rule for target.
+Stack/fast:
+	$(MAKE) -f leetcode/Stack/CMakeFiles/Stack.dir/build.make leetcode/Stack/CMakeFiles/Stack.dir/build
+.PHONY : Stack/fast
+
+#=============================================================================
 # Target rules for targets named DeepGlint
 
 # Build rule for target.
@@ -464,6 +490,8 @@ help:
 	@echo "... Graph"
 	@echo "... Array"
 	@echo "... Link"
+	@echo "... String"
+	@echo "... Stack"
 	@echo "... DeepGlint"
 	@echo "... Alibaba"
 	@echo "... Nowcoder"

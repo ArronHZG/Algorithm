@@ -16,6 +16,7 @@
 #include <cstring>
 #include <algorithm>
 #include <numeric>
+#include <stack>
 
 
 using namespace std;
