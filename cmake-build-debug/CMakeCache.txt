@@ -366,6 +366,12 @@ Test_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build
 Test_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/test
 
 //Value Computed by CMake
+kuaishou_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou
+
+//Value Computed by CMake
+kuaishou_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/kuaishou
+
+//Value Computed by CMake
 utils_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils
 
 //Value Computed by CMake
@@ -474,7 +480,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=29
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=30
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

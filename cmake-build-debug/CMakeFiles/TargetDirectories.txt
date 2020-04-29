@@ -80,3 +80,6 @@
 /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/CMakeFiles/rebuild_cache.dir
 /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/CMakeFiles/edit_cache.dir
 /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/CMakeFiles/Nowcoder.dir
+/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/CMakeFiles/rebuild_cache.dir
+/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/CMakeFiles/edit_cache.dir
+/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/CMakeFiles/kuaishou.dir

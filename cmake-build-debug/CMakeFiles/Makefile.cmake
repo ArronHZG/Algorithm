@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
+  "../kuaishou/CMakeLists.txt"
   "../leetcode/Array/CMakeLists.txt"
   "../leetcode/BinarySearch/CMakeLists.txt"
   "../leetcode/CMakeLists.txt"
@@ -110,6 +111,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "DeepGlint/CMakeFiles/CMakeDirectoryInformation.cmake"
   "alibaba/CMakeFiles/CMakeDirectoryInformation.cmake"
   "nowcoder/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "kuaishou/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -138,4 +140,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "DeepGlint/CMakeFiles/DeepGlint.dir/DependInfo.cmake"
   "alibaba/CMakeFiles/Alibaba.dir/DependInfo.cmake"
   "nowcoder/CMakeFiles/Nowcoder.dir/DependInfo.cmake"
+  "kuaishou/CMakeFiles/kuaishou.dir/DependInfo.cmake"
   )

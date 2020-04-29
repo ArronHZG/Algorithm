@@ -422,6 +422,19 @@ Nowcoder/fast:
 	$(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/build
 .PHONY : Nowcoder/fast
 
+#=============================================================================
+# Target rules for targets named kuaishou
+
+# Build rule for target.
+kuaishou: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kuaishou
+.PHONY : kuaishou
+
+# fast build rule for target.
+kuaishou/fast:
+	$(MAKE) -f kuaishou/CMakeFiles/kuaishou.dir/build.make kuaishou/CMakeFiles/kuaishou.dir/build
+.PHONY : kuaishou/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -454,6 +467,7 @@ help:
 	@echo "... DeepGlint"
 	@echo "... Alibaba"
 	@echo "... Nowcoder"
+	@echo "... kuaishou"
 .PHONY : help
 
 

@@ -19,5 +19,6 @@ add_subdirectory(leetcode)
 add_subdirectory(DeepGlint)
 add_subdirectory(alibaba)
 add_subdirectory(nowcoder)
+add_subdirectory(kuaishou)
 
 
