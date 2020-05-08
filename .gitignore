@@ -246,7 +246,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-cmake-build-debug/
 .idea/
 .DS_Store
+*/.DS_Store
+cmake-build-debug/
 */cmake-build-debug/
