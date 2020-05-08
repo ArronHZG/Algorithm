@@ -16,10 +16,6 @@ set(LIBRARIES
 add_subdirectory(utils)
 add_subdirectory(test)
 add_subdirectory(leetcode)
-add_subdirectory(DeepGlint)
-add_subdirectory(alibaba)
+add_subdirectory(interview)
 add_subdirectory(nowcoder)
-add_subdirectory(kuaishou)
-add_subdirectory(huawei)
-
 

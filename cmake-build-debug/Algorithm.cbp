@@ -5,7 +5,7 @@
 		<Option title="Algorithm"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\test\;CMake Files\leetcode\;CMake Files\leetcode\BinarySearch\;CMake Files\leetcode\DivideAndConquer\;CMake Files\leetcode\DoublePointer\;CMake Files\leetcode\DynamicProgramming\;CMake Files\leetcode\DynamicProgramming\ArrayInterval\;CMake Files\leetcode\DynamicProgramming\FibonacciSequence\;CMake Files\leetcode\DynamicProgramming\MatrixPath\;CMake Files\leetcode\DynamicProgramming\NumberSubsequence\;CMake Files\leetcode\DynamicProgramming\SplitInteger\;CMake Files\leetcode\DynamicProgramming\StringSequence\;CMake Files\leetcode\DynamicProgramming\OneZeroPackage\;CMake Files\leetcode\Greedy\;CMake Files\leetcode\Search\;CMake Files\leetcode\Search\Backtracking\;CMake Files\leetcode\Search\BFS\;CMake Files\leetcode\Search\DFS\;CMake Files\leetcode\Sort\;CMake Files\leetcode\Tree\;CMake Files\leetcode\Tree\Recursion\;CMake Files\leetcode\Graph\;CMake Files\leetcode\Array\;CMake Files\leetcode\Link\;CMake Files\leetcode\String\;CMake Files\leetcode\Stack\;CMake Files\leetcode\Number\;CMake Files\DeepGlint\;CMake Files\alibaba\;CMake Files\nowcoder\;CMake Files\kuaishou\;CMake Files\huawei\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\test\;CMake Files\leetcode\;CMake Files\leetcode\BinarySearch\;CMake Files\leetcode\DivideAndConquer\;CMake Files\leetcode\DoublePointer\;CMake Files\leetcode\DynamicProgramming\;CMake Files\leetcode\DynamicProgramming\ArrayInterval\;CMake Files\leetcode\DynamicProgramming\FibonacciSequence\;CMake Files\leetcode\DynamicProgramming\MatrixPath\;CMake Files\leetcode\DynamicProgramming\NumberSubsequence\;CMake Files\leetcode\DynamicProgramming\SplitInteger\;CMake Files\leetcode\DynamicProgramming\StringSequence\;CMake Files\leetcode\DynamicProgramming\OneZeroPackage\;CMake Files\leetcode\Greedy\;CMake Files\leetcode\Search\;CMake Files\leetcode\Search\Backtracking\;CMake Files\leetcode\Search\BFS\;CMake Files\leetcode\Search\DFS\;CMake Files\leetcode\Sort\;CMake Files\leetcode\Tree\;CMake Files\leetcode\Tree\Recursion\;CMake Files\leetcode\Graph\;CMake Files\leetcode\Array\;CMake Files\leetcode\Link\;CMake Files\leetcode\String\;CMake Files\leetcode\Stack\;CMake Files\leetcode\Number\;CMake Files\interview\;CMake Files\interview\alibaba\;CMake Files\interview\deepGlint\;CMake Files\interview\huawei\;CMake Files\interview\kuaishou\;CMake Files\nowcoder\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug"/>
@@ -1071,53 +1071,9 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/Number/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="DeepGlint">
-				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/DeepGlint" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 DeepGlint"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="DeepGlint/fast">
-				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/DeepGlint" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 DeepGlint/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="Alibaba">
-				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Alibaba" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba"/>
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/alibaba/Alibaba" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/alibaba"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1131,15 +1087,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 Alibaba"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/alibaba/Makefile&quot;  VERBOSE=1 Alibaba"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/alibaba/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/alibaba/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/alibaba/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Alibaba/fast">
-				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Alibaba" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba"/>
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/alibaba/Alibaba" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/alibaba"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1153,10 +1109,142 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 Alibaba/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/alibaba/Makefile&quot;  VERBOSE=1 Alibaba/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/alibaba/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/alibaba/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/alibaba/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DeepGlint">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/deepGlint/DeepGlint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/deepGlint"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/deepGlint/Makefile&quot;  VERBOSE=1 DeepGlint"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/deepGlint/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/deepGlint/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/deepGlint/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DeepGlint/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/deepGlint/DeepGlint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/deepGlint"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/deepGlint/Makefile&quot;  VERBOSE=1 DeepGlint/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/deepGlint/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/deepGlint/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/deepGlint/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huawei">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/huawei/huawei" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/huawei"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/huawei/Makefile&quot;  VERBOSE=1 huawei"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/huawei/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/huawei/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/huawei/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huawei/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/huawei/huawei" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/huawei"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/huawei/Makefile&quot;  VERBOSE=1 huawei/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/huawei/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/huawei/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/huawei/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kuaishou">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/kuaishou/kuaishou" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/kuaishou"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/kuaishou/Makefile&quot;  VERBOSE=1 kuaishou"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/kuaishou/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/kuaishou/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/kuaishou/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kuaishou/fast">
+				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/kuaishou/kuaishou" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/kuaishou"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/kuaishou/Makefile&quot;  VERBOSE=1 kuaishou/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/kuaishou/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/kuaishou/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/kuaishou/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Nowcoder">
@@ -1203,148 +1291,63 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="kuaishou">
-				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/kuaishou" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/Makefile&quot;  VERBOSE=1 kuaishou"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="kuaishou/fast">
-				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/kuaishou" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/Makefile&quot;  VERBOSE=1 kuaishou/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="huawei">
-				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/huawei" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 huawei"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="huawei/fast">
-				<Option output="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/huawei" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/arron/Projects/ClionProjects/Algorithm/utils"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 huawei/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/Matrix.cpp">
-			<Option target="DeepGlint"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/Matrix.h">
-			<Option target="DeepGlint"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/attack.cpp">
-			<Option target="DeepGlint"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/main.cpp">
-			<Option target="DeepGlint"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/match-prior-box.cpp">
-			<Option target="DeepGlint"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/weapon.cpp">
-			<Option target="DeepGlint"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/eatFish.cpp">
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/alibaba/eatFish.cpp">
 			<Option target="Alibaba"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/main.cpp">
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/alibaba/main.cpp">
 			<Option target="Alibaba"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/splitNum.cpp">
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/alibaba/splitNum.cpp">
 			<Option target="Alibaba"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/test.cpp">
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/alibaba/test.cpp">
 			<Option target="Alibaba"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/huawei/NoRepeatString.cpp">
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/deepGlint/Matrix.cpp">
+			<Option target="DeepGlint"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/deepGlint/Matrix.h">
+			<Option target="DeepGlint"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/deepGlint/attack.cpp">
+			<Option target="DeepGlint"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/deepGlint/main.cpp">
+			<Option target="DeepGlint"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/deepGlint/match-prior-box.cpp">
+			<Option target="DeepGlint"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/deepGlint/weapon.cpp">
+			<Option target="DeepGlint"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/huawei/NoRepeatString.cpp">
 			<Option target="huawei"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/huawei/decoder.cpp">
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/huawei/decoder.cpp">
 			<Option target="huawei"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/huawei/findWay.cpp">
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/huawei/findWay.cpp">
 			<Option target="huawei"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/kuaishou/arrange.cpp">
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/kuaishou/arrange.cpp">
 			<Option target="kuaishou"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/kuaishou/howManySort.cpp">
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/kuaishou/howManySort.cpp">
 			<Option target="kuaishou"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/kuaishou/main.cpp">
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/kuaishou/main.cpp">
 			<Option target="kuaishou"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/kuaishou/splitString.cpp">
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/kuaishou/splitString.cpp">
 			<Option target="kuaishou"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/kuaishou/test.cpp">
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/kuaishou/test.cpp">
 			<Option target="kuaishou"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Array/26-remove-duplicates-from-sorted-array.cpp">
+			<Option target="Array"/>
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Array/283-move-zeroes.cpp">
 			<Option target="Array"/>
@@ -1733,20 +1736,23 @@
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Number/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\leetcode\Number\"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\DeepGlint\"/>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\interview\"/>
 		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/alibaba/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\alibaba\"/>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/alibaba/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\interview\alibaba\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/deepGlint/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\interview\deepGlint\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/huawei/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\interview\huawei\"/>
+		</Unit>
+		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/interview/kuaishou/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\interview\kuaishou\"/>
 		</Unit>
 		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/nowcoder/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\nowcoder\"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/kuaishou/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\kuaishou\"/>
-		</Unit>
-		<Unit filename="/Users/arron/Projects/ClionProjects/Algorithm/huawei/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\huawei\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

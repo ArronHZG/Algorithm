@@ -23,8 +23,11 @@ public:
 
 TEST(moveZeroes, 1) {
     cout << endl;
+    auto start_time = clock();
     vector<int> input = {0, 1, 0, 3, 12};
     vector<int> answer = {1, 3, 12, 0, 0};
     auto output = Solution().moveZeroes(input);
     EXPECT_EQ(answer, output);
+    auto end_time = clock();
+    cout << "time cost:" << double(end_time - start_time) / CLOCKS_PER_SEC << "s" << endl;
 }

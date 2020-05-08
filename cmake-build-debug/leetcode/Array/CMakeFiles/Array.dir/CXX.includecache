@@ -29,8 +29,10 @@ algorithm
 -
 numeric
 -
+stack
+-
 
-/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Array/485-max-consecutive-ones.cpp
+/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Array/26-remove-duplicates-from-sorted-array.cpp
 gtest/gtest.h
 -
 show.h

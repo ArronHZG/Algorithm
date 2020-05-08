@@ -21,10 +21,10 @@ Algorithm_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-
 Algorithm_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm
 
 //Value Computed by CMake
-Alibaba_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba
+Alibaba_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/alibaba
 
 //Value Computed by CMake
-Alibaba_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/alibaba
+Alibaba_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/interview/alibaba
 
 //Value Computed by CMake
 ArrayInterval_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DynamicProgramming/ArrayInterval
@@ -261,10 +261,10 @@ DFS_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-
 DFS_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/leetcode/Search/DFS
 
 //Value Computed by CMake
-DeepGlint_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint
+DeepGlint_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/deepGlint
 
 //Value Computed by CMake
-DeepGlint_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/DeepGlint
+DeepGlint_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/interview/deepGlint
 
 //Value Computed by CMake
 DivideAndConquer_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/leetcode/DivideAndConquer
@@ -384,16 +384,16 @@ Test_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build
 Test_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/test
 
 //Value Computed by CMake
-huawei_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei
+huawei_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/huawei
 
 //Value Computed by CMake
-huawei_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/huawei
+huawei_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/interview/huawei
 
 //Value Computed by CMake
-kuaishou_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou
+kuaishou_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/kuaishou
 
 //Value Computed by CMake
-kuaishou_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/kuaishou
+kuaishou_SOURCE_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/interview/kuaishou
 
 //Value Computed by CMake
 utils_BINARY_DIR:STATIC=/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/utils
@@ -504,7 +504,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=34
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=35
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

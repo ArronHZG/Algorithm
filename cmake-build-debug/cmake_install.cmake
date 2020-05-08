@@ -49,27 +49,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/DeepGlint/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/alibaba/cmake_install.cmake")
+  include("/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/interview/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/nowcoder/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/kuaishou/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug/huawei/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

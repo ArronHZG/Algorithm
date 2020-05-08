@@ -125,6 +125,33 @@ Array/fast:
 	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Array/CMakeFiles/Array.dir/build.make leetcode/Array/CMakeFiles/Array.dir/build
 .PHONY : Array/fast
 
+26-remove-duplicates-from-sorted-array.o: 26-remove-duplicates-from-sorted-array.cpp.o
+
+.PHONY : 26-remove-duplicates-from-sorted-array.o
+
+# target to build an object file
+26-remove-duplicates-from-sorted-array.cpp.o:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Array/CMakeFiles/Array.dir/build.make leetcode/Array/CMakeFiles/Array.dir/26-remove-duplicates-from-sorted-array.cpp.o
+.PHONY : 26-remove-duplicates-from-sorted-array.cpp.o
+
+26-remove-duplicates-from-sorted-array.i: 26-remove-duplicates-from-sorted-array.cpp.i
+
+.PHONY : 26-remove-duplicates-from-sorted-array.i
+
+# target to preprocess a source file
+26-remove-duplicates-from-sorted-array.cpp.i:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Array/CMakeFiles/Array.dir/build.make leetcode/Array/CMakeFiles/Array.dir/26-remove-duplicates-from-sorted-array.cpp.i
+.PHONY : 26-remove-duplicates-from-sorted-array.cpp.i
+
+26-remove-duplicates-from-sorted-array.s: 26-remove-duplicates-from-sorted-array.cpp.s
+
+.PHONY : 26-remove-duplicates-from-sorted-array.s
+
+# target to generate assembly for a file
+26-remove-duplicates-from-sorted-array.cpp.s:
+	cd /Users/arron/Projects/ClionProjects/Algorithm/cmake-build-debug && $(MAKE) -f leetcode/Array/CMakeFiles/Array.dir/build.make leetcode/Array/CMakeFiles/Array.dir/26-remove-duplicates-from-sorted-array.cpp.s
+.PHONY : 26-remove-duplicates-from-sorted-array.cpp.s
+
 283-move-zeroes.o: 283-move-zeroes.cpp.o
 
 .PHONY : 283-move-zeroes.o
@@ -215,6 +242,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Array"
+	@echo "... 26-remove-duplicates-from-sorted-array.o"
+	@echo "... 26-remove-duplicates-from-sorted-array.i"
+	@echo "... 26-remove-duplicates-from-sorted-array.s"
 	@echo "... 283-move-zeroes.o"
 	@echo "... 283-move-zeroes.i"
 	@echo "... 283-move-zeroes.s"

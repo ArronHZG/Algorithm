@@ -423,19 +423,6 @@ Number/fast:
 .PHONY : Number/fast
 
 #=============================================================================
-# Target rules for targets named DeepGlint
-
-# Build rule for target.
-DeepGlint: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DeepGlint
-.PHONY : DeepGlint
-
-# fast build rule for target.
-DeepGlint/fast:
-	$(MAKE) -f DeepGlint/CMakeFiles/DeepGlint.dir/build.make DeepGlint/CMakeFiles/DeepGlint.dir/build
-.PHONY : DeepGlint/fast
-
-#=============================================================================
 # Target rules for targets named Alibaba
 
 # Build rule for target.
@@ -445,8 +432,47 @@ Alibaba: cmake_check_build_system
 
 # fast build rule for target.
 Alibaba/fast:
-	$(MAKE) -f alibaba/CMakeFiles/Alibaba.dir/build.make alibaba/CMakeFiles/Alibaba.dir/build
+	$(MAKE) -f interview/alibaba/CMakeFiles/Alibaba.dir/build.make interview/alibaba/CMakeFiles/Alibaba.dir/build
 .PHONY : Alibaba/fast
+
+#=============================================================================
+# Target rules for targets named DeepGlint
+
+# Build rule for target.
+DeepGlint: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DeepGlint
+.PHONY : DeepGlint
+
+# fast build rule for target.
+DeepGlint/fast:
+	$(MAKE) -f interview/deepGlint/CMakeFiles/DeepGlint.dir/build.make interview/deepGlint/CMakeFiles/DeepGlint.dir/build
+.PHONY : DeepGlint/fast
+
+#=============================================================================
+# Target rules for targets named huawei
+
+# Build rule for target.
+huawei: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 huawei
+.PHONY : huawei
+
+# fast build rule for target.
+huawei/fast:
+	$(MAKE) -f interview/huawei/CMakeFiles/huawei.dir/build.make interview/huawei/CMakeFiles/huawei.dir/build
+.PHONY : huawei/fast
+
+#=============================================================================
+# Target rules for targets named kuaishou
+
+# Build rule for target.
+kuaishou: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kuaishou
+.PHONY : kuaishou
+
+# fast build rule for target.
+kuaishou/fast:
+	$(MAKE) -f interview/kuaishou/CMakeFiles/kuaishou.dir/build.make interview/kuaishou/CMakeFiles/kuaishou.dir/build
+.PHONY : kuaishou/fast
 
 #=============================================================================
 # Target rules for targets named Nowcoder
@@ -460,32 +486,6 @@ Nowcoder: cmake_check_build_system
 Nowcoder/fast:
 	$(MAKE) -f nowcoder/CMakeFiles/Nowcoder.dir/build.make nowcoder/CMakeFiles/Nowcoder.dir/build
 .PHONY : Nowcoder/fast
-
-#=============================================================================
-# Target rules for targets named kuaishou
-
-# Build rule for target.
-kuaishou: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kuaishou
-.PHONY : kuaishou
-
-# fast build rule for target.
-kuaishou/fast:
-	$(MAKE) -f kuaishou/CMakeFiles/kuaishou.dir/build.make kuaishou/CMakeFiles/kuaishou.dir/build
-.PHONY : kuaishou/fast
-
-#=============================================================================
-# Target rules for targets named huawei
-
-# Build rule for target.
-huawei: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 huawei
-.PHONY : huawei
-
-# fast build rule for target.
-huawei/fast:
-	$(MAKE) -f huawei/CMakeFiles/huawei.dir/build.make huawei/CMakeFiles/huawei.dir/build
-.PHONY : huawei/fast
 
 # Help Target
 help:
@@ -519,11 +519,11 @@ help:
 	@echo "... String"
 	@echo "... Stack"
 	@echo "... Number"
-	@echo "... DeepGlint"
 	@echo "... Alibaba"
-	@echo "... Nowcoder"
-	@echo "... kuaishou"
+	@echo "... DeepGlint"
 	@echo "... huawei"
+	@echo "... kuaishou"
+	@echo "... Nowcoder"
 .PHONY : help
 
 
