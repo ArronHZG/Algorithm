@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libutils.a  CMakeFiles/utils.dir/show.cpp.o CMakeFiles/utils.dir/ListNode.cpp.o CMakeFiles/utils.dir/TreeNode.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libutils.a
