@@ -23,7 +23,7 @@
 
 作者：jyd
 链接：https://leetcode-cn.com/problems/course-schedule/solution/course-schedule-tuo-bu-pai-xu-bfsdfsliang-chong-fa/
-来源：力扣（LeetCode）
+来源：力扣（leetcode）
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
  */
 
