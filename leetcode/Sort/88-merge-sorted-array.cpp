@@ -24,78 +24,81 @@ nums2 = [2,5,6],       n = 3
  */
 
 #include <iostream>
-#include <vector>
 #include <gtest/gtest.h>
+#include "show.h"
 
 using namespace std;
 
-
 class Solution {
 public:
+    /**
+     *     从后向前比较
+     * @param nums1
+     * @param m
+     * @param nums2
+     * @param n
+     * @return
+     */
     void merge(vector<int> &nums1, int m, vector<int> &nums2, int n) {
-        int k = m + n;
-        while (m > 0 && n > 0) {
-            int temp = 0;
-            if (nums1[m - 1] > nums2[n - 1]) {
-                temp = nums1[--m];
+
+        // two get pointers for nums1 and nums2
+        int p1 = m - 1; //指向第一个数组最后一个
+        int p2 = n - 1; //指向第二个数组最后一个
+        // set pointer for nums1
+        int p = m + n - 1;
+        while (p1 >= 0 && p2 >= 0) {
+            if (nums1[p1] < nums2[p2]) {
+                nums1[p--] = nums2[p2--];
             } else {
-                temp = nums2[--n];
-            }
-            nums1[--k] = temp;
-        }
-        if (m > 0) {
-            while (k > 0) {
-                nums1[--k] = nums1[--m];
+                nums1[p--] = nums1[p1--];
             }
         }
-        if (n > 0) {
-            while (k >= 0) {
-                nums1[--k] = nums2[--n];
-            }
+        while (p2 >= 0) {
+            nums1[p--] = nums2[p2--];
         }
     }
 };
 
 TEST(merge, 1) { /* NOLINT */
     std::cout << std::endl;
-    vector<int> nums1 {1,2,3,0,0,0};
-    vector<int> nums2 {1,2,3};
+    vector<int> nums1{1, 2, 3, 0, 0, 0};
+    vector<int> nums2{1, 2, 3};
     int m = 3;
     int n = 3;
-    vector<int> answer {1,1,2,2,3,3};
-    Solution().merge(nums1,m,nums2,n);
+    vector<int> answer{1, 1, 2, 2, 3, 3};
+    Solution().merge(nums1, m, nums2, n);
     EXPECT_EQ(answer, nums1);
 }
 
 TEST(merge, 2) { /* NOLINT */
     std::cout << std::endl;
-    vector<int> nums1 {1,2,3,0,0,0};
-    vector<int> nums2 {2,5,6};
+    vector<int> nums1{1, 2, 3, 0, 0, 0};
+    vector<int> nums2{2, 5, 6};
     int m = 3;
     int n = 3;
-    vector<int> answer {1,2,2,3,5,6};
-    Solution().merge(nums1,m,nums2,n);
+    vector<int> answer{1, 2, 2, 3, 5, 6};
+    Solution().merge(nums1, m, nums2, n);
     EXPECT_EQ(answer, nums1);
 }
 
 TEST(merge, 3) { /* NOLINT */
     std::cout << std::endl;
-    vector<int> nums1 {0};
-    vector<int> nums2 {1};
+    vector<int> nums1{0};
+    vector<int> nums2{1};
     int m = 0;
     int n = 1;
-    vector<int> answer {1};
-    Solution().merge(nums1,m,nums2,n);
+    vector<int> answer{1};
+    Solution().merge(nums1, m, nums2, n);
     EXPECT_EQ(answer, nums1);
 }
 
 TEST(merge, 4) { /* NOLINT */
     std::cout << std::endl;
-    vector<int> nums1 {1};
-    vector<int> nums2 {0};
+    vector<int> nums1{1};
+    vector<int> nums2{0};
     int m = 1;
     int n = 0;
-    vector<int> answer {1};
-    Solution().merge(nums1,m,nums2,n);
+    vector<int> answer{1};
+    Solution().merge(nums1, m, nums2, n);
     EXPECT_EQ(answer, nums1);
 }

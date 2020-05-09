@@ -29,7 +29,7 @@
 
 #include <iostream>
 #include <gtest/gtest.h>
-#include <vector>
+#include "show.h"
 
 using namespace std;
 
@@ -37,31 +37,28 @@ class Solution {
 public:
     /*
     荷兰三色旗问题解
+    三路快拍
     */
-    void sortColors(vector<int>& nums) {
-        // 对于所有 idx < p0 : nums[idx < p0] = 0
-        // curr 是当前考虑元素的下标
-        // 对于所有 idx > p2 : nums[idx > p2] = 2
-        uint p0 = 0;
-        uint curr = 0;
-        uint p2 = nums.size() - 1;
+    void sortColors(vector<int> &nums) {
+        int zero = -1;   // 0 的区间 [0...zero]
+        int two = nums.size();   // 2 的区间 [two...n]
+        int i = 0; //指针
 
-        while (curr <= p2) {
-            if (nums[curr] == 0) {
-                swap(nums[curr++], nums[p0++]);
-            }
-            else if (nums[curr] == 2) {
-                swap(nums[curr], nums[p2--]);
-            }
-            else curr++;
+        while (i < two) {
+            if (nums[i] == 0)
+                swap(nums[++zero], nums[i++]);
+            else if (nums[i] == 1)
+                i++;
+            else if (nums[i] == 2)
+                swap(nums[--two], nums[i]);
         }
     }
 };
 
 TEST(sortColors, 1) { /* NOLINT */
     std::cout << std::endl;
-    vector<int> input{2,0,2,1,1,0};
-    vector<int> answer{0,0,1,1,2,2};
+    vector<int> input{2, 0, 2, 1, 1, 0};
+    vector<int> answer{0, 0, 1, 1, 2, 2};
     Solution().sortColors(input);
     EXPECT_EQ(answer, input);
 }
