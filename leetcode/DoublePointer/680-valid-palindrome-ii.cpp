@@ -33,7 +33,7 @@ using namespace std;
 
 class Solution {
 public:
-    bool validPalindrome(string s) {
+    bool validPalindromeII(string s) {
         uint low = 0;
         uint high = s.size() - 1;
         bool diff = false;
@@ -58,27 +58,27 @@ public:
     }
 };
 
-TEST(validPalindrome, 1) { /* NOLINT */
+TEST(validPalindromeII, 1) { /* NOLINT */
     std::cout << std::endl;
     string input = "aba";
     bool answer = true;
-    bool output = Solution().validPalindrome(input);
+    bool output = Solution().validPalindromeII(input);
     EXPECT_EQ(answer, output);
 }
 
-TEST(validPalindrome, 2) { /* NOLINT */
+TEST(validPalindromeII, 2) { /* NOLINT */
     std::cout << std::endl;
     string input = "abcca";
     bool answer = true;
-    bool output = Solution().validPalindrome(input);
+    bool output = Solution().validPalindromeII(input);
     EXPECT_EQ(answer, output);
 }
 
 
-TEST(validPalindrome, 3) { /* NOLINT */
+TEST(validPalindromeII, 3) { /* NOLINT */
     std::cout << std::endl;
     string input = "1234521";
     bool answer = false;
-    bool output = Solution().validPalindrome(input);
+    bool output = Solution().validPalindromeII(input);
     EXPECT_EQ(answer, output);
 }

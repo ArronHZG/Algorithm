@@ -30,8 +30,10 @@ using namespace std;
 
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& numbers, int target) {
-        int low = 0, high = numbers.size() - 1;
+    vector<int> twoSum(vector<int> &numbers, int target) {
+        if (numbers.size() < 2) return {-1, -1};
+        int low = 0;
+        int high = numbers.size() - 1; //需要在[low...high] 中寻找
         while (low < high) {
             int sum = numbers[low] + numbers[high];
             if (sum == target)
