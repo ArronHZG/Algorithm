@@ -18,4 +18,5 @@ add_subdirectory(test)
 add_subdirectory(leetcode)
 add_subdirectory(interview)
 add_subdirectory(nowcoder)
+add_subdirectory(labuladong)
 
