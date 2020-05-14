@@ -22,7 +22,7 @@ add_executable(${PROJECT_NAME}
         392-is-subsequence.cpp
         665-non-decreasing-array.cpp
         53-maximum-subarray.cpp
-        763-partition-labels.cpp)
+        763-partition-labels.cpp 55-jump-game.cpp 45-jump-game-ii.cpp)
 
 include_directories(${CMAKE_SOURCE_DIR}/Utils)
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})

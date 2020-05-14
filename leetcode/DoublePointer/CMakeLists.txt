@@ -13,11 +13,9 @@ set(LIBRARIES
 
 add_executable(${PROJECT_NAME}
         167-two-sum-ii-input-array-is-sorted.cpp
-        633-sum-of-square-numbers.cpp
         345-reverse-vowels-of-a-string.cpp
-        680-valid-palindrome-ii.cpp
         141-linked-list-cycle.cpp
-        524-longest-word-in-dictionary-through-deleting.cpp 125-valid-palindrome.cpp)
+        524-longest-word-in-dictionary-through-deleting.cpp 125-valid-palindrome.cpp lengthOfLongestSubstring.cpp)
 
 include_directories(${CMAKE_SOURCE_DIR}/utils)
 target_link_libraries(${PROJECT_NAME} ${LIBRARIES})
