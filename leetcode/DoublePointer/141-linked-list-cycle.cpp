@@ -50,22 +50,10 @@
  * };
  */
 
-#include <iostream>
-#include <vector>
-#include<algorithm>
 #include <gtest/gtest.h>
+#include "ListNode.h"
 
 using namespace std;
-
-struct ListNode {
-    int val;
-    ListNode *next = nullptr;
-
-    explicit ListNode(int x) :
-            val(x),
-            next(nullptr) {
-    }
-};
 
 class Solution {
 public:
@@ -89,29 +77,17 @@ public:
 
 TEST(hasCycle, 3) { /* NOLINT */
     std::cout << std::endl;
-    vector<int> list{3, 2, -1, 4};
-    int pos = 1;
-    reverse(list.begin(), list.end());
-    auto *head = new ListNode(0);
-    ListNode *end = new ListNode(list[0]);
-    end->next = end->next;
-    head->next = end;
-    for (auto i = list.begin() + 1; i != list.end(); i++) {
-        auto *node = new ListNode(*i);
-        node->next = head->next;
-        head->next = node;
-    }
-    head = head->next;
+    string input = "[1,2,3,4,5,6]";
+    auto head = stringToListNode(input);
+    prettyPrintLinkedList(head);
+    int i = 2;
     auto p = head;
-    for (int i = 0; i < pos; i++) {
-        head = head->next;
+    auto q = head;
+    while (p->next != nullptr) {
+        if (i-- == 0) q = p;
+        p = p->next;
     }
-    end->next = head;
-//    while (p != nullptr) {
-//        cout << p->val << endl;
-//        p = p->next;
-//    }
-//
+    p->next = q;
     bool answer = true;
     bool output = Solution().hasCycle(head);
     EXPECT_EQ(answer, output);
