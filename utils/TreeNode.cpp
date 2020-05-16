@@ -48,7 +48,6 @@ TreeNode *stringToTreeNode(string input) {
     if (input.empty()) {
         return nullptr;
     }
-
     string item;
     stringstream ss;
     ss.str(input);
