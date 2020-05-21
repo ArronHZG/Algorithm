@@ -16,6 +16,8 @@ struct ListNode {
     int val;
     ListNode *next;
 
+    ListNode() = default;
+
     explicit ListNode(int x) : val(x), next(nullptr) {}
 };
 
